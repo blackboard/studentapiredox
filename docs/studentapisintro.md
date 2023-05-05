@@ -5,6 +5,8 @@ id: studentapisintro
 
 # Student APIs Intro
 
+Student has APIs which enable integration of your campus workflows and services with Student to use and manage Student data ... 
+
 _insert blurb_
 
 Let's discover Student APIs.

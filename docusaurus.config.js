@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://moneil.github.io',
+  url: 'https://docs.anthology.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/studentredocusaurus/',
+  baseUrl: '/studentapiredox/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'moneil', // Usually your GitHub org/user name.
-  projectName: 'studentredox', // Usually your repo name.
+  organizationName: 'Anthology', // Usually your GitHub org/user name.
+  projectName: 'studentapiredox', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
