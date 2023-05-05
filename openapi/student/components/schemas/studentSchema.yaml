@@ -1,0 +1,1634 @@
+type: object
+properties:
+  Grades/Attendance:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Student Enrollment:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Program Configuration:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  DPA/Program Requirements:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Class Section Scheduling:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Course Registration:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  LMS Integration:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Curriculum Management:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Prospects:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Marketing/Advertising:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Applicants:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Previous Education:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Transfer Credit Articulation:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Deposits:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Entrance Tests:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Student Transfer Credit:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Student Skills/Preferences:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Employers:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Jobs:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Student Placements:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Students:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Organizations:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Settings/Configuration:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Campuses/Buildings:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Groups:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Staff:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Reporting:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Advisors:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Tasks:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Document Tracking:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Transcript Requests:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  FERPA:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Incidents:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  SEVIS/International:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Academic Years/Payment Periods:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Budget/Cost Of Attendance:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Application Processing/COD:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  FA Servicer Integration:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Packaging:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Disbursement/Eligibility:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  FA General Ledger:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Satisfactory Academic Progress:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  College Finance Plan:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  State Processing/Reporting:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Loan Information:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Student/3rd Party Payment Plan:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  RT4/Refund Processing:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Save Student Exception:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  AcademicYears/Payment Periods:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Estimated Awards:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  AcademicYearTermAssociationTrack/:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Academic Year Term Association Track/:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  State Reporting/Processing:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Ledger Card:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Collections:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Batch Transaction Processing:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Banking/Credit Cards:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Billing:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Cashiering:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Withdrawal/Refunds:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  General Ledger:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - string
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Misc Cash Receipts:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  90/10 Reporting:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Revenue Recognition:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Stipends:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Student Accounting:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  GL Integration:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type:
+            - 'null'
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Student Payment Plan:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Subsidiary Ledgers:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Athletics:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Housing:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Disabilities:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Indicator:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Services:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+  Veterans:
+    type: array
+    items:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        EntityName:
+          type: string
+        SingularEntityName:
+          type: string
+        FullUrl:
+          type: string
+          format: url
+        ContentType:
+          type: string
+        FunctionalAreas:
+          type: array
+      additionalProperties: false
+additionalProperties: false
