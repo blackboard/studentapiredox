@@ -2,6 +2,12 @@
 
 While testing delivery of the Anthology Developer OpenAPI Documentation via this GitHub repo, we will using [Docusaurus 2](https://docusaurus.io/), and [redocly](https://redocly.com)] for generating the static files delivered through GitHub Pages. 
 
+## Viewing on Github Pages
+### Student
+https://probable-broccoli-vr1gken.pages.github.io/docs/studentapisintro
+
+### Learn
+https://probable-broccoli-vr1gken.pages.github.io/docs/learnapisintro
 
 ## Getting Started
 
