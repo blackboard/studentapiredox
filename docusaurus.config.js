@@ -64,8 +64,8 @@ const config = {
         specs: [
           {
             id: 'learn',
-            spec: 'openapi/learn/learn.yaml',
-            route: '/openapi/learn/learn',
+            spec: 'openapi/learn/learn-swagger.json',
+            route: '/openapi/learn/learn-swagger.json',
           },
           {
             id:'studentadmissions',
