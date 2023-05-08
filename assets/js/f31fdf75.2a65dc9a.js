@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkstudentredocusaurus=self.webpackChunkstudentredocusaurus||[]).push([[535],{4544:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-redoc","id":"studentacademics"}')}}]);
