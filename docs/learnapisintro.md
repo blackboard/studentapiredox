@@ -25,19 +25,26 @@ Let's discover Learn APIs.
 ## Past, Present, and Future Releases
 Our REST APIs are updated with each SaaS release - introducing new APIs and when necessary versioning and deprecating existing APIs. 
 
+The latest release contains information which applies to all previous releases. 
+
+The latest unreleased version contains information which applies to current, previous, and unreleased versions.
+
 **Note**: You should always observe the `Since` tag on each endpoint and only use endpoints released on or before your Learn target version.
 
-<form>
-<b>Learn API docs</b> 
-<select 
-  name="LearnAPIDocs" 
-  id="LearnAPIDocs" 
-  onchange="location = this.value;">
-  <option value="https://localhost:3000/apis/learn/" selected>Latest Release</option>
-  <option value="https://localhost:3000/apis/learn/learn-3900680">3900.68.0</option>
-  <option value="https://localhost:3000/apis/learn/learn-3900670">3900.67.0</option>
-  <option value="https://localhost:3000/apis/learn/learn-3900660">3900.66.0</option>
-  <option value="https://localhost:3000/apis/learn/learn-3900650">3900.65.0</option>
-  <option value="https://localhost:3000/apis/learn/learn-3900640">3900.64.0</option>
-</select>
-</form>
+## Latest Learn API docs
+
+[Latest Release](./apis/learn/learnapisreleased) 
+
+## Latest Unreleased Learn API docs
+[3900.68.0](./apis/learn/learnapisunreleased)
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "version": "3900.62.0",
+    "version": "3900.65.0",
     "title": "Learn APIs"
   },
   "host": "localhost",
@@ -6759,8 +6759,8 @@
                 "uploadId": {
                   "type": "string"
                 },
-                "resourceId": {
-                  "type": "string",
+                "resourceId" : {
+                  "type" : "string",
                   "description" : "A write-only property used to attach a resource file to an Attempt."
                 }
               }
@@ -14316,6 +14316,160 @@
         }
       }
     },
+    "/learn/api/public/v1/courses/{courseId}/alignments": {
+      "get": {
+        "tags": [
+          "goals"
+        ],
+        "summary": "Get Course Goal Alignments",
+        "description": "Returns the list of Goal Alignments for the course specified by Id in the URL.\n\nThe 'course.learningstandards.alignment.VIEW' or 'course.learningstandards.alignment.student.VIEW' entitlement is required.\n\n**Since**: 3900.62.00",
+        "parameters": [
+          {
+            "$ref": "#/parameters/CourseIdParam.courseId"
+          },
+          {
+            "name": "goalId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by goal id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "blogId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by blog id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "contentId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by course content id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "discussionId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by discussion id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "gradebookColumnId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by gradebook column id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "messageId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by message/thread id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "questionId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by assessment/question id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "resourceId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by resource id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "reference",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by reference.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "rubricRowId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by rubric row id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "rubricId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by rubric id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by type.\n\n**Since**: 3900.62.00\n\n\n| Type      | Description\n | --------- | --------- |\n| Blog | Blog Content Type |\n| CourseContent | Course Content Type |\n| ContentCollectionResource | Content Collection Resourse Type |\n| Discussion | Discussion Content Type |\n| DiscussionThread | Message/Thread Content Type |\n| Assessment | Assessment/Question Content Type |\n| GradebookColumn | Gradebook Column Content Type |\n| RubricRow | Rubric Row Content Type |\n| Rubric | Rubric Content Type |\n| Other | Other Content Type |\n",
+            "required": false,
+            "type": "string",
+            "enum": [
+              "Blog",
+              "CourseContent",
+              "ContentCollectionResource",
+              "Discussion",
+              "DiscussionThread",
+              "Assessment",
+              "GradebookColumn",
+              "RubricRow",
+              "Rubric",
+              "Other"
+            ]
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Properties to sort by. This is a comma-delimited list of JSON properties, with an optional \"(desc)\" suffix to request a descending sort for that property. e.g. \"id(desc)\" Supported fields are:\n\n- id\n- goalId\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "$ref": "#/parameters/RowBasedPagingParams.offset"
+          },
+          {
+            "$ref": "#/parameters/RowBasedPagingParams.limit"
+          },
+          {
+            "$ref": "#/parameters/fields"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "results": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/Alignment"
+                  }
+                },
+                "paging": {
+                  "$ref": "#/definitions/PagingInfo"
+                }
+              },
+              "required": [
+                "results"
+              ]
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "schema": {
+              "$ref": "#/definitions/RestException"
+            }
+          }
+        }
+      }
+    },
     "/learn/api/public/v1/goals": {
       "get": {
         "tags": [
@@ -14743,13 +14897,180 @@
           },
           {
             "$ref": "#/parameters/fields"
+          },
+          {
+            "name": "expand",
+            "in": "query",
+            "description": "A comma-delimited list of fields to expand as part of the response. Expanded fields may cause additional load time. Supported fields are:<br><ul><li>category</li><li>goalSet</li></ul>",
+            "required": false,
+            "type": "string"
           }
         ],
         "responses": {
           "200": {
             "description": "OK",
             "schema": {
-              "$ref": "#/definitions/Goal"
+              "$ref": "#/definitions/ExpandedGoal"
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "schema": {
+              "$ref": "#/definitions/RestException"
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "schema": {
+              "$ref": "#/definitions/RestException"
+            }
+          }
+        }
+      }
+    },
+    "/learn/api/public/v1/goals/{goalId}/alignments": {
+      "get": {
+        "tags": [
+          "goals"
+        ],
+        "summary": "Get Goal Alignments",
+        "description": "Returns a list of Goal Alignments.\n\nThe 'system.goal.align.VIEW' entitlement is required.\n\n**Since**: 3900.62.00",
+        "parameters": [
+          {
+            "$ref": "#/parameters/GoalIdParam.goalId"
+          },
+          {
+            "$ref": "#/parameters/RowBasedPagingParams.offset"
+          },
+          {
+            "$ref": "#/parameters/RowBasedPagingParams.limit"
+          },
+          {
+            "name": "courseId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by course id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "blogId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by blog id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "contentId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by course content id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "discussionId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by discussion id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "gradebookColumnId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by gradebook column id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "messageId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by message/thread id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "questionId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by assessment/question id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "resourceId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by resource id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "reference",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by reference.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "rubricRowId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by rubric row id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "rubricId",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by rubric id.\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "Optional search criteria parameter to filter by type.\n\n**Since**: 3900.62.00\n\n\n| Type      | Description\n | --------- | --------- |\n| Blog | Blog Content Type |\n| CourseContent | Course Content Type |\n| ContentCollectionResource | Content Collection Resourse Type |\n| Discussion | Discussion Content Type |\n| DiscussionThread | Message/Thread Content Type |\n| Assessment | Assessment/Question Content Type |\n| GradebookColumn | Gradebook Column Content Type |\n| RubricRow | Rubric Row Content Type |\n| Rubric | Rubric Content Type |\n| Other | Other Content Type |\n",
+            "required": false,
+            "type": "string",
+            "enum": [
+              "Blog",
+              "CourseContent",
+              "ContentCollectionResource",
+              "Discussion",
+              "DiscussionThread",
+              "Assessment",
+              "GradebookColumn",
+              "RubricRow",
+              "Rubric",
+              "Other"
+            ]
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Properties to sort by. This is a comma-delimited list of JSON properties, with an optional \"(desc)\" suffix to request a descending sort for that property. e.g. \"id(desc)\" Supported fields are:\n\n- id\n- goalId\n\n**Since**: 3900.62.00",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "$ref": "#/parameters/fields"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "results": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/Alignment"
+                  }
+                },
+                "paging": {
+                  "$ref": "#/definitions/PagingInfo"
+                }
+              },
+              "required": [
+                "results"
+              ]
             }
           },
           "403": {
@@ -17631,7 +17952,7 @@
           {
             "name": "sort",
             "in": "query",
-            "description": "Properties to sort by. This is a comma-delimited list of JSON properties, with an optional \"(desc)\" suffix to request a descending sort for that property. e.g. \"roleId(desc)\"\n\nSupported fields are:\n\n<ul> - roleId\n- custom\n</ul>\n**Since**: 3300.5.0",
+            "description": "Properties to sort by. This is a comma-delimited list of JSON properties, with an optional \"(desc)\" suffix to request a descending sort for that property. e.g. \"roleId(desc)\"\n\nSupported fields are:\n\n<ul> - roleId\n- custom\n\n</ul>**Since**: 3300.5.0",
             "required": false,
             "type": "string"
           },
@@ -23060,6 +23381,83 @@
         }
       }
     },
+    "AlignableContent": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Type of resource that is being referenced. Supported fixed types are: -    Blog   CourseContent   ContentCollectionResource   Discussion   DiscussionThread   Assessment   GradebookColumn   RubricRow   Rubric\nSupported non-fixed types inlcudes (but does not limits) to: -    blackboard.plugin.bbwiki.beans.Wiki   blackboard.data.content.Content\nWhether both blackboard.data.content.Content type and CourseContent data type might semantically be the same, it is worth to mention that the earliest is applied just to some data types not included into the supported fixed types list (e.g. LTI Integrations makes use of this blackboard.data.content.Content content type)."
+        },
+        "courseId": {
+          "type": "string",
+          "description": "Id of the course where the aligned content belongs to, applicable for all but ContentCollection type."
+        },
+        "contentId": {
+          "type": "string",
+          "description": "Id of a course content that is aligned to a goal. Applicable to CourseContent type."
+        },
+        "rubricId": {
+          "type": "string",
+          "description": "Id of the Rubric that is aligned to a goal. Applicable to Rubric and RubricRow types."
+        },
+        "blogId": {
+          "type": "string",
+          "description": "Id of the blog that is aligned to a goal. Applicable to Blog type."
+        },
+        "resourceId": {
+          "type": "string",
+          "description": "Id of the content collection resource that is aligned to a goal. Applicable to ContentCollection type."
+        },
+        "discussionId": {
+          "type": "string",
+          "description": "Id of the discussion that is aligned to a goal. Applicable to Discussion type."
+        },
+        "messageId": {
+          "type": "string",
+          "description": "Id of the message/thread that is aligned to a goal. Applicable to DiscussionThread type."
+        },
+        "gradebookColumnId": {
+          "type": "string",
+          "description": "Id of the gradebook column that is aligned to a goal, might be applied to all data types with exception to Rubric, RubricRow and ContentCollection types."
+        },
+        "rubricRowId": {
+          "type": "string",
+          "description": "Id of the rubric row that is aligned to a goal. Applicable to RubricRow type."
+        },
+        "referenceId": {
+          "type": "string",
+          "description": "External Id, used by other content types whose Id's are not specifically defined by the remaining ID's this model supports (e.g. blackboard.plugin.bbwiki.beans.Wiki). Only populated when applicable."
+        },
+        "assessmentId": {
+          "type": "string",
+          "description": "Id of an assessment/question that is aligned to a goal. Applicable for Assessment type."
+        }
+      }
+    },
+    "Alignment": {
+      "type": "object",
+      "required": [
+        "isVisibleToStudents"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Id of the goal alignment."
+        },
+        "goalId": {
+          "type": "string",
+          "description": "Id of the goal this alignment is related to."
+        },
+        "isVisibleToStudents": {
+          "type": "boolean",
+          "description": "Whether the goal alignment is visible to students or not."
+        },
+        "alignableContent": {
+          "description": "The content that the referenced goal is aligned to.",
+          "$ref": "#/definitions/AlignableContent"
+        }
+      }
+    },
     "Announcement": {
       "type": "object",
       "properties": {
@@ -25212,6 +25610,63 @@
           "format": "int64",
           "description": "The total size of the submission in bytes\n\n**Since**: 3900.37.0",
           "readOnly": true
+        }
+      }
+    },
+    "ExpandedGoal": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The goal's Id."
+        },
+        "externalId": {
+          "type": "string",
+          "description": "The goal's external Id."
+        },
+        "goalSetId": {
+          "type": "string",
+          "description": "The goal's set Id."
+        },
+        "goalSet": {
+          "description": "The goal's set expanded object.",
+          "$ref": "#/definitions/GoalSet"
+        },
+        "categoryId": {
+          "type": "string",
+          "description": "The goal's category Id."
+        },
+        "category": {
+          "description": "The goal's category expanded object.",
+          "$ref": "#/definitions/GoalCategory"
+        },
+        "parentId": {
+          "type": "string",
+          "description": "The parent goal Id."
+        },
+        "title": {
+          "type": "string",
+          "description": "The goal's name."
+        },
+        "text": {
+          "type": "string",
+          "description": "The goal's text."
+        },
+        "type": {
+          "type": "string",
+          "description": "The goal's type."
+        },
+        "availability": {
+          "description": "The goal's availability status.",
+          "$ref": "#/definitions/GoalAvailability"
+        },
+        "links": {
+          "type": "array",
+          "description": "A list of hypermedia links associated with this goal",
+          "readOnly": true,
+          "items": {
+            "$ref": "#/definitions/Link"
+          }
         }
       }
     },
