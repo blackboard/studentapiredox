@@ -21,8 +21,22 @@ https://probable-broccoli-vr1gken.pages.github.io/docs/learnapisintro
 6. When you think you are done before you do a pull request ***test the build*** (steps 7 and 8)...
 7. `$ npm run build` to build the site locally. The great thing here is *everything* gets tested and if the build fails you will know... if it fails - fix it and rinse/repeat step 7 until it succeeds, then move onto step 8.
 8. `$ npm run serve` to locally serve the static build of the site - if your changes look good carry on to step 9, otherwise back to step 4 (that is faster than doing a full build for each possible test cycle), make your changes, and run through steps 5-8.
-9. Do a PR with your changes...
+9.  Do a PR with your changes...
    1.  When you submit your PR an automated test is run. If the test fails it shows as failed on the PR. If it is successful, and we approve the changes requested then we will merge. The test takes about 2.5 minutes. If you have merge privileges please wait until a successful test completes before attempting the merge. Allow for the merge test to complete before deleting your branch.
    2.  When merged an auto-build takes place generating the static files for the API site. The auto-build takes about 2 minutes.
    3.  After step 9.ii is complete, the pages-build-deploy action is run which copies the static pages file to github pages. The build-deploy takes about 2 minutes.
    4.  in 1-5 minutes the site is refreshed and delivering your new content.
+
+## Tips
+If you are interested in only proofing the OpenAPI docs you may:
+
+`$ npx @redocly/openapi-cli preview-docs --port=8081 yourspec.json||.yaml`
+
+
+## Delivery Notes
+### Learn
+While this site uses learn-swagger.json and learn-unreleased.json to generate current and future API docs, we ***must*** continue to push version named docs to S3. 
+
+E.g.: https://devportal-docstore.s3.amazonaws.com/learn-swagger-3900.68.0.json. 
+
+This is because existing integrations and libraries have dependencies on accessing these files which contain the Learn version in the filename.
