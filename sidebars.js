@@ -33,7 +33,8 @@ const sidebars = {
   ],
   LearnAPIsSidebar: [
     'learnapisintro',
-    'apis/learn/learnapis'
+    'apis/learn/learnapisreleased',
+    'apis/learn/learnapisunreleased'
     // {
     //   type: 'category',
     //   label: 'LEARN APIs',

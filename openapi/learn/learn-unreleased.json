@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "version": "3900.65.0",
+    "version": "3900.68.0",
     "title": "Learn APIs"
   },
   "host": "localhost",
@@ -2044,9 +2044,6 @@
         "summary": "Get Course Meeting",
         "description": "Returns a Course Meeting for the given meeting Id.\n\nThe \"course.attendance.VIEW\" entitlement is required to view a Course Meeting.\n\n**Since**: 3500.7.0",
         "parameters": [
-          {
-            "$ref": "#/parameters/CourseIdParam.courseId"
-          },
           {
             "name": "meetingId",
             "in": "path",
@@ -5294,6 +5291,14 @@
                       "description": "Duration indicates when the System Announcement is Available based on whether it is Permanent or if the date/time of the request falls within its Start & End dates.",
                       "title": "Duration",
                       "properties": {
+                        "type": {
+                          "type": "string",
+                          "description": "Indicates whether this Course Announcement is always displayed (Permanent) or if it is shown only between the Start and End dates (Restricted).\n\n\n| Type      | Description\n | --------- | --------- |\n| Permanent | The Announcement will always be displayed. |\n| Restricted | The Announcement will start being displayed on Duration.Start and stop being displayed on Duration.End |\n",
+                          "enum": [
+                            "Permanent",
+                            "Restricted"
+                          ]
+                        },
                         "start": {
                           "type": "string",
                           "format": "date-time",
@@ -5473,6 +5478,14 @@
                       "description": "Duration indicates when the System Announcement is Available based on whether it is Permanent or if the date/time of the request falls within its Start & End dates.",
                       "title": "Duration",
                       "properties": {
+                        "type": {
+                          "type": "string",
+                          "description": "Indicates whether this Course Announcement is always displayed (Permanent) or if it is shown only between the Start and End dates (Restricted).\n\n\n| Type      | Description\n | --------- | --------- |\n| Permanent | The Announcement will always be displayed. |\n| Restricted | The Announcement will start being displayed on Duration.Start and stop being displayed on Duration.End |\n",
+                          "enum": [
+                            "Permanent",
+                            "Restricted"
+                          ]
+                        },
                         "start": {
                           "type": "string",
                           "format": "date-time",
@@ -6759,9 +6772,8 @@
                 "uploadId": {
                   "type": "string"
                 },
-                "resourceId" : {
-                  "type" : "string",
-                  "description" : "A write-only property used to attach a resource file to an Attempt."
+                "resourceId": {
+                  "type": "string"
                 }
               }
             }
@@ -8384,6 +8396,10 @@
                   "type": "string",
                   "description": "The instructor feedback associated with this attempt."
                 },
+                "groupAttemptStudentComments": {
+                  "type": "string",
+                  "description": "The group attempt student comments associated with this attempt."
+                },
                 "studentComments": {
                   "type": "string",
                   "description": "The student comments associated with this attempt."
@@ -8560,6 +8576,10 @@
                 "feedback": {
                   "type": "string",
                   "description": "The instructor feedback associated with this attempt."
+                },
+                "groupAttemptStudentComments": {
+                  "type": "string",
+                  "description": "The group attempt student comments associated with this attempt."
                 },
                 "studentComments": {
                   "type": "string",
@@ -17952,7 +17972,7 @@
           {
             "name": "sort",
             "in": "query",
-            "description": "Properties to sort by. This is a comma-delimited list of JSON properties, with an optional \"(desc)\" suffix to request a descending sort for that property. e.g. \"roleId(desc)\"\n\nSupported fields are:\n\n<ul> - roleId\n- custom\n\n</ul>**Since**: 3300.5.0",
+            "description": "Properties to sort by. This is a comma-delimited list of JSON properties, with an optional \"(desc)\" suffix to request a descending sort for that property. e.g. \"roleId(desc)\"\n\nSupported fields are:\n\n<ul> - roleId\n- custom</ul>\n\n**Since**: 3300.5.0",
             "required": false,
             "type": "string"
           },
@@ -23753,6 +23773,10 @@
           "type": "string",
           "description": "The instructor feedback associated with this attempt."
         },
+        "groupAttemptStudentComments": {
+          "type": "string",
+          "description": "The group attempt student comments associated with this attempt."
+        },
         "studentComments": {
           "type": "string",
           "description": "The student comments associated with this attempt."
@@ -24630,7 +24654,6 @@
                 "type": {
                   "type": "string",
                   "description": "Indicates whether this Course Announcement is always displayed (Permanent) or if it is shown only between the Start and End dates (Restricted).\n\n\n| Type      | Description\n | --------- | --------- |\n| Permanent | The Announcement will always be displayed. |\n| Restricted | The Announcement will start being displayed on Duration.Start and stop being displayed on Duration.End |\n",
-                  "readOnly": true,
                   "enum": [
                     "Permanent",
                     "Restricted"
@@ -25827,7 +25850,7 @@
         },
         "status": {
           "type": "string",
-          "description": "The status of this grade.\n\n\n| Type      | Description\n | --------- | --------- |\n| Graded | Grade has been graded, corresponding to dbValue 1 |\n| NeedsGrading | Grade needs grading, corresponding to dbValue 2 |\n",
+          "description": "This historic field was incorrectly added to the public api despite being deprecated internally and never contained reliable data. Please stop using it immediately and determine the state using the rules you wish in the client based on the manual grade here, and the status of any associated attempts. (for example: some people treat 1 graded attempt and 2 ungraded attempts as logically \u2018graded\u2019; others want that to be \u2018needs grading\u2019).\n\n\n| Type      | Description\n | --------- | --------- |\n| Graded | Grade has been graded, corresponding to dbValue 1 |\n| NeedsGrading | Grade needs grading, corresponding to dbValue 2 |\n",
           "readOnly": true,
           "enum": [
             "Graded",
@@ -26244,7 +26267,7 @@
         },
         "status": {
           "type": "string",
-          "description": "The status of this grade.\n\n\n| Type      | Description\n | --------- | --------- |\n| Graded | Grade has been graded, corresponding to dbValue 1 |\n| NeedsGrading | Grade needs grading, corresponding to dbValue 2 |\n",
+          "description": "This historic field was incorrectly added to the public api despite being deprecated internally and never contained reliable data. Please stop using it immediately and determine the state using the rules you wish in the client based on the manual grade here, and the status of any associated attempts. (for example: some people treat 1 graded attempt and 2 ungraded attempts as logically \u2018graded\u2019; others want that to be \u2018needs grading\u2019).\n\n\n| Type      | Description\n | --------- | --------- |\n| Graded | Grade has been graded, corresponding to dbValue 1 |\n| NeedsGrading | Grade needs grading, corresponding to dbValue 2 |\n",
           "readOnly": true,
           "enum": [
             "Graded",

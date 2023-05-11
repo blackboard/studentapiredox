@@ -56,6 +56,7 @@ const config = {
         },
       }),
     ],
+
     // Redocusaurus config
     [
       'redocusaurus',
@@ -63,10 +64,40 @@ const config = {
         // Plugin Options for loading OpenAPI files
         specs: [
           {
-            id: 'learn',
+            id: 'learn_released',
             spec: 'openapi/learn/learn-swagger.json',
             route: '/openapi/learn/learn-swagger',
           },
+          {
+            id: 'learn_unreleased',
+            spec: 'openapi/learn/learn-unreleased.json',
+            route: '/openapi/learn/learn_unreleased',
+          },
+          // {
+          //   id: 'learn-3900_67_0',
+          //   spec: 'openapi/learn/learn-swagger-3900.67.0.json',
+          //   route: '/openapi/learn/learn-swagger-3900.67.0',
+          // },
+          // {
+          //   id: 'learn-3900_66_0',
+          //   spec: 'openapi/learn/learn-swagger-3900.66.0.json',
+          //   route: '/openapi/learn/learn-swagger-3900.66.0',
+          // },
+          // {
+          //   id: 'learn-3900_65_0',
+          //   spec: 'openapi/learn/learn-swagger-3900.65.0.json',
+          //   route: '/openapi/learn/learn-swagger-3900.65.0',
+          // },
+          // {
+          //   id: 'learn-3900_64_0',
+          //   spec: 'openapi/learn/learn-swagger-3900.64.0.json',
+          //   route: '/openapi/learn/learn-swagger-3900.64.0',
+          // },
+          // {
+          //   id: 'learn-3900_62_0',
+          //   spec: 'openapi/learn/learn-swagger-3900.62.0.json',
+          //   route: '/openapi/learn/learn-swagger-3900.62.0',
+          // },
           {
             id:'studentadmissions',
             spec: 'openapi/student/admissions.yaml',
