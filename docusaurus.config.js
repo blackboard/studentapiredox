@@ -68,6 +68,31 @@ const config = {
             route: '/openapi/learn/learn-swagger',
           },
           {
+            id: 'learn-3900_68_0',
+            spec: 'openapi/learn/learn-swagger-3900.68.0.json',
+            route: '/openapi/learn/learn-swagger-3900.68.0',
+          },
+          {
+            id: 'learn-3900_67_0',
+            spec: 'openapi/learn/learn-swagger-3900.67.0.json',
+            route: '/openapi/learn/learn-swagger-3900.67.0',
+          },
+          {
+            id: 'learn-3900_66_0',
+            spec: 'openapi/learn/learn-swagger-3900.66.0.json',
+            route: '/openapi/learn/learn-swagger-3900.66.0',
+          },
+          {
+            id: 'learn-3900_65_0',
+            spec: 'openapi/learn/learn-swagger-3900.65.0.json',
+            route: '/openapi/learn/learn-swagger-3900.65.0',
+          },
+          {
+            id: 'learn-3900_64_0',
+            spec: 'openapi/learn/learn-swagger-3900.64.0.json',
+            route: '/openapi/learn/learn-swagger-3900.64.0',
+          },
+          {
             id:'studentadmissions',
             spec: 'openapi/student/admissions.yaml',
             route: '/openapi/student/admissions',
