@@ -56,6 +56,7 @@ const config = {
         },
       }),
     ],
+    
     // Redocusaurus config
     [
       'redocusaurus',

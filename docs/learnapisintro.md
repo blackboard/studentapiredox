@@ -25,15 +25,19 @@ Let's discover Learn APIs.
 ## Past, Present, and Future Releases
 Our REST APIs are updated with each SaaS release - introducing new APIs and when necessary versioning and deprecating existing APIs. 
 
-**Note**: You should always observe the `Since` tag on each endpoint and only use endpoints released on or before your Learn target major version.
+**Note**: You should always observe the `Since` tag on each endpoint and only use endpoints released on or before your Learn target version.
 
 <form>
-<b>Learn API docs</b> <select name="LearnAPIDocs" id="LearnAPIDocs">
-  <option value="./apis/learn/"  selected>Latest Release</option>
-  <option value="3900.68.0">3900.68.0</option>
-  <option value="3900.67.0">3900.67.0</option>
-  <option value="3900.66.0">3900.66.0</option>
-  <option value="3900.65.0">3900.65.0</option>
-  <option value="3900.64.0">3900.64.0</option>
+<b>Learn API docs</b> 
+<select 
+  name="LearnAPIDocs" 
+  id="LearnAPIDocs" 
+  onchange="location = this.value;">
+  <option value="https://localhost:3000/apis/learn/" selected>Latest Release</option>
+  <option value="https://localhost:3000/apis/learn/learn-3900680">3900.68.0</option>
+  <option value="https://localhost:3000/apis/learn/learn-3900670">3900.67.0</option>
+  <option value="https://localhost:3000/apis/learn/learn-3900660">3900.66.0</option>
+  <option value="https://localhost:3000/apis/learn/learn-3900650">3900.65.0</option>
+  <option value="https://localhost:3000/apis/learn/learn-3900640">3900.64.0</option>
 </select>
 </form>
