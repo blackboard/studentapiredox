@@ -22,14 +22,18 @@ Learn provides APIs to enable campus developers to integrate their campus workfl
 
 Let's discover Learn APIs.
 
-## Past, Present, and Future Releases
-Our REST APIs are updated with each SaaS release - introducing new APIs and when necessary versioning and deprecating existing APIs. 
+## Present, and Future Releases
+Our REST APIs are updated with each SaaS release - introducing new APIs and when necessary application of endpoint versioning and deprecation existing APIs. 
 
-The latest release contains information which applies to all previous releases. 
+Note endpoints are version specific.
 
-The latest unreleased version contains information which applies to current, previous, and unreleased versions.
+The latest ***released*** version contains information which applies to current *and* all previous production Learn versions. 
 
-**Note**: You should always observe the `Since` tag on each endpoint and only use endpoints released on or before your Learn target version.
+The latest ***unreleased*** version contains information which applies to current, previous, *and* unreleased Learn versions.
+
+As such any current or future release provides the information necessary for change management via the `Since` tag on any endpoint. These tags serve as indicators of when an endpoint was added and thus for which version of Learn the endpoint is callable.
+
+**Note**: You should ***always*** observe the `Since` tag on each endpoint and only use endpoints released on or before your Learn target major version.
 
 ## Latest Learn API docs
 
