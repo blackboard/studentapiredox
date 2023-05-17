@@ -4,10 +4,10 @@ While testing delivery of the Anthology Developer OpenAPI Documentation via this
 
 ## Viewing on Github Pages
 ### Student
-https://probable-broccoli-vr1gken.pages.github.io/docs/studentapisintro
+https://docs.anthology.com/studentapiredox/docs/studentapisintro
 
 ### Learn
-https://probable-broccoli-vr1gken.pages.github.io/docs/learnapisintro
+https://docs.anthology.com/studentapiredox/docs/learnapisintro
 
 ## Getting Started
 
