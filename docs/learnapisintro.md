@@ -45,7 +45,7 @@ As such any current or future release provides the information necessary for cha
 ## Downloading OpenAPI.json
 All our API documents are stored in a public S3 bucket. You may access version specific documents using the following pattern:
 
-`https://devportal-docstore.s3.amazonaws.com/learn-swagger-&lt;LEARN_VERSION&gt;.json`
+`https://devportal-docstore.s3.amazonaws.com/learn-swagger-<LEARN_VERSION>.json`
 
 e.g.:
 
