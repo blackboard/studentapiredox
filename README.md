@@ -34,8 +34,16 @@ If you are interested in only proofing the OpenAPI docs you may:
 
 
 ## Delivery Notes
-### Learn
-While this site uses learn-swagger.json and learn-unreleased.json to generate current and future API docs, we ***must*** continue to push version named docs to S3. 
+
+### In General
+It is anticipated that we will not be using Docusaurus in the final implementation of the API docs in the Developer Portal... Rather we will be using the static documents (likely generated using redocly cli) pulled from S3 by the Portal. This is all TBD by the Portal team.
+
+Also to simpify delivery rather than use the approach of bundling yaml files into a spec (granted, a nifty feature of redocly) we will use standalone OpenAPI .json files. 
+
+>Note that this approach means we have to figure out how to enable the "Download OpenAPI specification" button to link to the proper .json file vs the current redocly built .yaml file. 
+ 
+### Specific to Learn
+While this site uses learn-swagger.json and learn-unreleased.json to generate current and future API docs in this demo, we ***must*** in addition to a PR for new versions, continue to push version named docs to S3. 
 
 E.g.: https://devportal-docstore.s3.amazonaws.com/learn-swagger-3900.68.0.json. 
 
