@@ -60,10 +60,3 @@ What you can do with Student Accounts APIs
 _insert descriptive blurb_
 
 [**Student Accounts API docs**](./apis/student/studentaccounts)
-
-### Student Services
-What you can do with Student Services APIs
-
-_insert descriptive blurb_
-
-[**Student Services API docs**](./apis/student/studentservices)

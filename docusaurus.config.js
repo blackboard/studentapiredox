@@ -16,7 +16,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   // baseUrl: '/',
-  baseUrl: '/studentapiredox/',
+  baseUrl: '/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Anthology', // Usually your GitHub org/user name.
@@ -100,45 +100,40 @@ const config = {
           //   route: '/openapi/learn/learn-swagger-3900.62.0',
           // },
           {
-            id:'studentadmissions',
-            spec: 'openapi/student/admissions.yaml',
-            route: '/openapi/student/admissions',
-          },
-          {
             id:'studentacademics',
-            spec: 'openapi/student/academics.yaml',
+            spec: 'openapi/student/academics.json',
             route: '/openapi/student/academics',
           },
           {
+            id:'studentadmissions',
+            spec: 'openapi/student/admissions.json',
+            route: '/openapi/student/admissions',
+          },
+          {
             id: 'studentcareerservices',
-            spec: 'openapi/student/careerservices.yaml',
+            spec: 'openapi/student/careerservices.json',
             route: '/openapi/student/careerservices',
           },
           {
             id: 'studentcommon',
-            spec: 'openapi/student/common.yaml',
+            spec: 'openapi/student/common.json',
             route: '/openapi/student/common',
           },
           {
             id: 'studentcrm',
-            spec: 'openapi/student/crm.yaml',
+            spec: 'openapi/student/crm.json',
             route: '/openapi/student/crm',
           },
           {
             id: 'studentfinancialaid',
-            spec: 'openapi/student/financialaid.yaml',
+            spec: 'openapi/student/financialaid.json',
             route: '/openapi/student/financialaid',
           },
           {
             id: 'studentaccounts',
-            spec: 'openapi/student/studentaccounts.yaml',
+            spec: 'openapi/student/studentaccounts.json',
             route: '/openapi/student/studentaccounts',
-          },
-          {
-            id: 'studentservices',
-            spec: 'openapi/student/studentservices.yaml',
-            route: '/openapi/student/studentservices',
-          },
+          }
         ],
         // Theme Options for modifying how redoc renders them
         theme: {
