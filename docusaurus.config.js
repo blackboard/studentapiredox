@@ -68,11 +68,13 @@ const config = {
             id: 'learn_released',
             spec: 'openapi/learn/learn-swagger.json',
             route: '/openapi/learn/learn-swagger',
+            url: 'https://devportal-docstore.s3.amazonaws.com/learn-swagger.json'
           },
           {
             id: 'learn_unreleased',
             spec: 'openapi/learn/learn-unreleased.json',
             route: '/openapi/learn/learn_unreleased',
+            url: 'https://devportal-docstore.s3.amazonaws.com/learn-unreleased.json'
           },
           // {
           //   id: 'learn-3900_67_0',
