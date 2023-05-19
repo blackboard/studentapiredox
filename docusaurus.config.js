@@ -76,31 +76,6 @@ const config = {
             route: '/openapi/learn/learn_unreleased',
             url: 'https://devportal-docstore.s3.amazonaws.com/learn-unreleased.json'
           },
-          // {
-          //   id: 'learn-3900_67_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.67.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.67.0',
-          // },
-          // {
-          //   id: 'learn-3900_66_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.66.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.66.0',
-          // },
-          // {
-          //   id: 'learn-3900_65_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.65.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.65.0',
-          // },
-          // {
-          //   id: 'learn-3900_64_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.64.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.64.0',
-          // },
-          // {
-          //   id: 'learn-3900_62_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.62.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.62.0',
-          // },
           {
             id:'studentadmissions',
             spec: 'openapi/student/admissions.yaml',
@@ -108,7 +83,7 @@ const config = {
           },
           {
             id:'studentacademics',
-            spec: 'openapi/student/academics.yaml',
+            spec: 'openapi/student/academics.json',
             route: '/openapi/student/academics',
           },
           {
@@ -135,11 +110,6 @@ const config = {
             id: 'studentaccounts',
             spec: 'openapi/student/studentaccounts.yaml',
             route: '/openapi/student/studentaccounts',
-          },
-          {
-            id: 'studentservices',
-            spec: 'openapi/student/studentservices.yaml',
-            route: '/openapi/student/studentservices',
           },
         ],
         // Theme Options for modifying how redoc renders them
