@@ -162,7 +162,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-areaofstudy-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -181,7 +181,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-areaofstudy-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -194,7 +194,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-areaofstudy-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -213,7 +213,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-areaofstudy-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -226,7 +226,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-areaofstudy-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -245,7 +245,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-areaofstudy-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -258,7 +258,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-areaofstudy-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -277,7 +277,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-areaofstudy-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -290,7 +290,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-areaofstudy-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -311,7 +311,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-attendance-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -330,7 +330,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-attendance-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -343,7 +343,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-attendance-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -362,7 +362,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-attendance-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -375,7 +375,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-attendance-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -394,7 +394,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-attendance-getattendance-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -426,7 +426,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-attendance-postattendance-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -586,7 +586,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-attendance-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -599,7 +599,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-attendance-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -618,7 +618,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-attendance-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -631,7 +631,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-attendance-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -844,7 +844,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-classsection-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -863,7 +863,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-classsection-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -876,7 +876,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-classsection-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -895,7 +895,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-classsection-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -908,7 +908,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-classsection-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1215,7 +1215,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-classsection-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -1228,7 +1228,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-classsection-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1247,7 +1247,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-classsection-savebooks-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -1260,7 +1260,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-classsection-savebooks-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1439,7 +1439,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-classsection-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -1452,7 +1452,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-classsection-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1537,7 +1537,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-course-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1556,7 +1556,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-course-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -1569,7 +1569,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-course-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1588,7 +1588,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-course-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -1601,7 +1601,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-course-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1748,7 +1748,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-course-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -1761,7 +1761,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-course-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1876,7 +1876,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-course-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -1889,7 +1889,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-course-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1942,7 +1942,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-degree-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1961,7 +1961,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-degree-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -1974,7 +1974,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-degree-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -1993,7 +1993,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-degree-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2006,7 +2006,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-degree-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2025,7 +2025,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-degree-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2038,7 +2038,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-degree-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2057,7 +2057,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-degree-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2070,7 +2070,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-degree-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2110,7 +2110,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-enrollmentstatus-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2142,7 +2142,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-enrollmentstatus-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2155,7 +2155,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-enrollmentstatus-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2174,7 +2174,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-enrollmentstatus-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2187,7 +2187,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-enrollmentstatus-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2206,7 +2206,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-enrollmentstatus-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2272,7 +2272,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-programversion-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2291,7 +2291,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-programversion-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2304,7 +2304,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-programversion-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2323,7 +2323,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-programversion-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2336,7 +2336,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-programversion-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2387,7 +2387,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-programversion-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2400,7 +2400,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-programversion-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2419,7 +2419,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-programversion-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2432,7 +2432,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-programversion-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2483,7 +2483,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-program-copyprogram-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2496,7 +2496,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-program-copyprogram-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2517,7 +2517,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-program-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2536,7 +2536,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-program-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2549,7 +2549,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-program-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2568,7 +2568,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-program-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2581,7 +2581,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-program-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2600,7 +2600,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-program-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2613,7 +2613,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-program-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2664,7 +2664,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-program-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2677,7 +2677,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-program-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2696,7 +2696,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-program-saveprogram-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2709,7 +2709,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-program-saveprogram-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2826,7 +2826,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-schoolstartdate-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2845,7 +2845,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-schoolstartdate-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2858,7 +2858,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-schoolstartdate-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2877,7 +2877,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-schoolstartdate-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2890,7 +2890,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-schoolstartdate-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2909,7 +2909,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-schoolstartdate-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -2922,7 +2922,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-schoolstartdate-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -2973,7 +2973,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-schoolstartdate-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3007,7 +3007,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-shift-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -3026,7 +3026,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-shift-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3039,7 +3039,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-shift-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -3058,7 +3058,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-shift-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3071,7 +3071,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-shift-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -3090,7 +3090,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-shift-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3103,7 +3103,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-shift-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -3122,7 +3122,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-shift-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3135,7 +3135,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-shift-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -3252,7 +3252,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-studentcourse-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -3271,7 +3271,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-studentcourse-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3284,7 +3284,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-studentcourse-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -3335,7 +3335,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-studentcourse-dropcourse-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3367,7 +3367,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-studentcourse-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3380,7 +3380,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-studentcourse-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -3623,7 +3623,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-studentcourse-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3636,7 +3636,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-studentcourse-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -3655,7 +3655,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-studentcourse-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -3668,7 +3668,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-studentcourse-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -4691,7 +4691,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -4710,7 +4710,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/common-student-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -4723,7 +4723,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -4742,7 +4742,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/common-student-deletealumni-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -4755,7 +4755,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-deletealumni-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -4774,7 +4774,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/common-student-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -4787,7 +4787,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -4838,7 +4838,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/common-student-getalumni-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -4851,7 +4851,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-getalumni-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -4934,7 +4934,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/common-student-getrecentstudents-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -4947,7 +4947,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-getrecentstudents-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -4998,7 +4998,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/common-student-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -5011,7 +5011,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5030,7 +5030,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/common-student-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -5043,7 +5043,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5062,7 +5062,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/common-student-savenewalumni-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -5075,7 +5075,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-savenewalumni-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5094,7 +5094,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/common-student-savequicklead-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -5107,7 +5107,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/common-student-savequicklead-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5160,7 +5160,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-term-create-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5179,7 +5179,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-term-delete-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -5192,7 +5192,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-term-delete-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5211,7 +5211,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-term-get-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -5224,7 +5224,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-term-get-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5243,7 +5243,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-term-save-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -5256,7 +5256,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-term-save-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5275,7 +5275,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-term-savenew-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -5288,7 +5288,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-term-savenew-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5307,7 +5307,7 @@
               "content": {
                  "application/json": {
                     "schema": {
-                       "$ref": "#/components/schemas/academics-term-savetermstatus-request"
+                       "$ref": ""
                     }
                  }
               },
@@ -5320,7 +5320,7 @@
                  "content": {
                     "application/json": {
                        "schema": {
-                          "$ref": "#/components/schemas/academics-term-savetermstatus-response"
+                          "$ref": ""
                        }
                     }
                  }
@@ -5920,7 +5920,7 @@
         "academics-areaofstudy-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -6362,10 +6362,10 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-areaOfStudy"
               },
               "createdByStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "droppedByStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "childAreasOfStudy": {
                  "type": "array",
@@ -6374,13 +6374,13 @@
                  }
               },
               "lastModifiedUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "createdUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "dropUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -6861,10 +6861,10 @@
                  "type": "object"
               },
               "assignedAdmissionsRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "originalAssignedAdmissionsRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "campus": {
                  "type": "object"
@@ -6879,7 +6879,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
               },
               "shift": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-shift"
+                 "$ref": ""
               },
               "programVersion": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
@@ -6894,7 +6894,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faSapStatus"
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               },
               "admissionsRegion": {
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-admissionsRegion"
@@ -6929,7 +6929,7 @@
               "attendance": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-attendance"
+                    "$ref": ""
                  }
               },
               "studentEnrollmentCourses": {
@@ -7053,7 +7053,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-gradeLevel"
               },
               "academicAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "autoChargesTerm": {
                  "type": "object"
@@ -7180,10 +7180,10 @@
                  "type": "string"
               },
               "agency": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agency"
+                 "$ref": ""
               },
               "industry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-industry"
+                 "$ref": ""
               },
               "billingMethod": {
                  "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-billingMethod"
@@ -7192,7 +7192,7 @@
                  "type": "object"
               },
               "organization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organization"
+                 "$ref": ""
               },
               "extendedProperties": {
                  "type": "array",
@@ -7324,7 +7324,7 @@
               "agencies": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-agency"
+                    "$ref": ""
                  }
               }
            }
@@ -7362,7 +7362,7 @@
                  "type": "number"
               },
               "agency": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agency"
+                 "$ref": ""
               },
               "documentType": {
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
@@ -7450,7 +7450,7 @@
                  "type": "string"
               },
               "module": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-module"
+                 "$ref": ""
               },
               "defaultDocumentStatus": {
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-documentStatus"
@@ -7797,7 +7797,7 @@
               "incidents": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-incident"
+                    "$ref": ""
                  }
               },
               "defaultTaskStatus": {
@@ -8095,7 +8095,7 @@
               "incidents": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-incident"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -8136,7 +8136,7 @@
                  "type": "number"
               },
               "incident": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-incident"
+                 "$ref": ""
               },
               "incidentPerson": {
                  "$ref": ""
@@ -8239,7 +8239,7 @@
                  "type": "string"
               },
               "person": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-person"
+                 "$ref": ""
               },
               "organizationContactType": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-organizationContactType"
@@ -8248,10 +8248,10 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-syOrganization"
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "county": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-county"
+                 "$ref": ""
               }
            }
         },
@@ -8318,7 +8318,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-common-maritalStatus"
               },
               "gender": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-gender"
+                 "$ref": ""
               },
               "emailAddresses": {
                  "type": "array",
@@ -8341,7 +8341,7 @@
               "staff": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                    "$ref": ""
                  }
               },
               "phoneNumbers": {
@@ -8351,7 +8351,7 @@
                  }
               },
               "title": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-title"
+                 "$ref": ""
               }
            }
         },
@@ -8460,10 +8460,10 @@
                  "type": "object"
               },
               "assignedAdmissionsRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "originalAssignedAdmissionsRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "leadSource": {
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-leadSource"
@@ -8478,18 +8478,18 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-previousEducation"
               },
               "shift": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-shift"
+                 "$ref": ""
               },
               "schoolStatus": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
               },
               "person": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-person"
+                 "$ref": ""
               },
               "tasks": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-task"
+                    "$ref": ""
                  }
               },
               "admissionsRepReassignments": {
@@ -8513,7 +8513,7 @@
               "deposits": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-deposit"
+                    "$ref": ""
                  }
               },
               "admissionsRegion": {
@@ -8538,7 +8538,7 @@
                  }
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               },
               "comment": {
                  "type": "array",
@@ -8557,7 +8557,7 @@
            ],
            "properties": {
               "staffApprover": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -9159,25 +9159,25 @@
               "assignedTasks": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-task"
+                    "$ref": ""
                  }
               },
               "createdTasks": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-task"
+                    "$ref": ""
                  }
               },
               "completedTasks": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-task"
+                    "$ref": ""
                  }
               },
               "previouslyAssignedTasks": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-task"
+                    "$ref": ""
                  }
               },
               "admissionsRepType": {
@@ -9187,7 +9187,7 @@
                  "type": "object"
               },
               "person": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-person"
+                 "$ref": ""
               },
               "advisorToStudentEnrollments": {
                  "type": "array",
@@ -9406,7 +9406,7 @@
                  "$ref": ""
               },
               "attachment": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-attachment"
+                 "$ref": ""
               },
               "taskResult": {
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-taskResult"
@@ -9421,7 +9421,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
               },
               "completedByStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "employerContact": {
                  "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerContact"
@@ -9433,10 +9433,10 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
               },
               "previouslyAssignedtoStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "createdByStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "syOrganizationContact": {
                  "$ref": ""
@@ -9445,7 +9445,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-syOrganization"
               },
               "assignedtoStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -9454,7 +9454,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
               },
               "lastModifiedUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -9756,13 +9756,13 @@
                  "type": "object"
               },
               "instructor": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-instructor"
+                 "$ref": ""
               },
               "deliveryMethod": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-deliveryMethod"
               },
               "shift": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-shift"
+                 "$ref": ""
               },
               "meetingDates": {
                  "type": "array",
@@ -10280,7 +10280,7 @@
               "attendance": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-attendance"
+                    "$ref": ""
                  }
               },
               "student": {
@@ -10603,7 +10603,7 @@
                  "type": "number"
               },
               "staffApprover": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -11059,10 +11059,10 @@
                  }
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               },
               "degree": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-degree"
+                 "$ref": ""
               },
               "programGroup": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-programGroup"
@@ -11194,7 +11194,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-yearCipCode"
               },
               "staffApprover": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -11323,7 +11323,7 @@
                  "type": "number"
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               },
               "prospectInquiry": {
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
@@ -11407,7 +11407,7 @@
                  "type": "object"
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               },
               "programVersion": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
@@ -11499,7 +11499,7 @@
                  "$ref": ""
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               }
            }
         },
@@ -11696,7 +11696,7 @@
                  "type": "number"
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               },
               "documentType": {
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
@@ -11754,7 +11754,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTest"
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               },
               "previousEducation": {
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-previousEducation"
@@ -11967,7 +11967,7 @@
                  }
               },
               "lastModifiedUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "enrollment": {
                  "$ref": ""
@@ -12068,7 +12068,7 @@
                  "type": "string"
               },
               "agency": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agency"
+                 "$ref": ""
               },
               "entranceTest": {
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTest"
@@ -12350,13 +12350,13 @@
                  "type": "object"
               },
               "college": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-college"
+                 "$ref": ""
               },
               "previousEducation": {
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-previousEducation"
               },
               "degree": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-degree"
+                 "$ref": ""
               },
               "gradeLevel": {
                  "$ref": ""
@@ -12418,7 +12418,7 @@
                  "type": "object"
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -12540,7 +12540,7 @@
                  "type": "number"
               },
               "transcriptOfficeCountry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "courses": {
                  "type": "array",
@@ -12567,10 +12567,10 @@
                  }
               },
               "organization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organization"
+                 "$ref": ""
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "extendedProperties": {
                  "type": "array",
@@ -12629,13 +12629,13 @@
               "buildings": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-building"
+                    "$ref": ""
                  }
               },
               "collegeTranscriptOffices": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-college"
+                    "$ref": ""
                  }
               },
               "highSchoolTranscriptOffices": {
@@ -12647,7 +12647,7 @@
               "collegeCountries": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-college"
+                    "$ref": ""
                  }
               },
               "highSchoolCountries": {
@@ -12664,7 +12664,7 @@
            ],
            "properties": {
               "location": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-location"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -12752,12 +12752,12 @@
                  "type": "object"
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "rooms": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-room"
+                    "$ref": ""
                  }
               }
            }
@@ -12826,10 +12826,10 @@
                  "type": "object"
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "county": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-county"
+                 "$ref": ""
               },
               "extendedProperties": {
                  "type": "array",
@@ -12939,7 +12939,7 @@
                  "type": "string"
               },
               "building": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-building"
+                 "$ref": ""
               },
               "meetingSchedule": {
                  "type": "array",
@@ -12961,10 +12961,10 @@
            ],
            "properties": {
               "building": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-building"
+                 "$ref": ""
               },
               "location": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-location"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -13013,7 +13013,7 @@
                  "type": "string"
               },
               "room": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-room"
+                 "$ref": ""
               },
               "classSection": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
@@ -13262,10 +13262,10 @@
                  "type": "number"
               },
               "room": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-room"
+                 "$ref": ""
               },
               "resource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-resource"
+                 "$ref": ""
               }
            }
         },
@@ -13364,7 +13364,7 @@
                  "type": "number"
               },
               "resource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-resource"
+                 "$ref": ""
               },
               "course": {
                  "type": "object"
@@ -13541,7 +13541,7 @@
                  "type": "string"
               },
               "transcriptOfficeCountry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "transferCredits": {
                  "type": "array",
@@ -13562,19 +13562,19 @@
                  }
               },
               "county": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-county"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
               },
               "organization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organization"
+                 "$ref": ""
               },
               "organization_Legacy": {
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-syOrganization"
               },
               "highSchoolCountry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "extendedProperties": {
                  "type": "array",
@@ -13739,7 +13739,7 @@
                  "type": "number"
               },
               "college": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-college"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -13828,7 +13828,7 @@
                  "type": "string"
               },
               "college": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-college"
+                 "$ref": ""
               },
               "studentTransferCredits": {
                  "type": "array",
@@ -14078,7 +14078,7 @@
               "colleges": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-college"
+                    "$ref": ""
                  }
               },
               "highSchools": {
@@ -14143,13 +14143,13 @@
                  "type": "string"
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "county": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-county"
+                 "$ref": ""
               },
               "organization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organization"
+                 "$ref": ""
               }
            }
         },
@@ -14187,13 +14187,13 @@
                  "type": "string"
               },
               "organization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organization"
+                 "$ref": ""
               },
               "organizationContactType": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-organizationContactType"
               },
               "person": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-person"
+                 "$ref": ""
               }
            }
         },
@@ -14352,7 +14352,7 @@
                  "type": "number"
               },
               "organization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organization"
+                 "$ref": ""
               }
            }
         },
@@ -14492,7 +14492,7 @@
                  }
               },
               "organization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organization"
+                 "$ref": ""
               },
               "contacts": {
                  "type": "array",
@@ -14501,10 +14501,10 @@
                  }
               },
               "county": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-county"
+                 "$ref": ""
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "employerLocations": {
                  "type": "array",
@@ -14692,10 +14692,10 @@
                  }
               },
               "placementRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "verifiedPlacementRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -15180,7 +15180,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
               },
               "task": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-task"
+                 "$ref": ""
               },
               "schoolStatusChangeReason": {
                  "$ref": ""
@@ -15532,7 +15532,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
               },
               "honors": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-honor"
+                 "$ref": ""
               },
               "sapStatus": {
                  "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faSapStatus"
@@ -15892,16 +15892,16 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-taskResult"
               },
               "createdByStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "assignedtoStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "completedByStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "previouslyAssignedtoStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -15931,10 +15931,10 @@
                  "$ref": ""
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "attachment": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-attachment"
+                 "$ref": ""
               },
               "classSection": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
@@ -16085,7 +16085,7 @@
                  "type": "object"
               },
               "task": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-task"
+                 "$ref": ""
               },
               "taskTemplate": {
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
@@ -16188,7 +16188,7 @@
                  }
               },
               "person": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-person"
+                 "$ref": ""
               },
               "employer": {
                  "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
@@ -16197,10 +16197,10 @@
                  "$ref": ""
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "staff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "softSkills": {
                  "type": "array",
@@ -17045,16 +17045,16 @@
                  }
               },
               "contactStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "organizationType": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-organizationType"
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "county": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-county"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -17642,7 +17642,7 @@
                  "$ref": ""
               },
               "staffPerson": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -17682,7 +17682,7 @@
                  "type": "number"
               },
               "staff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "staffGroup": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
@@ -17744,7 +17744,7 @@
                  "type": "number"
               },
               "workspace": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-workspace"
+                 "$ref": ""
               },
               "staffGroup": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
@@ -17850,10 +17850,10 @@
                  "type": "number"
               },
               "workspace": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-workspace"
+                 "$ref": ""
               },
               "component": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-component"
+                 "$ref": ""
               }
            }
         },
@@ -18041,7 +18041,7 @@
                  "$ref": ""
               },
               "industry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-industry"
+                 "$ref": ""
               }
            }
         },
@@ -18633,7 +18633,7 @@
                  "type": "string"
               },
               "organization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organization"
+                 "$ref": ""
               },
               "disbursementBatches": {
                  "type": "array",
@@ -18784,7 +18784,7 @@
                  "$ref": ""
               },
               "batchPostedBy": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "faExportImportFile": {
                  "$ref": ""
@@ -19001,7 +19001,7 @@
                  "type": "number"
               },
               "importUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "campus": {
                  "type": "object"
@@ -19578,7 +19578,7 @@
                  "$ref": ""
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "studentAcademicYearLoanPaymentPeriod": {
                  "$ref": ""
@@ -19942,7 +19942,7 @@
                  "$ref": ""
               },
               "promNoteDocument": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-document"
+                 "$ref": ""
               },
               "studentRelationshipAddress": {
                  "$ref": ""
@@ -19969,7 +19969,7 @@
                  "$ref": ""
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "studentAwardNonTitleIvRule": {
                  "$ref": ""
@@ -20456,7 +20456,7 @@
                  "type": "object"
               },
               "lastModifiedUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -21382,7 +21382,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-financialAid-packagingStatus"
               },
               "faAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "autoAwardEnrollmentStatus": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
@@ -23532,7 +23532,7 @@
                  "$ref": ""
               },
               "admissionsDeposit": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-deposit"
+                 "$ref": ""
               },
               "course": {
                  "type": "object"
@@ -23849,7 +23849,7 @@
                  }
               },
               "groupOwner": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "holdCodes": {
                  "type": "array",
@@ -23935,10 +23935,10 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
               },
               "addedByUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "removedByUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "registrationRules": {
                  "type": "array",
@@ -24099,7 +24099,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
               },
               "staff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -24330,7 +24330,7 @@
                  "type": "object"
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -26111,13 +26111,13 @@
                  "type": "object"
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "addressType": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-addressType"
               },
               "lastModifiedUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "contactPreferences": {
                  "type": "array",
@@ -26132,7 +26132,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-admissionsRegion"
               },
               "title": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-title"
+                 "$ref": ""
               }
            }
         },
@@ -26900,7 +26900,7 @@
                  "$ref": ""
               },
               "createdByUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "studentEnrollmentPeriod": {
                  "$ref": ""
@@ -27100,7 +27100,7 @@
                  "$ref": ""
               },
               "createdByUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -27252,7 +27252,7 @@
                  "$ref": ""
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "refundCalculationAssignments": {
                  "type": "array",
@@ -28657,7 +28657,7 @@
                  "$ref": ""
               },
               "document": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-document"
+                 "$ref": ""
               },
               "studentRt4CalculationPostWithdrawalDisbursementComment": {
                  "type": "array",
@@ -28828,10 +28828,10 @@
                  "$ref": ""
               },
               "module": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-module"
+                 "$ref": ""
               },
               "createdByUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "documentTranscriptRequest": {
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-documentTranscriptRequest"
@@ -28911,7 +28911,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchool"
               },
               "college": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-college"
+                 "$ref": ""
               }
            }
         },
@@ -28964,7 +28964,7 @@
                  "type": "object"
               },
               "document": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-document"
+                 "$ref": ""
               },
               "course": {
                  "type": "object"
@@ -28976,7 +28976,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
               },
               "lastModifiedUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -29032,13 +29032,13 @@
                  "type": "object"
               },
               "document": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-document"
+                 "$ref": ""
               },
               "documentType": {
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -29145,10 +29145,10 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-documentStatus"
               },
               "previousAssignedStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "currentAssignedStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "previousAssignedStaffGroup": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
@@ -29269,13 +29269,13 @@
                  "$ref": ""
               },
               "assignedStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "assignedStaffGroup": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
               },
               "lockedByStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -29359,13 +29359,13 @@
                  "$ref": ""
               },
               "assignedStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "assignedStaffGroup": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
               },
               "lockedByUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -29615,13 +29615,13 @@
                  "type": "number"
               },
               "lastModifiedUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "createdByUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "postedByUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "enrollment": {
                  "$ref": ""
@@ -29684,10 +29684,10 @@
                  "type": "string"
               },
               "deposit": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-deposit"
+                 "$ref": ""
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -31629,7 +31629,7 @@
                  }
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -31778,7 +31778,7 @@
                  "type": "number"
               },
               "noteAuthor": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "studentAcademicYear": {
                  "$ref": ""
@@ -33067,7 +33067,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
               },
               "agency": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agency"
+                 "$ref": ""
               },
               "studentAwardNonTitleIvPaymentPeriods": {
                  "type": "array",
@@ -33416,7 +33416,7 @@
                  "type": "object"
               },
               "college": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-college"
+                 "$ref": ""
               }
            }
         },
@@ -33539,7 +33539,7 @@
                  "$ref": ""
               },
               "degree": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-degree"
+                 "$ref": ""
               }
            }
         },
@@ -34305,7 +34305,7 @@
                  "type": "number"
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               }
            }
         },
@@ -34324,7 +34324,7 @@
                  "type": "number"
               },
               "degree": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-degree"
+                 "$ref": ""
               }
            }
         },
@@ -34580,7 +34580,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "studentGroup": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
@@ -34589,13 +34589,13 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
               },
               "faTaskAssignedStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "saTaskTemplate": {
                  "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
               },
               "saTaskAssignedStaff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "documents": {
                  "type": "array",
@@ -34638,7 +34638,7 @@
                  "type": "number"
               },
               "document": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-document"
+                 "$ref": ""
               }
            }
         },
@@ -35284,7 +35284,7 @@
                  "type": "number"
               },
               "nationality": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-nationality"
+                 "$ref": ""
               },
               "billingMethod": {
                  "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-billingMethod"
@@ -35764,10 +35764,10 @@
            ],
            "properties": {
               "building": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-building"
+                 "$ref": ""
               },
               "location": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-location"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -35836,17 +35836,17 @@
               "attendance": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-attendance"
+                    "$ref": ""
                  }
               },
               "classSection": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
               },
               "instructor": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-instructor"
+                 "$ref": ""
               },
               "room": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-room"
+                 "$ref": ""
               }
            }
         },
@@ -35877,7 +35877,7 @@
                  "type": "string"
               },
               "staff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "instructorClassSections": {
                  "type": "array",
@@ -35938,7 +35938,7 @@
                  "type": "number"
               },
               "staff": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -36043,7 +36043,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
               },
               "lastModifiedUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -36467,7 +36467,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-gpaCalculationType"
               },
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-program"
+                 "$ref": ""
               }
            }
         },
@@ -36715,7 +36715,7 @@
                  "$ref": ""
               },
               "book": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-book"
+                 "$ref": ""
               },
               "studentCourse": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
@@ -36856,7 +36856,7 @@
                  "type": "string"
               },
               "book": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-book"
+                 "$ref": ""
               },
               "bookList": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-courseBookList"
@@ -37197,7 +37197,7 @@
                  "type": "number"
               },
               "instructor": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-instructor"
+                 "$ref": ""
               },
               "classSection": {
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
@@ -37421,7 +37421,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-courseFeeSchedule"
               },
               "degree": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-degree"
+                 "$ref": ""
               }
            }
         },
@@ -38063,7 +38063,7 @@
                  "type": "object"
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "prospectInquiryLeadSource": {
                  "$ref": ""
@@ -38175,13 +38175,13 @@
                  "type": "number"
               },
               "newAssignedAdmissionsRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "prevAssignedAdmissionsRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "lastModifiedUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -38353,7 +38353,7 @@
                  "type": "string"
               },
               "admissionsRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               },
               "prospectInquiry": {
                  "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
@@ -38503,7 +38503,7 @@
                  "type": "number"
               },
               "person": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-person"
+                 "$ref": ""
               }
            }
         },
@@ -38584,13 +38584,13 @@
                  "type": "number"
               },
               "country": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-country"
+                 "$ref": ""
               },
               "county": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-county"
+                 "$ref": ""
               },
               "person": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-person"
+                 "$ref": ""
               },
               "addressType": {
                  "$ref": "#/components/schemas/cmc-nexus-models-common-addressType"
@@ -38637,7 +38637,7 @@
                  "type": "number"
               },
               "person": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-person"
+                 "$ref": ""
               }
            }
         },
@@ -38720,7 +38720,7 @@
                  "type": "number"
               },
               "incident": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-incident"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -38760,10 +38760,10 @@
                  "type": "number"
               },
               "incident": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-incident"
+                 "$ref": ""
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -38805,7 +38805,7 @@
                  "type": "string"
               },
               "incident": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-incident"
+                 "$ref": ""
               }
            }
         },
@@ -39679,7 +39679,7 @@
                  "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
               },
               "shift": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-shift"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -40255,7 +40255,7 @@
                  "$ref": ""
               },
               "staffUser": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staff"
+                 "$ref": ""
               }
            }
         },
@@ -40557,7 +40557,7 @@
         "academics-areaofstudy-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -40676,7 +40676,7 @@
         "academics-areaofstudy-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -40722,7 +40722,7 @@
         "academics-areaofstudy-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -40738,7 +40738,7 @@
         "academics-areaofstudy-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -40777,7 +40777,7 @@
         "academics-areaofstudy-get-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-get-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -40902,7 +40902,7 @@
         "academics-areaofstudy-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -41021,7 +41021,7 @@
         "academics-areaofstudy-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -41185,7 +41185,7 @@
         "academics-areaofstudy-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -41304,7 +41304,7 @@
         "academics-areaofstudy-savenew-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-areaofstudy-savenew-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -41468,7 +41468,7 @@
         "academics-attendance-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-attendance-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -41751,7 +41751,7 @@
         "academics-attendance-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-attendance-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -41866,7 +41866,7 @@
         "academics-attendance-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-attendance-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -41912,7 +41912,7 @@
         "academics-attendance-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-attendance-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -41928,7 +41928,7 @@
         "academics-attendance-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-attendance-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -41967,7 +41967,7 @@
         "academics-attendance-get-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-attendance-get-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -42891,7 +42891,7 @@
         "academics-attendance-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-attendance-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -43006,7 +43006,7 @@
         "academics-attendance-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-attendance-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -43045,7 +43045,7 @@
         "academics-attendance-save-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-attendance-save-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -43166,7 +43166,7 @@
         "academics-attendance-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-attendance-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -43281,7 +43281,7 @@
         "academics-attendance-savenew-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-attendance-savenew-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -44648,7 +44648,7 @@
         "academics-classsection-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-classsection-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -45421,7 +45421,7 @@
         "academics-classsection-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-classsection-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -45863,7 +45863,7 @@
         "academics-classsection-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-classsection-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -45909,7 +45909,7 @@
         "academics-classsection-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-classsection-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -45925,7 +45925,7 @@
         "academics-classsection-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-classsection-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -47244,13 +47244,13 @@
               "attributes": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-attributes"
+                    "$ref": ""
                  }
               },
               "inactiveAttributes": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-attributes"
+                    "$ref": ""
                  }
               },
               "canPostAttendance": {
@@ -47265,7 +47265,7 @@
               "instructorAttributes": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-attributes"
+                    "$ref": ""
                  }
               }
            }
@@ -47367,7 +47367,7 @@
         "academics-classsection-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-classsection-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -47809,7 +47809,7 @@
         "academics-classsection-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-classsection-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -49390,7 +49390,7 @@
         "academics-classsection-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-classsection-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -49832,7 +49832,7 @@
         "academics-classsection-savenew-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-classsection-savenew-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -50539,7 +50539,7 @@
         "academics-course-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-course-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -50578,7 +50578,7 @@
         "academics-course-create-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-course-create-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -51107,7 +51107,7 @@
         "academics-course-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-course-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -51409,7 +51409,7 @@
         "academics-course-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-course-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -51455,7 +51455,7 @@
         "academics-course-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-course-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -51471,7 +51471,7 @@
         "academics-course-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-course-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -51510,7 +51510,7 @@
         "academics-course-get-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-course-get-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -52436,7 +52436,7 @@
         "academics-course-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-course-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -52738,7 +52738,7 @@
         "academics-course-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-course-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -52777,7 +52777,7 @@
         "academics-course-save-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-course-save-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -53374,7 +53374,7 @@
         "academics-course-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-course-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -53676,7 +53676,7 @@
         "academics-course-savenew-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-course-savenew-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -53715,7 +53715,7 @@
         "academics-course-savenew-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-course-savenew-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -54089,7 +54089,7 @@
         "academics-degree-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-degree-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -54128,7 +54128,7 @@
         "academics-degree-create-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-degree-create-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -54217,7 +54217,7 @@
         "academics-degree-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-degree-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -54298,7 +54298,7 @@
         "academics-degree-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-degree-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -54344,7 +54344,7 @@
         "academics-degree-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-degree-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -54360,7 +54360,7 @@
         "academics-degree-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-degree-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -54399,7 +54399,7 @@
         "academics-degree-get-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-degree-get-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -54488,7 +54488,7 @@
         "academics-degree-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-degree-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -54569,7 +54569,7 @@
         "academics-degree-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-degree-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -54608,7 +54608,7 @@
         "academics-degree-save-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-degree-save-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -54697,7 +54697,7 @@
         "academics-degree-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-degree-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -54778,7 +54778,7 @@
         "academics-degree-savenew-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-degree-savenew-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -54817,7 +54817,7 @@
         "academics-degree-savenew-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-degree-savenew-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -55137,7 +55137,7 @@
         "academics-enrollmentstatus-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-enrollmentstatus-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -55153,7 +55153,7 @@
         "academics-enrollmentstatus-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-enrollmentstatus-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -55269,7 +55269,7 @@
         "academics-enrollmentstatus-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-enrollmentstatus-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -56471,7 +56471,7 @@
         "academics-programversion-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-programversion-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -57148,7 +57148,7 @@
         "academics-programversion-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-programversion-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -57164,7 +57164,7 @@
         "academics-programversion-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-programversion-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -58555,7 +58555,7 @@
         "academics-programversion-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-programversion-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -59186,7 +59186,7 @@
         "academics-programversion-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-programversion-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -61248,7 +61248,7 @@
         "academics-program-copyprogram-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-copyprogram-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -61307,7 +61307,7 @@
         "academics-program-copyprogram-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-copyprogram-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -61364,7 +61364,7 @@
         "academics-program-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -61403,7 +61403,7 @@
         "academics-program-create-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-program-create-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -61515,7 +61515,7 @@
         "academics-program-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -61618,7 +61618,7 @@
         "academics-program-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -61664,7 +61664,7 @@
         "academics-program-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -61680,7 +61680,7 @@
         "academics-program-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -61719,7 +61719,7 @@
         "academics-program-get-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-program-get-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -61831,7 +61831,7 @@
         "academics-program-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -61934,7 +61934,7 @@
         "academics-program-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -61973,7 +61973,7 @@
         "academics-program-save-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-program-save-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -62178,7 +62178,7 @@
         "academics-program-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -62281,7 +62281,7 @@
         "academics-program-savenew-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-savenew-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -62320,7 +62320,7 @@
         "academics-program-savenew-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-program-savenew-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -62432,7 +62432,7 @@
         "academics-program-saveprogram-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-saveprogram-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -62614,7 +62614,7 @@
         "academics-program-saveprogram-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-program-saveprogram-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -63859,7 +63859,7 @@
         "academics-schoolstartdate-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-schoolstartdate-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -63875,7 +63875,7 @@
         "academics-schoolstartdate-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-schoolstartdate-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -64058,7 +64058,7 @@
         "academics-schoolstartdate-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-schoolstartdate-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -64196,7 +64196,7 @@
         "academics-schoolstartdate-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-schoolstartdate-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -64773,7 +64773,7 @@
         "academics-shift-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-shift-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -64812,7 +64812,7 @@
         "academics-shift-create-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-shift-create-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -64891,7 +64891,7 @@
         "academics-shift-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-shift-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -64964,7 +64964,7 @@
         "academics-shift-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-shift-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -65010,7 +65010,7 @@
         "academics-shift-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-shift-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -65026,7 +65026,7 @@
         "academics-shift-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-shift-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -65065,7 +65065,7 @@
         "academics-shift-get-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-shift-get-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -65144,7 +65144,7 @@
         "academics-shift-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-shift-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -65217,7 +65217,7 @@
         "academics-shift-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-shift-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -65256,7 +65256,7 @@
         "academics-shift-save-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-shift-save-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -65335,7 +65335,7 @@
         "academics-shift-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-shift-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -65408,7 +65408,7 @@
         "academics-shift-savenew-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-shift-savenew-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -65447,7 +65447,7 @@
         "academics-shift-savenew-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-shift-savenew-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -65922,7 +65922,7 @@
         "academics-studentcourse-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-studentcourse-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -66506,7 +66506,7 @@
         "academics-studentcourse-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-studentcourse-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -67046,7 +67046,7 @@
         "academics-studentcourse-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-studentcourse-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -67444,7 +67444,7 @@
         "academics-studentcourse-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-studentcourse-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -67460,7 +67460,7 @@
         "academics-studentcourse-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-studentcourse-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -69409,7 +69409,7 @@
         "academics-studentcourse-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-studentcourse-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -69949,7 +69949,7 @@
         "academics-studentcourse-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-studentcourse-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -70533,7 +70533,7 @@
         "academics-studentcourse-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-studentcourse-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -75571,7 +75571,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -82030,7 +82030,7 @@
         "common-student-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -82069,7 +82069,7 @@
         "common-student-create-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/common-student-create-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -82134,7 +82134,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -82733,7 +82733,7 @@
         "common-student-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -82791,7 +82791,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -83390,7 +83390,7 @@
         "common-student-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -83436,7 +83436,7 @@
         "common-student-deletealumni-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-deletealumni-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -83494,7 +83494,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -84129,7 +84129,7 @@
         "common-student-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -84145,7 +84145,7 @@
         "common-student-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -84184,7 +84184,7 @@
         "common-student-get-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/common-student-get-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -84249,7 +84249,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -84968,7 +84968,7 @@
         "common-student-getalumni-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-getalumni-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -85026,7 +85026,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -86219,7 +86219,7 @@
         "common-student-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -86277,7 +86277,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -86876,7 +86876,7 @@
         "common-student-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -86915,7 +86915,7 @@
         "common-student-save-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/common-student-save-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -86980,7 +86980,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -87579,7 +87579,7 @@
         "common-student-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -87637,7 +87637,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -88236,7 +88236,7 @@
         "common-student-savenew-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-savenew-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -88275,7 +88275,7 @@
         "common-student-savenew-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/common-student-savenew-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -88340,7 +88340,7 @@
               "vendors": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-vendor"
+                    "$ref": ""
                  }
               },
               "studentAddressAssociation": {
@@ -88939,7 +88939,7 @@
         "common-student-savenewalumni-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-savenewalumni-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -89163,7 +89163,7 @@
         "common-student-savenewalumni-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-savenewalumni-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -89221,7 +89221,7 @@
         "common-student-savequicklead-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-savequicklead-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -89254,7 +89254,7 @@
         "common-student-savequicklead-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/common-student-savequicklead-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -89416,7 +89416,7 @@
         "academics-term-create-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-create-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -89455,7 +89455,7 @@
         "academics-term-create-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-term-create-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -89717,7 +89717,7 @@
         "academics-term-delete-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-delete-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -89970,7 +89970,7 @@
         "academics-term-delete-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-delete-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -90016,7 +90016,7 @@
         "academics-term-get-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-get-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -90032,7 +90032,7 @@
         "academics-term-get-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-get-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -90071,7 +90071,7 @@
         "academics-term-get-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-term-get-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -90333,7 +90333,7 @@
         "academics-term-save-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-save-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -90586,7 +90586,7 @@
         "academics-term-save-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-save-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -90625,7 +90625,7 @@
         "academics-term-save-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-term-save-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -90887,7 +90887,7 @@
         "academics-term-savenew-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-savenew-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -91140,7 +91140,7 @@
         "academics-term-savenew-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-savenew-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
@@ -91179,7 +91179,7 @@
         "academics-term-savenew-response-payload": {
            "properties": {
               "data": {
-                 "$ref": "#/components/schemas/academics-term-savenew-response-payload-data"
+                 "$ref": ""
               }
            }
         },
@@ -91441,7 +91441,7 @@
         "academics-term-savetermstatus-request": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-savetermstatus-request-payload"
+                 "$ref": ""
               }
            }
         },
@@ -91463,7 +91463,7 @@
         "academics-term-savetermstatus-response": {
            "properties": {
               "payload": {
-                 "$ref": "#/components/schemas/academics-term-savetermstatus-response-payload"
+                 "$ref": ""
               },
               "notifications": {
                  "type": "array",
