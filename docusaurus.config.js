@@ -108,7 +108,7 @@ const config = {
           },
           {
             id:'studentacademics',
-            spec: 'openapi/student/academics.json',
+            spec: 'openapi/student/academics.yaml',
             route: '/openapi/student/academics',
           },
           {
