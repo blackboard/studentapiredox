@@ -5416,11 +5416,11 @@
               "studentGpaCourseList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-studentGpaCourse"
+                    "$ref": ""
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -5512,7 +5512,7 @@
                  "type": "number"
               },
               "item": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessage"
+                 "$ref": ""
               }
            }
         },
@@ -5595,11 +5595,11 @@
               "studentGpaList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-studentGpa"
+                    "$ref": ""
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -5636,7 +5636,7 @@
               "studentTermGpaList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-studentTermGpa"
+                    "$ref": ""
                  }
               },
               "cumulativeGpa": {
@@ -5798,11 +5798,11 @@
               "studentGpaList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-studentGpa"
+                    "$ref": ""
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -5913,7 +5913,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -6063,7 +6063,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -6131,13 +6131,13 @@
                  "type": "number"
               },
               "areaOfStudy": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-areaOfStudy"
+                 "$ref": ""
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "transferCreditType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-transferCreditType"
+                 "$ref": ""
               }
            }
         },
@@ -6147,7 +6147,7 @@
            ],
            "properties": {
               "currentYearCipCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-yearCipCode"
+                 "$ref": ""
               },
               "totalApprovedTransferCredits": {
                  "format": "double",
@@ -6214,11 +6214,11 @@
               "enrollments": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-studentAreaOfStudy"
+                    "$ref": ""
                  }
               },
               "areaOfStudyType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-areaOfStudyType"
+                 "$ref": ""
               },
               "requiredCourseListCourseCategories": {
                  "type": "array",
@@ -6229,7 +6229,7 @@
               "requiredCourseListCourses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-requiredCourse"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -6359,7 +6359,7 @@
                  "$ref": ""
               },
               "areaOfStudy": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-areaOfStudy"
+                 "$ref": ""
               },
               "createdByStaff": {
                  "$ref": ""
@@ -6370,7 +6370,7 @@
               "childAreasOfStudy": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-studentAreaOfStudy"
+                    "$ref": ""
                  }
               },
               "lastModifiedUser": {
@@ -6422,7 +6422,7 @@
                  "type": "boolean"
               },
               "agencyBranch": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -6870,48 +6870,48 @@
                  "type": "object"
               },
               "schoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "startTerm": {
                  "type": "object"
               },
               "enrollmentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
+                 "$ref": ""
               },
               "shift": {
                  "$ref": ""
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "gradeScale": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gradeScale"
+                 "$ref": ""
               },
               "statusChangeReason": {
                  "$ref": ""
               },
               "sAPStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faSapStatus"
+                 "$ref": ""
               },
               "program": {
                  "$ref": ""
               },
               "admissionsRegion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-admissionsRegion"
+                 "$ref": ""
               },
               "applicantType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-applicantType"
+                 "$ref": ""
               },
               "catalog": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-catalogYear"
+                 "$ref": ""
               },
               "previousEducation": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-previousEducation"
+                 "$ref": ""
               },
               "enrollmentAreasOfStudy": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-studentAreaOfStudy"
+                    "$ref": ""
                  }
               },
               "termSummaries": {
@@ -6935,7 +6935,7 @@
               "studentEnrollmentCourses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                    "$ref": ""
                  }
               },
               "lessonScores": {
@@ -6971,11 +6971,11 @@
               "faAwards": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                    "$ref": ""
                  }
               },
               "configuredStartDate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-schoolStartDate"
+                 "$ref": ""
               },
               "academicYears": {
                  "type": "array",
@@ -7047,10 +7047,10 @@
                  }
               },
               "billingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-billingMethod"
+                 "$ref": ""
               },
               "gradeLevel": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gradeLevel"
+                 "$ref": ""
               },
               "academicAdvisor": {
                  "$ref": ""
@@ -7186,7 +7186,7 @@
                  "$ref": ""
               },
               "billingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-billingMethod"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -7253,12 +7253,12 @@
                  "type": "string"
               },
               "agencyType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agencyType"
+                 "$ref": ""
               },
               "agencyBranches": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -7267,7 +7267,7 @@
               "requiredDocumentTypes": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-agencyDocumentType"
+                    "$ref": ""
                  }
               },
               "requiredEntranceTests": {
@@ -7277,7 +7277,7 @@
                  }
               },
               "fundSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fundSource"
+                 "$ref": ""
               },
               "extendedProperties": {
                  "type": "array",
@@ -7365,7 +7365,7 @@
                  "$ref": ""
               },
               "documentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
+                 "$ref": ""
               }
            }
         },
@@ -7453,7 +7453,7 @@
                  "$ref": ""
               },
               "defaultDocumentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentStatus"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -7461,7 +7461,7 @@
               "electronicDocs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-documentTypeFile"
+                    "$ref": ""
                  }
               },
               "programVersions": {
@@ -7473,13 +7473,13 @@
               "programs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-programDocumentType"
+                    "$ref": ""
                  }
               },
               "agencies": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-agencyDocumentType"
+                    "$ref": ""
                  }
               },
               "extendedProperties": {
@@ -7599,12 +7599,12 @@
                  "type": "number"
               },
               "documentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
+                 "$ref": ""
               },
               "taskTemplateDocumentTypes": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplateDocumentType"
+                    "$ref": ""
                  }
               }
            }
@@ -7639,10 +7639,10 @@
                  "type": "number"
               },
               "taskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               },
               "documentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
+                 "$ref": ""
               }
            }
         },
@@ -7789,10 +7789,10 @@
                  "type": "number"
               },
               "taskType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskType"
+                 "$ref": ""
               },
               "taskCategory": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskCategory"
+                 "$ref": ""
               },
               "incidents": {
                  "type": "array",
@@ -7801,10 +7801,10 @@
                  }
               },
               "defaultTaskStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskStatus"
+                 "$ref": ""
               },
               "defaultTaskResult": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskResult"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -7812,7 +7812,7 @@
               "documentTypes": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplateDocumentType"
+                    "$ref": ""
                  }
               },
               "scriptQuestions": {
@@ -7846,7 +7846,7 @@
                  }
               },
               "incidentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-incidentType"
+                 "$ref": ""
               }
            }
         },
@@ -7892,7 +7892,7 @@
               "taskTemplate": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                    "$ref": ""
                  }
               }
            }
@@ -7940,7 +7940,7 @@
               "taskTemplate": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                    "$ref": ""
                  }
               }
            }
@@ -8011,10 +8011,10 @@
                  "type": "number"
               },
               "incidentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-incidentType"
+                 "$ref": ""
               },
               "taskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               },
               "campus": {
                  "type": "object"
@@ -8031,19 +8031,19 @@
               "incidentStudents": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-incidentStudent"
+                    "$ref": ""
                  }
               },
               "incidentStaffPersons": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-incidentStaffPerson"
+                    "$ref": ""
                  }
               },
               "incidentAdditionalDetails": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-incidentAdditionalDetail"
+                    "$ref": ""
                  }
               },
               "housingBuilding": {
@@ -8242,10 +8242,10 @@
                  "$ref": ""
               },
               "organizationContactType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organizationContactType"
+                 "$ref": ""
               },
               "syOrganization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-syOrganization"
+                 "$ref": ""
               },
               "country": {
                  "$ref": ""
@@ -8311,11 +8311,11 @@
               "prospectInquiries": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                    "$ref": ""
                  }
               },
               "maritalStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-maritalStatus"
+                 "$ref": ""
               },
               "gender": {
                  "$ref": ""
@@ -8323,7 +8323,7 @@
               "emailAddresses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-personEmailAddress"
+                    "$ref": ""
                  }
               },
               "students": {
@@ -8335,7 +8335,7 @@
               "addresses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-personAddress"
+                    "$ref": ""
                  }
               },
               "staff": {
@@ -8347,7 +8347,7 @@
               "phoneNumbers": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-personPhoneNumber"
+                    "$ref": ""
                  }
               },
               "title": {
@@ -8454,7 +8454,7 @@
                  "type": "number"
               },
               "programGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programGroup"
+                 "$ref": ""
               },
               "campus": {
                  "type": "object"
@@ -8466,22 +8466,22 @@
                  "$ref": ""
               },
               "leadSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-leadSource"
+                 "$ref": ""
               },
               "leadType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-leadType"
+                 "$ref": ""
               },
               "admissionsRepType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-admissionsRepType"
+                 "$ref": ""
               },
               "previousEducation": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-previousEducation"
+                 "$ref": ""
               },
               "shift": {
                  "$ref": ""
               },
               "schoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "person": {
                  "$ref": ""
@@ -8517,7 +8517,7 @@
                  }
               },
               "admissionsRegion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-admissionsRegion"
+                 "$ref": ""
               },
               "secondaryLeadSources": {
                  "type": "array",
@@ -8534,7 +8534,7 @@
               "entranceTests": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTestScore"
+                    "$ref": ""
                  }
               },
               "program": {
@@ -8604,13 +8604,13 @@
               "prospectInquiries": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                    "$ref": ""
                  }
               },
               "programVersions": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                    "$ref": ""
                  }
               }
            }
@@ -8623,25 +8623,25 @@
               "taskGridDetailAssignedTasks": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-taskGridDetail"
+                    "$ref": ""
                  }
               },
               "taskGridDetailCreatedTasks": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-taskGridDetail"
+                    "$ref": ""
                  }
               },
               "taskGridDetailCompletedTasks": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-taskGridDetail"
+                    "$ref": ""
                  }
               },
               "taskGridDetailPreviouslyAssignedTasks": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-taskGridDetail"
+                    "$ref": ""
                  }
               },
               "name": {
@@ -9181,7 +9181,7 @@
                  }
               },
               "admissionsRepType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-admissionsRepType"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -9198,11 +9198,11 @@
               "staffGroupMembership": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroupMember"
+                    "$ref": ""
                  }
               },
               "picture": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-personPicture"
+                 "$ref": ""
               },
               "assignedFaEnrollmentTransferTasks": {
                  "type": "array",
@@ -9217,7 +9217,7 @@
                  }
               },
               "passwordRuleProfile": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-passwordRuleProfile"
+                 "$ref": ""
               },
               "extendedProperties": {
                  "type": "array",
@@ -9400,7 +9400,7 @@
                  "type": "object"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "studentEnrollmentPeriod": {
                  "$ref": ""
@@ -9409,28 +9409,28 @@
                  "$ref": ""
               },
               "taskResult": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskResult"
+                 "$ref": ""
               },
               "taskStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskStatus"
+                 "$ref": ""
               },
               "taskType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskType"
+                 "$ref": ""
               },
               "taskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               },
               "completedByStaff": {
                  "$ref": ""
               },
               "employerContact": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerContact"
+                 "$ref": ""
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "employerJob": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
+                 "$ref": ""
               },
               "previouslyAssignedtoStaff": {
                  "$ref": ""
@@ -9442,7 +9442,7 @@
                  "$ref": ""
               },
               "syOrganization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-syOrganization"
+                 "$ref": ""
               },
               "assignedtoStaff": {
                  "$ref": ""
@@ -9451,7 +9451,7 @@
                  "type": "object"
               },
               "prospectInquiry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                 "$ref": ""
               },
               "lastModifiedUser": {
                  "$ref": ""
@@ -9464,7 +9464,7 @@
            ],
            "properties": {
               "wlmActivityType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-wlmActivityType"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -9746,7 +9746,7 @@
               "registeredStudents": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                    "$ref": ""
                  }
               },
               "course": {
@@ -9759,7 +9759,7 @@
                  "$ref": ""
               },
               "deliveryMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-deliveryMethod"
+                 "$ref": ""
               },
               "shift": {
                  "$ref": ""
@@ -9773,7 +9773,7 @@
               "lessons": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-classSectionLesson"
+                    "$ref": ""
                  }
               },
               "meetingDays": {
@@ -9791,7 +9791,7 @@
               "terms": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-classSectionTerm"
+                    "$ref": ""
                  }
               },
               "meetingPatterns": {
@@ -9819,10 +9819,10 @@
                  }
               },
               "wlmDepartment": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-wlmDepartment"
+                 "$ref": ""
               },
               "wlmAssignmentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-wlmAssignmentType"
+                 "$ref": ""
               },
               "extendedProperties": {
                  "type": "array",
@@ -9878,7 +9878,7 @@
                  "type": "object"
               },
               "parentActivityType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-wlmActivityType"
+                 "$ref": ""
               }
            }
         },
@@ -9896,10 +9896,10 @@
                  "type": "number"
               },
               "finalGradeReason": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-finalGradeReason"
+                 "$ref": ""
               },
               "testingSchedule": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-testingSchedule"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -10290,7 +10290,7 @@
                  "$ref": ""
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "course": {
                  "type": "object"
@@ -10299,7 +10299,7 @@
                  "type": "object"
               },
               "gradeScale": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gradeScale"
+                 "$ref": ""
               },
               "lessonScores": {
                  "type": "array",
@@ -10326,7 +10326,7 @@
                  }
               },
               "requiredCourseList": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-requiredCourse"
+                 "$ref": ""
               },
               "courseExtensions": {
                  "type": "array",
@@ -10341,7 +10341,7 @@
                  }
               },
               "highSchool": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchool"
+                 "$ref": ""
               },
               "associatedEnrollments": {
                  "type": "array",
@@ -10453,7 +10453,7 @@
                  "type": "string"
               },
               "testingDateRange": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-testingDateRange"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -10577,10 +10577,10 @@
                  "type": "number"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "testingDateRange": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-testingDateRange"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -10596,7 +10596,7 @@
                  "$ref": ""
               },
               "currentYearCipCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-yearCipCode"
+                 "$ref": ""
               },
               "totalApprovedTransferCredits": {
                  "format": "double",
@@ -11065,15 +11065,15 @@
                  "$ref": ""
               },
               "programGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programGroup"
+                 "$ref": ""
               },
               "sAPPolicy": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faSapTable"
+                 "$ref": ""
               },
               "requiredCourseListCourses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-requiredCourse"
+                    "$ref": ""
                  }
               },
               "requiredCourseListCourseCategories": {
@@ -11119,7 +11119,7 @@
                  "$ref": ""
               },
               "billingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-billingMethod"
+                 "$ref": ""
               },
               "areasOfStudy": {
                  "type": "array",
@@ -11191,7 +11191,7 @@
            ],
            "properties": {
               "currentYearCipCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-yearCipCode"
+                 "$ref": ""
               },
               "staffApprover": {
                  "$ref": ""
@@ -11265,7 +11265,7 @@
               "requiredDocumentTypes": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-programDocumentType"
+                    "$ref": ""
                  }
               },
               "requiredEntranceTests": {
@@ -11277,7 +11277,7 @@
               "programVersions": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                    "$ref": ""
                  }
               },
               "extendedProperties": {
@@ -11326,7 +11326,7 @@
                  "$ref": ""
               },
               "prospectInquiry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -11410,10 +11410,10 @@
                  "$ref": ""
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "journalEntry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-journalEntry"
+                 "$ref": ""
               }
            }
         },
@@ -11600,7 +11600,7 @@
                  "type": "number"
               },
               "gradeLevel": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gradeLevel"
+                 "$ref": ""
               },
               "serviceTypeBillingMethod": {
                  "$ref": ""
@@ -11699,7 +11699,7 @@
                  "$ref": ""
               },
               "documentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
+                 "$ref": ""
               }
            }
         },
@@ -11751,13 +11751,13 @@
                  "type": "string"
               },
               "entranceTest": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTest"
+                 "$ref": ""
               },
               "program": {
                  "$ref": ""
               },
               "previousEducation": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-previousEducation"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -11814,13 +11814,13 @@
               "entranceTestsTaken": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTestScore"
+                    "$ref": ""
                  }
               },
               "subTests": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTest"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -11847,7 +11847,7 @@
               "testDates": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTestDate"
+                    "$ref": ""
                  }
               }
            }
@@ -11952,7 +11952,7 @@
                  "type": "string"
               },
               "entranceTestType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTest"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -11963,7 +11963,7 @@
               "subTestScores": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTestScore"
+                    "$ref": ""
                  }
               },
               "lastModifiedUser": {
@@ -12071,13 +12071,13 @@
                  "$ref": ""
               },
               "entranceTest": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTest"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
               },
               "previousEducation": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-previousEducation"
+                 "$ref": ""
               }
            }
         },
@@ -12152,7 +12152,7 @@
               "prospectInquiries": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -12353,7 +12353,7 @@
                  "$ref": ""
               },
               "previousEducation": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-previousEducation"
+                 "$ref": ""
               },
               "degree": {
                  "$ref": ""
@@ -12362,7 +12362,7 @@
                  "$ref": ""
               },
               "highSchool": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchool"
+                 "$ref": ""
               },
               "extendedProperties": {
                  "type": "array",
@@ -12545,7 +12545,7 @@
               "courses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-collegeCourse"
+                    "$ref": ""
                  }
               },
               "transferCredits": {
@@ -12563,7 +12563,7 @@
               "transcriptRequests": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-transcriptRequest"
+                    "$ref": ""
                  }
               },
               "organization": {
@@ -12641,7 +12641,7 @@
               "highSchoolTranscriptOffices": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchool"
+                    "$ref": ""
                  }
               },
               "collegeCountries": {
@@ -12653,7 +12653,7 @@
               "highSchoolCountries": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchool"
+                    "$ref": ""
                  }
               }
            }
@@ -12950,7 +12950,7 @@
               "resources": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-roomResource"
+                    "$ref": ""
                  }
               }
            }
@@ -13016,7 +13016,7 @@
                  "$ref": ""
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "classSectionMeetingPattern": {
                  "$ref": ""
@@ -13056,10 +13056,10 @@
                  "type": "string"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "meetingPattern": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-meetingPattern"
+                 "$ref": ""
               },
               "customMeetingPattern": {
                  "$ref": ""
@@ -13313,13 +13313,13 @@
               "courses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-courseResource"
+                    "$ref": ""
                  }
               },
               "rooms": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-roomResource"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -13552,7 +13552,7 @@
               "courses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchoolCourse"
+                    "$ref": ""
                  }
               },
               "studentPreviousEducation": {
@@ -13571,7 +13571,7 @@
                  "$ref": ""
               },
               "organization_Legacy": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-syOrganization"
+                 "$ref": ""
               },
               "highSchoolCountry": {
                  "$ref": ""
@@ -13745,7 +13745,7 @@
                  "type": "object"
               },
               "collegeCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-collegeCourse"
+                 "$ref": ""
               },
               "transferStatus": {
                  "$ref": ""
@@ -13754,13 +13754,13 @@
                  "type": "object"
               },
               "highSchool": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchool"
+                 "$ref": ""
               },
               "highSchoolCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchoolCourse"
+                 "$ref": ""
               },
               "transferCreditType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-transferCreditType"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -13955,7 +13955,7 @@
                  "type": "string"
               },
               "highSchool": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchool"
+                 "$ref": ""
               },
               "studentTransferCredits": {
                  "type": "array",
@@ -14042,13 +14042,13 @@
               "addresses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-organizationAddress"
+                    "$ref": ""
                  }
               },
               "contacts": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-organizationContact"
+                    "$ref": ""
                  }
               },
               "phoneNumbers": {
@@ -14060,13 +14060,13 @@
               "employers": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                    "$ref": ""
                  }
               },
               "agencyBranches": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
+                    "$ref": ""
                  }
               },
               "lendingInstitutions": {
@@ -14084,7 +14084,7 @@
               "highSchools": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchool"
+                    "$ref": ""
                  }
               }
            }
@@ -14190,7 +14190,7 @@
                  "$ref": ""
               },
               "organizationContactType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organizationContactType"
+                 "$ref": ""
               },
               "person": {
                  "$ref": ""
@@ -14268,10 +14268,10 @@
                  "type": "number"
               },
               "organizationType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organizationType"
+                 "$ref": ""
               },
               "contactType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organizationContactType"
+                 "$ref": ""
               }
            }
         },
@@ -14488,7 +14488,7 @@
               "availableJobs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
+                    "$ref": ""
                  }
               },
               "organization": {
@@ -14665,25 +14665,25 @@
                  "$ref": ""
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "employerJob": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
+                 "$ref": ""
               },
               "jobTitle": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobTitle"
+                 "$ref": ""
               },
               "howPlaced": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-howPlaced"
+                 "$ref": ""
               },
               "jobType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobType"
+                 "$ref": ""
               },
               "jobSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobSource"
+                 "$ref": ""
               },
               "jobCategory": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobCategory"
+                 "$ref": ""
               },
               "salaryInfo": {
                  "type": "array",
@@ -14758,10 +14758,10 @@
                  "$ref": ""
               },
               "newPlacementStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "previousPlacementStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "placementStatusReason": {
                  "$ref": ""
@@ -14859,7 +14859,7 @@
                  "type": "object"
               },
               "placementStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "placementStatusReason": {
                  "$ref": ""
@@ -14950,7 +14950,7 @@
                  "type": "number"
               },
               "systemSchoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-systemSchoolStatus"
+                 "$ref": ""
               },
               "enrollments": {
                  "type": "array",
@@ -14982,13 +14982,13 @@
               "schoolStatusTransitionsTo": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatusDetail"
+                    "$ref": ""
                  }
               },
               "schoolStatusTransitionsFrom": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatusDetail"
+                    "$ref": ""
                  }
               }
            }
@@ -15162,22 +15162,22 @@
                  "$ref": ""
               },
               "newSystemSchoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-systemSchoolStatus"
+                 "$ref": ""
               },
               "previousSystemSchoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-systemSchoolStatus"
+                 "$ref": ""
               },
               "newSchoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "previousSchoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "newEnrollmentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
+                 "$ref": ""
               },
               "previousEnrollmentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
+                 "$ref": ""
               },
               "task": {
                  "$ref": ""
@@ -15529,13 +15529,13 @@
                  "$ref": ""
               },
               "enrollmentStatusByEnrollment": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
+                 "$ref": ""
               },
               "honors": {
                  "$ref": ""
               },
               "sapStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faSapStatus"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -15544,7 +15544,7 @@
                  "type": "object"
               },
               "enrollmentStatusByStudent": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
+                 "$ref": ""
               },
               "parentTerm": {
                  "$ref": ""
@@ -15880,16 +15880,16 @@
                  "type": "object"
               },
               "taskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               },
               "taskType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskType"
+                 "$ref": ""
               },
               "taskStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskStatus"
+                 "$ref": ""
               },
               "taskResult": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskResult"
+                 "$ref": ""
               },
               "createdByStaff": {
                  "$ref": ""
@@ -15907,7 +15907,7 @@
                  "type": "object"
               },
               "prospectInquiry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                 "$ref": ""
               },
               "studentEnrollmentPeriod": {
                  "$ref": ""
@@ -15915,17 +15915,17 @@
               "taskScriptQuestionAnswers": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-taskScriptQuestionAnswer"
+                    "$ref": ""
                  }
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "employerContact": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerContact"
+                 "$ref": ""
               },
               "organization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-syOrganization"
+                 "$ref": ""
               },
               "organizationContact": {
                  "$ref": ""
@@ -15937,7 +15937,7 @@
                  "$ref": ""
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               }
            }
         },
@@ -16088,7 +16088,7 @@
                  "$ref": ""
               },
               "taskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               }
            }
         },
@@ -16184,14 +16184,14 @@
               "availableJobs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
+                    "$ref": ""
                  }
               },
               "person": {
                  "$ref": ""
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "employerContactType": {
                  "$ref": ""
@@ -16350,25 +16350,25 @@
                  "type": "string"
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "jobTitle": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobTitle"
+                 "$ref": ""
               },
               "jobType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobType"
+                 "$ref": ""
               },
               "employerContact": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerContact"
+                 "$ref": ""
               },
               "jobSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobSource"
+                 "$ref": ""
               },
               "jobCategory": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobCategory"
+                 "$ref": ""
               },
               "jobLocation": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobLocation"
+                 "$ref": ""
               },
               "jobSkills": {
                  "type": "array",
@@ -16419,11 +16419,11 @@
               "availableJobs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
+                    "$ref": ""
                  }
               },
               "jobCategory": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobCategory"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -16541,7 +16541,7 @@
               "availableJobs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
+                    "$ref": ""
                  }
               },
               "studentPlacements": {
@@ -16603,7 +16603,7 @@
               "availableJobs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
+                    "$ref": ""
                  }
               },
               "studentPlacements": {
@@ -16658,7 +16658,7 @@
               "availableJobs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -16707,13 +16707,13 @@
                  "type": "number"
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "employerJob": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerJob"
+                 "$ref": ""
               },
               "skill": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-skill"
+                 "$ref": ""
               }
            }
         },
@@ -16767,7 +16767,7 @@
               "courseSkills": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-courseSkill"
+                    "$ref": ""
                  }
               },
               "extendedProperties": {
@@ -16809,7 +16809,7 @@
                  "type": "object"
               },
               "skill": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-skill"
+                 "$ref": ""
               }
            }
         },
@@ -16895,13 +16895,13 @@
                  "type": "number"
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "employerContact": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerContact"
+                 "$ref": ""
               },
               "skill": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-skill"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -16948,13 +16948,13 @@
                  "type": "number"
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "employerContact": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employerContact"
+                 "$ref": ""
               },
               "skill": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-skill"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -17048,7 +17048,7 @@
                  "$ref": ""
               },
               "organizationType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-organizationType"
+                 "$ref": ""
               },
               "country": {
                  "$ref": ""
@@ -17083,7 +17083,7 @@
                  "type": "number"
               },
               "attachmentFileImage": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-attachmentFileImage"
+                 "$ref": ""
               }
            }
         },
@@ -17184,7 +17184,7 @@
                  }
               },
               "schoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               }
            }
         },
@@ -17236,7 +17236,7 @@
                  "type": "object"
               },
               "schoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "reasonQuestions": {
                  "type": "array",
@@ -17464,10 +17464,10 @@
                  "type": "number"
               },
               "schoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "canChangeToSchoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "staffGroups": {
                  "type": "array",
@@ -17476,10 +17476,10 @@
                  }
               },
               "placementStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "accountStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-accountStatus"
+                 "$ref": ""
               }
            }
         },
@@ -17510,7 +17510,7 @@
                  "type": "number"
               },
               "staffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               }
            }
         },
@@ -17580,7 +17580,7 @@
               "groupMembership": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroupMember"
+                    "$ref": ""
                  }
               },
               "securityMenuAuthorization": {
@@ -17592,7 +17592,7 @@
               "staffGroupWorkspaces": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-workspaceStaffGroup"
+                    "$ref": ""
                  }
               }
            }
@@ -17648,7 +17648,7 @@
                  "type": "object"
               },
               "staffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               }
            }
         },
@@ -17685,7 +17685,7 @@
                  "$ref": ""
               },
               "staffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               }
            }
         },
@@ -17710,7 +17710,7 @@
                  "type": "number"
               },
               "staffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               }
            }
         },
@@ -17747,7 +17747,7 @@
                  "$ref": ""
               },
               "staffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               }
            }
         },
@@ -17790,7 +17790,7 @@
               "components": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-workspaceComponent"
+                    "$ref": ""
                  }
               }
            }
@@ -17967,7 +17967,7 @@
                  "$ref": ""
               },
               "jobLocation": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobLocation"
+                 "$ref": ""
               }
            }
         },
@@ -18004,7 +18004,7 @@
                  "$ref": ""
               },
               "jobTitle": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobTitle"
+                 "$ref": ""
               }
            }
         },
@@ -18085,7 +18085,7 @@
               "agencyBranches": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -18126,7 +18126,7 @@
                  "$ref": ""
               },
               "skill": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-skill"
+                 "$ref": ""
               }
            }
         },
@@ -18224,7 +18224,7 @@
                  "type": "string"
               },
               "salaryType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-salaryType"
+                 "$ref": ""
               },
               "studentPlacement": {
                  "$ref": ""
@@ -18307,10 +18307,10 @@
                  "type": "number"
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "jobLocation": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-jobLocation"
+                 "$ref": ""
               }
            }
         },
@@ -18349,10 +18349,10 @@
                  "type": "number"
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "skill": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-skill"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -18394,10 +18394,10 @@
                  "type": "number"
               },
               "employer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-employer"
+                 "$ref": ""
               },
               "careerField": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-careerServices-careerField"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -18790,10 +18790,10 @@
                  "$ref": ""
               },
               "agencyBranch": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
+                 "$ref": ""
               },
               "parentDisbursementBatch": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-disbursementBatch"
+                 "$ref": ""
               },
               "disbursements": {
                  "type": "array",
@@ -19370,7 +19370,7 @@
                  "type": "string"
               },
               "disbursementBatch": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-disbursementBatch"
+                 "$ref": ""
               },
               "scheduledDisbursement": {
                  "$ref": ""
@@ -19557,7 +19557,7 @@
                  "type": "object"
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -19566,13 +19566,13 @@
                  "$ref": ""
               },
               "paidDisbursement": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-paidDisbursement"
+                 "$ref": ""
               },
               "exportFile": {
                  "$ref": ""
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               },
               "studentAcademicYearPaymentPeriod": {
                  "$ref": ""
@@ -19591,7 +19591,7 @@
            ],
            "properties": {
               "paymentPlan": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-paymentPlan"
+                 "$ref": ""
               },
               "paymentPlanTerm": {
                  "type": "object"
@@ -19906,12 +19906,12 @@
                  "$ref": ""
               },
               "fundSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fundSource"
+                 "$ref": ""
               },
               "refunds": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-financialAid-refund"
+                    "$ref": ""
                  }
               },
               "scheduledDisbursements": {
@@ -19948,7 +19948,7 @@
                  "$ref": ""
               },
               "agencyBranch": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
+                 "$ref": ""
               },
               "studentBankAccount": {
                  "$ref": ""
@@ -19957,7 +19957,7 @@
                  "$ref": ""
               },
               "studentAwardPell": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAwardPell"
+                 "$ref": ""
               },
               "codGrantOrigination": {
                  "$ref": ""
@@ -20489,7 +20489,7 @@
                  "$ref": ""
               },
               "taxRate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-taxRate"
+                 "$ref": ""
               }
            }
         },
@@ -20540,7 +20540,7 @@
                  "type": "string"
               },
               "taxRateType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-taxRateType"
+                 "$ref": ""
               },
               "financeAccountCodes": {
                  "type": "array",
@@ -20636,7 +20636,7 @@
                  "type": "number"
               },
               "taxRate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-taxRate"
+                 "$ref": ""
               },
               "financeAccountCode": {
                  "$ref": ""
@@ -20699,7 +20699,7 @@
                  "type": "number"
               },
               "paymentPlan": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-paymentPlan"
+                 "$ref": ""
               }
            }
         },
@@ -20739,7 +20739,7 @@
                  "$ref": ""
               },
               "paymentPlan": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-paymentPlan"
+                 "$ref": ""
               }
            }
         },
@@ -20879,7 +20879,7 @@
                  "type": "object"
               },
               "awardDetail": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -20891,7 +20891,7 @@
                  }
               },
               "disbursementBatch": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-disbursementBatch"
+                 "$ref": ""
               },
               "studentAcademicYear": {
                  "$ref": ""
@@ -21343,22 +21343,22 @@
                  "$ref": ""
               },
               "academicYear": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-academicYear"
+                 "$ref": ""
               },
               "gradeLevel": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gradeLevel"
+                 "$ref": ""
               },
               "associatedBudget": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-budget"
+                 "$ref": ""
               },
               "packagingStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-packagingStatus"
+                 "$ref": ""
               },
               "packagingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-packagingMethod"
+                 "$ref": ""
               },
               "packagedEnrollmentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
+                 "$ref": ""
               },
               "paymentPeriods": {
                  "type": "array",
@@ -21379,18 +21379,18 @@
                  }
               },
               "secondAwardYearPackagingStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-packagingStatus"
+                 "$ref": ""
               },
               "faAdvisor": {
                  "$ref": ""
               },
               "autoAwardEnrollmentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
+                 "$ref": ""
               },
               "studentAwards": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                    "$ref": ""
                  }
               }
            }
@@ -21444,7 +21444,7 @@
                  "type": "number"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               }
            }
         },
@@ -21778,7 +21778,7 @@
                  "type": "number"
               },
               "packagingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-packagingMethod"
+                 "$ref": ""
               },
               "academicYearPaymentPeriods": {
                  "type": "array",
@@ -21848,7 +21848,7 @@
               "academicYears": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-financialAid-academicYear"
+                    "$ref": ""
                  }
               },
               "packagingMethodDetails": {
@@ -21914,10 +21914,10 @@
                  "type": "object"
               },
               "packagingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-packagingMethod"
+                 "$ref": ""
               },
               "fundSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fundSource"
+                 "$ref": ""
               }
            }
         },
@@ -22209,14 +22209,14 @@
               "faAwards": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
                  "type": "object"
               },
               "faGlFund": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faGlFund"
+                 "$ref": ""
               },
               "generalLedgerAccounts": {
                  "type": "array",
@@ -22273,7 +22273,7 @@
               "accounts": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faGlAccount"
+                    "$ref": ""
                  }
               },
               "transactionAccounts": {
@@ -22319,7 +22319,7 @@
                  "type": "number"
               },
               "faGlFund": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faGlFund"
+                 "$ref": ""
               }
            }
         },
@@ -22367,7 +22367,7 @@
                  "type": "number"
               },
               "faGlFund": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faGlFund"
+                 "$ref": ""
               }
            }
         },
@@ -22431,13 +22431,13 @@
                  "type": "string"
               },
               "fundSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fundSource"
+                 "$ref": ""
               },
               "campus": {
                  "type": "object"
               },
               "journalEntry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-journalEntry"
+                 "$ref": ""
               }
            }
         },
@@ -22477,7 +22477,7 @@
                  "type": "object"
               },
               "academicYear": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-academicYear"
+                 "$ref": ""
               }
            }
         },
@@ -23134,10 +23134,10 @@
                  "$ref": ""
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               },
               "sapStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-faSapStatus"
+                 "$ref": ""
               },
               "studentAccountTransactions": {
                  "type": "array",
@@ -23165,10 +23165,10 @@
            ],
            "properties": {
               "primaryCurrencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               },
               "transactionCurrencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               },
               "awardBursaryConfigDetail": {
                  "$ref": ""
@@ -23514,19 +23514,19 @@
                  "type": "object"
               },
               "bankAccount": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankAccount"
+                 "$ref": ""
               },
               "bankDeposit": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankDeposit"
+                 "$ref": ""
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               },
               "paidDisbursement": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-paidDisbursement"
+                 "$ref": ""
               },
               "refund": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-refund"
+                 "$ref": ""
               },
               "refundCalculation": {
                  "$ref": ""
@@ -23541,7 +23541,7 @@
                  "$ref": ""
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "studentAcademicYearPaymentPeriod": {
                  "$ref": ""
@@ -23568,7 +23568,7 @@
                  "$ref": ""
               },
               "agencyBranchCreditCard": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranchCreditCard"
+                 "$ref": ""
               },
               "studentEnrollmentPeriodFee": {
                  "$ref": ""
@@ -23586,7 +23586,7 @@
                  }
               },
               "achBatchFile": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-achBatchFile"
+                 "$ref": ""
               },
               "creditCardBatchTransaction": {
                  "$ref": ""
@@ -23705,7 +23705,7 @@
                  "type": "object"
               },
               "currencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               }
            }
         },
@@ -23739,7 +23739,7 @@
                  "type": "number"
               },
               "studentGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
+                 "$ref": ""
               },
               "awardBursaryConfigDetail": {
                  "$ref": ""
@@ -23845,7 +23845,7 @@
               "membership": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroupMember"
+                    "$ref": ""
                  }
               },
               "groupOwner": {
@@ -23854,13 +23854,13 @@
               "holdCodes": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-holdStudentGroup"
+                    "$ref": ""
                  }
               },
               "registrationRules": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-registrationRule"
+                    "$ref": ""
                  }
               },
               "staffAccess": {
@@ -23932,7 +23932,7 @@
                  "type": "object"
               },
               "studentGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
+                 "$ref": ""
               },
               "addedByUser": {
                  "$ref": ""
@@ -23943,7 +23943,7 @@
               "registrationRules": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-registrationRule"
+                    "$ref": ""
                  }
               },
               "extendedProperties": {
@@ -24026,7 +24026,7 @@
                  "type": "object"
               },
               "studentGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
+                 "$ref": ""
               }
            }
         },
@@ -24062,7 +24062,7 @@
                  "type": "number"
               },
               "studentGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
+                 "$ref": ""
               }
            }
         },
@@ -24096,7 +24096,7 @@
                  "type": "number"
               },
               "studenGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
+                 "$ref": ""
               },
               "staff": {
                  "$ref": ""
@@ -24321,7 +24321,7 @@
                  "type": "object"
               },
               "studentSchoolStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-schoolStatus"
+                 "$ref": ""
               },
               "studentEnrollmentPeriod": {
                  "$ref": ""
@@ -24451,7 +24451,7 @@
                  "$ref": ""
               },
               "bankDeposit": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankDeposit"
+                 "$ref": ""
               }
            }
         },
@@ -24542,10 +24542,10 @@
                  "$ref": ""
               },
               "bankAccount": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankAccount"
+                 "$ref": ""
               },
               "bankDeposit": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankDeposit"
+                 "$ref": ""
               },
               "campus": {
                  "type": "object"
@@ -24557,7 +24557,7 @@
                  }
               },
               "creditCardType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-creditCardType"
+                 "$ref": ""
               },
               "cashDrawerSession": {
                  "$ref": ""
@@ -24570,7 +24570,7 @@
            ],
            "properties": {
               "currencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -24685,7 +24685,7 @@
                  "type": "string"
               },
               "bank": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bank"
+                 "$ref": ""
               },
               "fundSources": {
                  "type": "array",
@@ -24708,7 +24708,7 @@
                  "type": "number"
               },
               "currencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -24797,7 +24797,7 @@
               "bankAccounts": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankAccount"
+                    "$ref": ""
                  }
               }
            }
@@ -24820,10 +24820,10 @@
                  "type": "number"
               },
               "bankAccount": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankAccount"
+                 "$ref": ""
               },
               "fundSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fundSource"
+                 "$ref": ""
               }
            }
         },
@@ -24886,7 +24886,7 @@
                  "type": "number"
               },
               "bankAccount": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankAccount"
+                 "$ref": ""
               },
               "generalLedgerBatch": {
                  "$ref": ""
@@ -25162,7 +25162,7 @@
                  "type": "object"
               },
               "creditCardType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-creditCardType"
+                 "$ref": ""
               }
            }
         },
@@ -25229,7 +25229,7 @@
                  "type": "object"
               },
               "cashDrawer": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-cashDrawer"
+                 "$ref": ""
               }
            }
         },
@@ -25301,10 +25301,10 @@
            ],
            "properties": {
               "primaryCurrencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               },
               "transactionCurrencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -25500,13 +25500,13 @@
                  "$ref": ""
               },
               "bankAccount": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankAccount"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
               },
               "bankDeposit": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankDeposit"
+                 "$ref": ""
               },
               "studentSubsidiaryAccountRefund": {
                  "$ref": ""
@@ -25933,7 +25933,7 @@
                  "$ref": ""
               },
               "bankAccount": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankAccount"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -26114,7 +26114,7 @@
                  "$ref": ""
               },
               "addressType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-addressType"
+                 "$ref": ""
               },
               "lastModifiedUser": {
                  "$ref": ""
@@ -26129,7 +26129,7 @@
                  "$ref": ""
               },
               "region": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-admissionsRegion"
+                 "$ref": ""
               },
               "title": {
                  "$ref": ""
@@ -26295,7 +26295,7 @@
               "prospectInquiries": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -26467,7 +26467,7 @@
                  "type": "string"
               },
               "creditCardType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-creditCardType"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -26593,7 +26593,7 @@
                  "type": "object"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "academicYearPaymentPeriod": {
                  "$ref": ""
@@ -26873,7 +26873,7 @@
                  "type": "number"
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -26888,7 +26888,7 @@
                  "$ref": ""
               },
               "stipendSummary": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-stipendSummary"
+                 "$ref": ""
               },
               "studentCreditCard": {
                  "$ref": ""
@@ -27085,10 +27085,10 @@
                  "type": "number"
               },
               "stipendSummary": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-stipendSummary"
+                 "$ref": ""
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -27767,10 +27767,10 @@
                  "$ref": ""
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               },
               "fundSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fundSource"
+                 "$ref": ""
               }
            }
         },
@@ -28143,10 +28143,10 @@
                  }
               },
               "studentLoanPeriod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentLoanPeriod"
+                 "$ref": ""
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               }
            }
         },
@@ -28434,10 +28434,10 @@
                  "type": "number"
               },
               "gradeLevel": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gradeLevel"
+                 "$ref": ""
               },
               "packagedEnrollmentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
+                 "$ref": ""
               },
               "studentEnrollmentPeriod": {
                  "$ref": ""
@@ -28535,10 +28535,10 @@
                  "$ref": ""
               },
               "fundSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fundSource"
+                 "$ref": ""
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               }
            }
         },
@@ -28816,10 +28816,10 @@
                  "type": "object"
               },
               "documentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
+                 "$ref": ""
               },
               "documentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentStatus"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -28834,7 +28834,7 @@
                  "$ref": ""
               },
               "documentTranscriptRequest": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentTranscriptRequest"
+                 "$ref": ""
               },
               "studentCourseDocumentPermits": {
                  "type": "array",
@@ -28845,7 +28845,7 @@
               "dataChanges": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-crm-documentDataChange"
+                    "$ref": ""
                  }
               },
               "studentEnrollmentPeriod": {
@@ -28908,7 +28908,7 @@
                  "type": "object"
               },
               "highSchool": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-highSchool"
+                 "$ref": ""
               },
               "college": {
                  "$ref": ""
@@ -28973,7 +28973,7 @@
                  "type": "object"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "lastModifiedUser": {
                  "$ref": ""
@@ -29035,7 +29035,7 @@
                  "$ref": ""
               },
               "documentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
+                 "$ref": ""
               },
               "staffUser": {
                  "$ref": ""
@@ -29139,10 +29139,10 @@
                  "$ref": ""
               },
               "previousDocumentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentStatus"
+                 "$ref": ""
               },
               "currentDocumentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentStatus"
+                 "$ref": ""
               },
               "previousAssignedStaff": {
                  "$ref": ""
@@ -29151,10 +29151,10 @@
                  "$ref": ""
               },
               "previousAssignedStaffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               },
               "currentAssignedStaffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               }
            }
         },
@@ -29272,7 +29272,7 @@
                  "$ref": ""
               },
               "assignedStaffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               },
               "lockedByStaff": {
                  "$ref": ""
@@ -29362,7 +29362,7 @@
                  "$ref": ""
               },
               "assignedStaffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               },
               "lockedByUser": {
                  "$ref": ""
@@ -29413,12 +29413,12 @@
                  "$ref": ""
               },
               "bankAccount": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-bankAccount"
+                 "$ref": ""
               },
               "refunds": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-financialAid-refund"
+                    "$ref": ""
                  }
               },
               "disbursementBatchDetails": {
@@ -29629,7 +29629,7 @@
               "dataChanges": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-depositDataChange"
+                    "$ref": ""
                  }
               },
               "student": {
@@ -29759,7 +29759,7 @@
            ],
            "properties": {
               "currencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -29950,7 +29950,7 @@
                  "$ref": ""
               },
               "studentGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
+                 "$ref": ""
               }
            }
         },
@@ -29987,7 +29987,7 @@
                  "$ref": ""
               },
               "courseAttribute": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseAttribute"
+                 "$ref": ""
               }
            }
         },
@@ -30063,7 +30063,7 @@
                  "$ref": ""
               },
               "courseLevel": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseLevel"
+                 "$ref": ""
               }
            }
         },
@@ -30159,7 +30159,7 @@
                  "type": "string"
               },
               "courseLevel": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseLevel"
+                 "$ref": ""
               }
            }
         },
@@ -30254,7 +30254,7 @@
                  "type": "number"
               },
               "gradeScale": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gradeScale"
+                 "$ref": ""
               }
            }
         },
@@ -30312,7 +30312,7 @@
               "studentCourses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                    "$ref": ""
                  }
               },
               "letterGrades": {
@@ -30505,7 +30505,7 @@
                  "type": "object"
               },
               "fundSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fundSource"
+                 "$ref": ""
               },
               "campus": {
                  "type": "object"
@@ -30604,10 +30604,10 @@
                  "type": "string"
               },
               "agencyBranch": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
+                 "$ref": ""
               },
               "creditCardType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-creditCardType"
+                 "$ref": ""
               },
               "encryptCreditCard": {
                  "$ref": ""
@@ -30656,7 +30656,7 @@
                  "type": "string"
               },
               "agencyBranchCreditCard": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranchCreditCard"
+                 "$ref": ""
               }
            }
         },
@@ -30856,10 +30856,10 @@
                  "$ref": ""
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "studentEnrollmentPeriod": {
                  "$ref": ""
@@ -30991,7 +30991,7 @@
                  "type": "number"
               },
               "staffGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-staffGroup"
+                 "$ref": ""
               }
            }
         },
@@ -31088,7 +31088,7 @@
                  "$ref": ""
               },
               "paidDisbursement": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-paidDisbursement"
+                 "$ref": ""
               }
            }
         },
@@ -31220,7 +31220,7 @@
                  "$ref": ""
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               },
               "studentEnrollmentPeriodLesson": {
                  "$ref": ""
@@ -31229,13 +31229,13 @@
                  "$ref": ""
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "studentAcademicYearPaymentPeriod": {
                  "$ref": ""
               },
               "termGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-termGroup"
+                 "$ref": ""
               },
               "tuitionDiscountPolicy": {
                  "$ref": ""
@@ -31364,10 +31364,10 @@
                  "$ref": ""
               },
               "classSectionLesson": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSectionLesson"
+                 "$ref": ""
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               },
               "studentAccountPendingTransactions": {
                  "type": "array",
@@ -31462,10 +31462,10 @@
                  "type": "string"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "lessonType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-lessonType"
+                 "$ref": ""
               },
               "lessonScores": {
                  "type": "array",
@@ -31474,7 +31474,7 @@
                  }
               },
               "courseLesson": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseLesson"
+                 "$ref": ""
               }
            }
         },
@@ -31620,7 +31620,7 @@
                  "type": "number"
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               },
               "studentAccountPendingTransactions": {
                  "type": "array",
@@ -31741,7 +31741,7 @@
                  "type": "object"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               }
            }
         },
@@ -32292,7 +32292,7 @@
                  "type": "string"
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               },
               "studentAwardLoanPrintDisclosures": {
                  "type": "array",
@@ -32344,7 +32344,7 @@
                  "type": "number"
               },
               "studentAwardLoan": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAwardLoan"
+                 "$ref": ""
               }
            }
         },
@@ -32651,7 +32651,7 @@
               "fafsaSummary": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fafsaSummary"
+                    "$ref": ""
                  }
               }
            }
@@ -32706,7 +32706,7 @@
                  "type": "object"
               },
               "studentAwardPell": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAwardPell"
+                 "$ref": ""
               }
            }
         },
@@ -32958,16 +32958,16 @@
                  "$ref": ""
               },
               "studentAward": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-studentAward"
+                 "$ref": ""
               },
               "scheduledDisbursement": {
                  "$ref": ""
               },
               "paidDisbursement": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-paidDisbursement"
+                 "$ref": ""
               },
               "refund": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-refund"
+                 "$ref": ""
               }
            }
         },
@@ -33058,13 +33058,13 @@
                  "type": "object"
               },
               "fundSoiurce": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-fundSource"
+                 "$ref": ""
               },
               "studentEnrollmentPeriod": {
                  "$ref": ""
               },
               "agencyBranch": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
+                 "$ref": ""
               },
               "agency": {
                  "$ref": ""
@@ -33475,7 +33475,7 @@
               "programVersions": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                    "$ref": ""
                  }
               },
               "enrollmentsWithDegree": {
@@ -33628,13 +33628,13 @@
                  "type": "string"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "entranceTest": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTest"
+                 "$ref": ""
               },
               "previousEducation": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-previousEducation"
+                 "$ref": ""
               },
               "remedialCourse": {
                  "type": "object"
@@ -33678,7 +33678,7 @@
                  "type": "string"
               },
               "entranceTest": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-entranceTest"
+                 "$ref": ""
               }
            }
         },
@@ -33793,11 +33793,11 @@
               "programVersions": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                    "$ref": ""
                  }
               },
               "studentGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
+                 "$ref": ""
               }
            }
         },
@@ -33893,7 +33893,7 @@
                  "type": "number"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "courseCategory": {
                  "$ref": ""
@@ -33902,12 +33902,12 @@
                  "type": "object"
               },
               "areaOfStudy": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-areaOfStudy"
+                 "$ref": ""
               },
               "studentCourses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                    "$ref": ""
                  }
               },
               "electivePoolCourses": {
@@ -33985,18 +33985,18 @@
                  "type": "object"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "courseCategory": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseCategory"
+                 "$ref": ""
               },
               "areaOfStudy": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-areaOfStudy"
+                 "$ref": ""
               },
               "requiredCourseList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-requiredCourse"
+                    "$ref": ""
                  }
               }
            }
@@ -34051,7 +34051,7 @@
            ],
            "properties": {
               "electivePool": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-electivePool"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -34089,7 +34089,7 @@
                  "type": "object"
               },
               "requiredCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-requiredCourse"
+                 "$ref": ""
               }
            }
         },
@@ -34136,7 +34136,7 @@
               "electivePoolCourses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-electivePoolCourse"
+                    "$ref": ""
                  }
               }
            }
@@ -34147,7 +34147,7 @@
            ],
            "properties": {
               "courseGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseGroup"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -34194,7 +34194,7 @@
                  "type": "object"
               },
               "electivePool": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-electivePool"
+                 "$ref": ""
               }
            }
         },
@@ -34229,7 +34229,7 @@
               "courses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-courseGroupCourse"
+                    "$ref": ""
                  }
               },
               "programGroups": {
@@ -34241,13 +34241,13 @@
               "programs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-courseGroupProgram"
+                    "$ref": ""
                  }
               },
               "degrees": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-courseGroupDegree"
+                    "$ref": ""
                  }
               }
            }
@@ -34286,7 +34286,7 @@
                  "type": "number"
               },
               "programGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programGroup"
+                 "$ref": ""
               }
            }
         },
@@ -34361,10 +34361,10 @@
                  "type": "number"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "documentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
+                 "$ref": ""
               }
            }
         },
@@ -34426,16 +34426,16 @@
                  "type": "object"
               },
               "enrollmentStatus": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-enrollmentStatus"
+                 "$ref": ""
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "academicYear": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-academicYear"
+                 "$ref": ""
               },
               "budget": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-budget"
+                 "$ref": ""
               }
            }
         },
@@ -34574,25 +34574,25 @@
                  "type": "object"
               },
               "fromProgramVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "toProgramVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "staffUser": {
                  "$ref": ""
               },
               "studentGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-studentGroup"
+                 "$ref": ""
               },
               "faTaskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               },
               "faTaskAssignedStaff": {
                  "$ref": ""
               },
               "saTaskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               },
               "saTaskAssignedStaff": {
                  "$ref": ""
@@ -34683,7 +34683,7 @@
                  "type": "object"
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               }
            }
         },
@@ -34950,7 +34950,7 @@
               "agencyBranches": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-common-agencyBranch"
+                    "$ref": ""
                  }
               },
               "billingMethodDetails": {
@@ -34960,7 +34960,7 @@
                  }
               },
               "courseLevel": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseLevel"
+                 "$ref": ""
               },
               "programVersions": {
                  "type": "array",
@@ -34988,13 +34988,13 @@
            ],
            "properties": {
               "deliveryMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-deliveryMethod"
+                 "$ref": ""
               },
               "residencyStatusCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-residencyStatusCode"
+                 "$ref": ""
               },
               "currencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -35085,10 +35085,10 @@
                  "type": "string"
               },
               "billingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-billingMethod"
+                 "$ref": ""
               },
               "courseLevel": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseLevel"
+                 "$ref": ""
               },
               "campus": {
                  "type": "object"
@@ -35170,7 +35170,7 @@
               "classSections": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -35247,10 +35247,10 @@
                  "type": "number"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "billingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-billingMethod"
+                 "$ref": ""
               }
            }
         },
@@ -35287,7 +35287,7 @@
                  "$ref": ""
               },
               "billingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-billingMethod"
+                 "$ref": ""
               }
            }
         },
@@ -35358,10 +35358,10 @@
                  "type": "number"
               },
               "academicYear": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-financialAid-academicYear"
+                 "$ref": ""
               },
               "billingMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentAccounts-billingMethod"
+                 "$ref": ""
               }
            }
         },
@@ -35403,10 +35403,10 @@
                  "type": "number"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "areaOfStudy": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-areaOfStudy"
+                 "$ref": ""
               }
            }
         },
@@ -35443,10 +35443,10 @@
                  "type": "number"
               },
               "programGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programGroup"
+                 "$ref": ""
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               }
            }
         },
@@ -35480,10 +35480,10 @@
                  "type": "number"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "testingSchedule": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-testingSchedule"
+                 "$ref": ""
               }
            }
         },
@@ -35536,7 +35536,7 @@
                  "type": "number"
               },
               "testingSchedule": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-testingSchedule"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -35576,7 +35576,7 @@
                  "$ref": ""
               },
               "testingSchedule": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-testingSchedule"
+                 "$ref": ""
               }
            }
         },
@@ -35670,7 +35670,7 @@
                  "type": "number"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "testingEligibilityRule": {
                  "$ref": ""
@@ -35748,7 +35748,7 @@
                  "type": "string"
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               },
               "enrollment": {
                  "$ref": ""
@@ -35840,7 +35840,7 @@
                  }
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "instructor": {
                  "$ref": ""
@@ -35882,7 +35882,7 @@
               "instructorClassSections": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                    "$ref": ""
                  }
               },
               "dailyTeachingSchedule": {
@@ -36025,7 +36025,7 @@
                  "$ref": ""
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
@@ -36040,7 +36040,7 @@
                  "$ref": ""
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "lastModifiedUser": {
                  "$ref": ""
@@ -36198,13 +36198,13 @@
                  "type": "number"
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               },
               "student": {
                  "type": "object"
               },
               "gpaCalculationType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gpaCalculationType"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -36305,7 +36305,7 @@
               "studentGPAs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-studentGpa"
+                    "$ref": ""
                  }
               },
               "campusGroup": {
@@ -36418,7 +36418,7 @@
                  "type": "object"
               },
               "gPAType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gpaCalculationType"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -36464,7 +36464,7 @@
                  "type": "number"
               },
               "gpaCalculationType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gpaCalculationType"
+                 "$ref": ""
               },
               "program": {
                  "$ref": ""
@@ -36501,10 +36501,10 @@
                  "type": "number"
               },
               "gpaCalculationType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gpaCalculationType"
+                 "$ref": ""
               },
               "courseAttribute": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseAttribute"
+                 "$ref": ""
               }
            }
         },
@@ -36538,7 +36538,7 @@
                  "type": "number"
               },
               "gpaCalculationType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gpaCalculationType"
+                 "$ref": ""
               },
               "transferCreditStatus": {
                  "$ref": ""
@@ -36575,10 +36575,10 @@
                  "type": "number"
               },
               "gpaCalculationType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gpaCalculationType"
+                 "$ref": ""
               },
               "transferCreditType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-transferCreditType"
+                 "$ref": ""
               }
            }
         },
@@ -36615,7 +36615,7 @@
                  "type": "string"
               },
               "gpaCalculationType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gpaCalculationType"
+                 "$ref": ""
               }
            }
         },
@@ -36666,10 +36666,10 @@
                  "type": "number"
               },
               "gpaCalculationType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-gpaCalculationType"
+                 "$ref": ""
               },
               "transferCreditType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-transferCreditType"
+                 "$ref": ""
               },
               "transferCreditStatus": {
                  "$ref": ""
@@ -36718,7 +36718,7 @@
                  "$ref": ""
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               }
            }
         },
@@ -36800,7 +36800,7 @@
               "courses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-courseBook"
+                    "$ref": ""
                  }
               },
               "enrollments": {
@@ -36859,7 +36859,7 @@
                  "$ref": ""
               },
               "bookList": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseBookList"
+                 "$ref": ""
               },
               "course": {
                  "type": "object"
@@ -36921,11 +36921,11 @@
               "booksInList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-courseBook"
+                    "$ref": ""
                  }
               },
               "deliveryMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-deliveryMethod"
+                 "$ref": ""
               }
            }
         },
@@ -36953,7 +36953,7 @@
                  "$ref": ""
               },
               "studentCourse": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-studentCourse"
+                 "$ref": ""
               }
            }
         },
@@ -37038,7 +37038,7 @@
                  "type": "string"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -37114,7 +37114,7 @@
               "classSections": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                    "$ref": ""
                  }
               }
            }
@@ -37148,7 +37148,7 @@
                  "type": "string"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "term": {
                  "type": "object"
@@ -37200,7 +37200,7 @@
                  "$ref": ""
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               }
            }
         },
@@ -37225,10 +37225,10 @@
                  "type": "boolean"
               },
               "courseFeeSchedule": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseFeeSchedule"
+                 "$ref": ""
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               }
            }
         },
@@ -37238,7 +37238,7 @@
            ],
            "properties": {
               "currencyCode": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-currencyCode"
+                 "$ref": ""
               },
               "campusGroup": {
                  "type": "object"
@@ -37295,12 +37295,12 @@
                  "type": "object"
               },
               "deliveryMethod": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-deliveryMethod"
+                 "$ref": ""
               },
               "fees": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-courseFee"
+                    "$ref": ""
                  }
               },
               "degrees": {
@@ -37384,7 +37384,7 @@
                  "$ref": ""
               },
               "courseFeeSchedule": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseFeeSchedule"
+                 "$ref": ""
               }
            }
         },
@@ -37418,7 +37418,7 @@
                  "type": "number"
               },
               "courseFeeSchedule": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseFeeSchedule"
+                 "$ref": ""
               },
               "degree": {
                  "$ref": ""
@@ -37455,10 +37455,10 @@
                  "type": "number"
               },
               "courseFeeSchedule": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-courseFeeSchedule"
+                 "$ref": ""
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               }
            }
         },
@@ -37492,10 +37492,10 @@
                  "type": "number"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-classSection"
+                 "$ref": ""
               },
               "documentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-documentType"
+                 "$ref": ""
               }
            }
         },
@@ -37582,7 +37582,7 @@
                  "type": "object"
               },
               "overloadAssignmentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-wlmAssignmentType"
+                 "$ref": ""
               }
            }
         },
@@ -37786,12 +37786,12 @@
                  "type": "string"
               },
               "leadSourceCategory": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-leadCategory"
+                 "$ref": ""
               },
               "advertisingExpenses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-leadSourceExpense"
+                    "$ref": ""
                  }
               },
               "prospectInquiries": {
@@ -37904,13 +37904,13 @@
                  "type": "number"
               },
               "leadSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-leadSource"
+                 "$ref": ""
               },
               "campus": {
                  "type": "object"
               },
               "syOrganization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-syOrganization"
+                 "$ref": ""
               }
            }
         },
@@ -37965,10 +37965,10 @@
                  "type": "object"
               },
               "leadSource": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-leadSource"
+                 "$ref": ""
               },
               "prospectInquiry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                 "$ref": ""
               },
               "vendors": {
                  "type": "array",
@@ -38017,7 +38017,7 @@
                  "$ref": ""
               },
               "syOrganization": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-syOrganization"
+                 "$ref": ""
               }
            }
         },
@@ -38116,7 +38116,7 @@
               "prospectInquiries": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                    "$ref": ""
                  }
               }
            }
@@ -38127,10 +38127,10 @@
            ],
            "properties": {
               "previousAssignedAdmissionsRep": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-admissionsRepType"
+                 "$ref": ""
               },
               "prospectInquiry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                 "$ref": ""
               },
               "id": {
                  "format": "int32",
@@ -38250,7 +38250,7 @@
                  "type": "number"
               },
               "prospectInquiry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                 "$ref": ""
               }
            }
         },
@@ -38356,7 +38356,7 @@
                  "$ref": ""
               },
               "prospectInquiry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                 "$ref": ""
               }
            }
         },
@@ -38385,7 +38385,7 @@
                  "type": "string"
               },
               "prospectInquiry": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-prospectInquiry"
+                 "$ref": ""
               }
            }
         },
@@ -38593,7 +38593,7 @@
                  "$ref": ""
               },
               "addressType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-common-addressType"
+                 "$ref": ""
               }
            }
         },
@@ -38890,7 +38890,7 @@
               "housingRooms": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-studentServices-housingRoom"
+                    "$ref": ""
                  }
               }
            }
@@ -39045,10 +39045,10 @@
                  "$ref": ""
               },
               "housingSuite": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentServices-housingSuite"
+                 "$ref": ""
               },
               "roomCategory": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentServices-roomCategory"
+                 "$ref": ""
               }
            }
         },
@@ -39112,7 +39112,7 @@
               "housingRooms": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-studentServices-housingRoom"
+                    "$ref": ""
                  }
               }
            }
@@ -39251,7 +39251,7 @@
                  "type": "number"
               },
               "taskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               }
            }
         },
@@ -39297,7 +39297,7 @@
                  "type": "number"
               },
               "taskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               }
            }
         },
@@ -39351,13 +39351,13 @@
                  "type": "number"
               },
               "taskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               },
               "triggerTaskTemplate": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               },
               "triggerDocumentType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-crm-taskTemplate"
+                 "$ref": ""
               }
            }
         },
@@ -39478,7 +39478,7 @@
               "courses": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-catalogYearCourse"
+                    "$ref": ""
                  }
               }
            }
@@ -39516,7 +39516,7 @@
                  "$ref": ""
               },
               "catalogYear": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-catalogYear"
+                 "$ref": ""
               }
            }
         },
@@ -39582,7 +39582,7 @@
                  "type": "object"
               },
               "catalogYear": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-catalogYear"
+                 "$ref": ""
               },
               "course": {
                  "type": "object"
@@ -39676,7 +39676,7 @@
                  "type": "string"
               },
               "programVersion": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-academics-programVersion"
+                 "$ref": ""
               },
               "shift": {
                  "$ref": ""
@@ -39746,7 +39746,7 @@
                  "type": "object"
               },
               "serviceType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentServices-serviceType"
+                 "$ref": ""
               },
               "enrollmentPeriod": {
                  "$ref": ""
@@ -39931,7 +39931,7 @@
                  "type": "string"
               },
               "serviceType": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-studentServices-serviceType"
+                 "$ref": ""
               }
            }
         },
@@ -40014,7 +40014,7 @@
                  }
               },
               "applicationForm": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-applicationForm"
+                 "$ref": ""
               }
            }
         },
@@ -40110,7 +40110,7 @@
                  "type": "string"
               },
               "applicationForm": {
-                 "$ref": "#/components/schemas/cmc-nexus-models-admissions-applicationForm"
+                 "$ref": ""
               },
               "questionChoices": {
                  "type": "array",
@@ -40390,7 +40390,7 @@
               "areasOfStudy": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-models-academics-areaOfStudy"
+                    "$ref": ""
                  }
               }
            }
@@ -40469,7 +40469,7 @@
               "campusList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-entities-campusListEntity"
+                    "$ref": ""
                  }
               },
               "originalState": {
@@ -40655,7 +40655,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -40881,7 +40881,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -41000,7 +41000,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -41164,7 +41164,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -41283,7 +41283,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -41447,7 +41447,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -42139,7 +42139,7 @@
                  "type": "number"
               },
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-attendanceEntity"
+                 "$ref": ""
               }
            }
         },
@@ -42306,13 +42306,13 @@
            "description": "",
            "properties": {
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-attendanceEntity"
+                 "$ref": ""
               },
               "isAuditCourse": {
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -42349,7 +42349,7 @@
                  "type": "boolean"
               },
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-attendanceEntity"
+                 "$ref": ""
               }
            }
         },
@@ -42403,10 +42403,10 @@
            "description": "",
            "properties": {
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-attendanceEntity"
+                 "$ref": ""
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -42568,7 +42568,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -42609,11 +42609,11 @@
               "attendanceRosterList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-attendanceRoster"
+                    "$ref": ""
                  }
               },
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-attendanceEntity"
+                 "$ref": ""
               }
            }
         },
@@ -42714,13 +42714,13 @@
            "description": "",
            "properties": {
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-attendanceEntity"
+                 "$ref": ""
               },
               "isPostAttendanceSuccess": {
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -42757,7 +42757,7 @@
                  "type": "boolean"
               },
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-attendanceEntity"
+                 "$ref": ""
               }
            }
         },
@@ -42811,10 +42811,10 @@
            "description": "",
            "properties": {
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-attendanceEntity"
+                 "$ref": ""
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -42884,7 +42884,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -43578,7 +43578,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -43720,7 +43720,7 @@
               "nodeInfoMessageList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-nodeInfoMessage"
+                    "$ref": ""
                  }
               },
               "impactedDegreeCourseStatusType": {
@@ -43767,7 +43767,7 @@
               "ruleInfoMessageList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-ruleInfoMessage"
+                    "$ref": ""
                  }
               }
            }
@@ -43968,7 +43968,7 @@
               "nodeInfoMessageList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-nodeInfoMessage"
+                    "$ref": ""
                  }
               },
               "impactedDegreeCourseStatusType": {
@@ -44036,7 +44036,7 @@
               "nodeInfoMessageList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-nodeInfoMessage"
+                    "$ref": ""
                  }
               },
               "impactedDegreeCourseStatusType": {
@@ -44190,7 +44190,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -44285,7 +44285,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -44370,7 +44370,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -44453,7 +44453,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -44560,7 +44560,7 @@
               "extendedPropertyList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-extendedProperty"
+                    "$ref": ""
                  }
               }
            }
@@ -44641,7 +44641,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -46483,7 +46483,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -46595,7 +46595,7 @@
                  "type": "number"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -46672,7 +46672,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -46751,7 +46751,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -46841,7 +46841,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -46951,7 +46951,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -46995,7 +46995,7 @@
               "courseFees": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-courseFeeList"
+                    "$ref": ""
                  }
               }
            }
@@ -47136,7 +47136,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -47218,7 +47218,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -47360,7 +47360,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -48432,7 +48432,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -48509,7 +48509,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -48586,7 +48586,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -48611,7 +48611,7 @@
                  "type": "number"
               },
               "classSection": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-classSectionEntity"
+                 "$ref": ""
               },
               "isScheduleConflictsConfirmed": {
                  "type": "boolean"
@@ -49131,7 +49131,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -49273,7 +49273,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -49383,7 +49383,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -50329,7 +50329,7 @@
            "description": "",
            "properties": {
               "classSectionEntity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-classSectionEntity"
+                 "$ref": ""
               }
            }
         },
@@ -50383,10 +50383,10 @@
            "description": "",
            "properties": {
               "classSectionEntity": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-classSectionEntity"
+                 "$ref": ""
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -50512,7 +50512,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -50861,7 +50861,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "wlmLoadTypes": {
                  "type": "array",
@@ -50999,7 +50999,7 @@
                  "type": "string"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -51382,7 +51382,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "wlmLoadTypes": {
                  "type": "array",
@@ -51793,7 +51793,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "wlmLoadTypes": {
                  "type": "array",
@@ -51883,7 +51883,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -52020,7 +52020,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -52249,7 +52249,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -52360,11 +52360,11 @@
               "courseList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-courseSummary"
+                    "$ref": ""
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -52711,7 +52711,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "wlmLoadTypes": {
                  "type": "array",
@@ -53060,7 +53060,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "wlmLoadTypes": {
                  "type": "array",
@@ -53144,7 +53144,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -53238,7 +53238,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -53367,7 +53367,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -53649,7 +53649,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "wlmLoadTypes": {
                  "type": "array",
@@ -53998,7 +53998,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "wlmLoadTypes": {
                  "type": "array",
@@ -54082,7 +54082,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -54196,7 +54196,7 @@
                  "type": "string"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -54277,7 +54277,7 @@
                  "type": "string"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -54467,7 +54467,7 @@
                  "type": "string"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -54548,7 +54548,7 @@
                  "type": "string"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -54676,7 +54676,7 @@
                  "type": "string"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -54757,7 +54757,7 @@
                  "type": "string"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -54885,7 +54885,7 @@
                  "type": "string"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -55758,7 +55758,7 @@
                  "type": "number"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -57917,7 +57917,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -61241,7 +61241,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -61357,7 +61357,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -62171,7 +62171,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -62442,7 +62442,7 @@
               "programs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-entities-programEntity"
+                    "$ref": ""
                  }
               },
               "programId": {
@@ -62661,12 +62661,12 @@
            "description": "",
            "properties": {
               "program": {
-                 "$ref": "#/components/schemas/cmc-nexus-academics-entities-programEntity"
+                 "$ref": ""
               },
               "programs": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-entities-programEntity"
+                    "$ref": ""
                  }
               },
               "programId": {
@@ -62720,7 +62720,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -62748,7 +62748,7 @@
               "requirementRuleList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-requirementRule"
+                    "$ref": ""
                  }
               },
               "isCopyRequirementRule": {
@@ -62828,7 +62828,7 @@
                  "$ref": ""
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -62908,7 +62908,7 @@
               "courseInfoList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-courseInfo"
+                    "$ref": ""
                  }
               },
               "businessProcessType": {
@@ -62925,13 +62925,13 @@
               "pendingRegCourseList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-services-courseInfo"
+                    "$ref": ""
                  }
               },
               "inputCourseList": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-academics-entities-courseEntity"
+                    "$ref": ""
                  }
               },
               "inputClassSectionList": {
@@ -63256,7 +63256,7 @@
                  "type": "number"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "wlmLoadTypes": {
                  "type": "array",
@@ -63336,7 +63336,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -63465,7 +63465,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -64445,7 +64445,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -65608,7 +65608,7 @@
                  "type": "number"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -65753,7 +65753,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -65888,7 +65888,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -67261,7 +67261,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -67437,7 +67437,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -68116,7 +68116,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -68264,7 +68264,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -68922,7 +68922,7 @@
                  "$ref": ""
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -69058,7 +69058,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -69159,7 +69159,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -69302,7 +69302,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -69402,7 +69402,7 @@
                  "type": "number"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -72138,7 +72138,7 @@
                  "$ref": ""
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -72347,7 +72347,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -72429,7 +72429,7 @@
                  "type": "number"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -72669,7 +72669,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -72886,7 +72886,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -72973,7 +72973,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -73100,7 +73100,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -73180,7 +73180,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -73301,7 +73301,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -73428,7 +73428,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -74832,7 +74832,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -74932,7 +74932,7 @@
                  }
               },
               "academicAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentAdvisorEntity"
+                 "$ref": ""
               },
               "isBatchCatalogAssignment": {
                  "type": "boolean"
@@ -75424,7 +75424,7 @@
                  "type": "string"
               },
               "student": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -76451,7 +76451,7 @@
                  }
               },
               "academicAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentAdvisorEntity"
+                 "$ref": ""
               },
               "isBatchCatalogAssignment": {
                  "type": "boolean"
@@ -76943,7 +76943,7 @@
                  "type": "string"
               },
               "student": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -77133,7 +77133,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -77329,7 +77329,7 @@
                  }
               },
               "academicAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentAdvisorEntity"
+                 "$ref": ""
               },
               "isBatchCatalogAssignment": {
                  "type": "boolean"
@@ -77821,7 +77821,7 @@
                  "type": "string"
               },
               "student": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -77892,7 +77892,7 @@
                  "$ref": ""
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -78008,7 +78008,7 @@
                  }
               },
               "academicAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentAdvisorEntity"
+                 "$ref": ""
               },
               "isBatchCatalogAssignment": {
                  "type": "boolean"
@@ -78500,7 +78500,7 @@
                  "type": "string"
               },
               "student": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -78596,7 +78596,7 @@
                  "type": "boolean"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -78666,7 +78666,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -78721,7 +78721,7 @@
                  }
               },
               "academicAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentAdvisorEntity"
+                 "$ref": ""
               },
               "isBatchCatalogAssignment": {
                  "type": "boolean"
@@ -79213,7 +79213,7 @@
                  "type": "string"
               },
               "student": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -79327,7 +79327,7 @@
                  }
               },
               "academicAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentAdvisorEntity"
+                 "$ref": ""
               },
               "isBatchCatalogAssignment": {
                  "type": "boolean"
@@ -79819,7 +79819,7 @@
                  "type": "string"
               },
               "student": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -79888,7 +79888,7 @@
                  }
               },
               "academicAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentAdvisorEntity"
+                 "$ref": ""
               },
               "isBatchCatalogAssignment": {
                  "type": "boolean"
@@ -80380,7 +80380,7 @@
                  "type": "string"
               },
               "student": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -80494,7 +80494,7 @@
                  }
               },
               "academicAdvisor": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentAdvisorEntity"
+                 "$ref": ""
               },
               "isBatchCatalogAssignment": {
                  "type": "boolean"
@@ -80986,7 +80986,7 @@
                  "type": "string"
               },
               "student": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -81124,7 +81124,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -81265,7 +81265,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -81349,7 +81349,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -81445,7 +81445,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -81590,7 +81590,7 @@
                  "$ref": ""
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -81688,7 +81688,7 @@
                  "type": "number"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -81941,7 +81941,7 @@
                  "type": "number"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -84961,7 +84961,7 @@
                  "type": "string"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -85832,7 +85832,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -85981,7 +85981,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -86054,7 +86054,7 @@
               "existingDataDetails": {
                  "type": "array",
                  "items": {
-                    "$ref": "#/components/schemas/cmc-nexus-common-services-existingData"
+                    "$ref": ""
                  }
               },
               "groupName": {
@@ -86140,7 +86140,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -86155,7 +86155,7 @@
            "description": "",
            "properties": {
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               }
            }
         },
@@ -86209,10 +86209,10 @@
            "description": "",
            "properties": {
               "entity": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -89214,7 +89214,7 @@
                  "type": "number"
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -89307,7 +89307,7 @@
                  }
               },
               "studentEntity": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-studentEntity"
+                 "$ref": ""
               },
               "studentList": {
                  "type": "array",
@@ -89316,7 +89316,7 @@
                  }
               },
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -89393,7 +89393,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         },
@@ -89696,7 +89696,7 @@
                  "type": "object"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -89949,7 +89949,7 @@
                  "type": "object"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -90312,7 +90312,7 @@
                  "type": "object"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -90565,7 +90565,7 @@
                  "type": "object"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -90866,7 +90866,7 @@
                  "type": "object"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -91119,7 +91119,7 @@
                  "type": "object"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -91420,7 +91420,7 @@
                  "type": "object"
               },
               "campusGroup": {
-                 "$ref": "#/components/schemas/cmc-nexus-common-entities-campusGroupEntity"
+                 "$ref": ""
               },
               "originalState": {
                  "type": "string"
@@ -91510,7 +91510,7 @@
            "description": "",
            "properties": {
               "validationMessages": {
-                 "$ref": "#/components/schemas/cmc-core-eventing-validationMessageCollection"
+                 "$ref": ""
               }
            }
         }
