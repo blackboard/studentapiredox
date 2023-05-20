@@ -76,70 +76,40 @@ const config = {
             route: '/openapi/learn/learn_unreleased',
             url: 'https://devportal-docstore.s3.amazonaws.com/learn-unreleased.json'
           },
-          // {
-          //   id: 'learn-3900_67_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.67.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.67.0',
-          // },
-          // {
-          //   id: 'learn-3900_66_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.66.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.66.0',
-          // },
-          // {
-          //   id: 'learn-3900_65_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.65.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.65.0',
-          // },
-          // {
-          //   id: 'learn-3900_64_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.64.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.64.0',
-          // },
-          // {
-          //   id: 'learn-3900_62_0',
-          //   spec: 'openapi/learn/learn-swagger-3900.62.0.json',
-          //   route: '/openapi/learn/learn-swagger-3900.62.0',
-          // },
-          {
-            id:'studentadmissions',
-            spec: 'openapi/student/admissions.yaml',
-            route: '/openapi/student/admissions',
-          },
           {
             id:'studentacademics',
             spec: 'openapi/student/academics.yaml',
             route: '/openapi/student/academics',
           },
           {
+            id:'studentadmissions',
+            spec: 'openapi/student/admissions.json',
+            route: '/openapi/student/admissions',
+          },
+          {
             id: 'studentcareerservices',
-            spec: 'openapi/student/careerservices.yaml',
+            spec: 'openapi/student/careerservices.json',
             route: '/openapi/student/careerservices',
           },
           {
             id: 'studentcommon',
-            spec: 'openapi/student/common.yaml',
+            spec: 'openapi/student/common.json',
             route: '/openapi/student/common',
           },
           {
             id: 'studentcrm',
-            spec: 'openapi/student/crm.yaml',
+            spec: 'openapi/student/crm.json',
             route: '/openapi/student/crm',
           },
           {
             id: 'studentfinancialaid',
-            spec: 'openapi/student/financialaid.yaml',
+            spec: 'openapi/student/financialaid.json',
             route: '/openapi/student/financialaid',
           },
           {
             id: 'studentaccounts',
-            spec: 'openapi/student/studentaccounts.yaml',
+            spec: 'openapi/student/studentaccounts.json',
             route: '/openapi/student/studentaccounts',
-          },
-          {
-            id: 'studentservices',
-            spec: 'openapi/student/studentservices.yaml',
-            route: '/openapi/student/studentservices',
           },
         ],
         // Theme Options for modifying how redoc renders them
