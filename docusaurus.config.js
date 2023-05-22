@@ -101,11 +101,11 @@ const config = {
             spec: 'openapi/student/crm.json',
             route: '/openapi/student/crm',
           },
-        //   {
-        //     id: 'studentfinancialaid',
-        //     spec: 'openapi/student/financialaid.yaml',
-        //     route: '/openapi/student/financialaid',
-        //   },
+          {
+            id: 'studentfinancialaid',
+            spec: 'openapi/student/financialaid.json',
+            route: '/openapi/student/financialaid',
+          },
         //   {
         //     id: 'studentaccounts',
         //     spec: 'openapi/student/studentaccounts.yaml',
