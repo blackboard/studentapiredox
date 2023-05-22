@@ -88,22 +88,22 @@ const config = {
           },
         //   {
         //     id: 'studentcareerservices',
-        //     spec: 'openapi/student/careerservices.yaml',
+        //     spec: 'openapi/student/careerservices.json',
         //     route: '/openapi/student/careerservices',
         //   },
         //   {
         //     id: 'studentcommon',
-        //     spec: 'openapi/student/common.yaml',
+        //     spec: 'openapi/student/common.json',
         //     route: '/openapi/student/common',
         //   },
-        //   {
-        //     id: 'studentcrm',
-        //     spec: 'openapi/student/crm.yaml',
-        //     route: '/openapi/student/crm',
-        //   },
+          {
+            id: 'studentcrm',
+            spec: 'openapi/student/crm.json',
+            route: '/openapi/student/crm',
+          },
         //   {
         //     id: 'studentfinancialaid',
-        //     spec: 'openapi/student/financialaid.yaml',
+        //     spec: 'openapi/student/financialaid.json',
         //     route: '/openapi/student/financialaid',
         //   },
         //   {
