@@ -91,11 +91,11 @@ const config = {
             spec: 'openapi/student/careerservices.json',
             route: '/openapi/student/careerservices',
           },
-          {
-            id: 'studentcommon',
-            spec: 'openapi/student/common.json',
-            route: '/openapi/student/common',
-          },
+        //   {
+        //     id: 'studentcommon',
+        //     spec: 'openapi/student/common.yaml',
+        //     route: '/openapi/student/common',
+        //   },
         //   {
         //     id: 'studentcrm',
         //     spec: 'openapi/student/crm.yaml',
