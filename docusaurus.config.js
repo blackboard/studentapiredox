@@ -106,11 +106,11 @@ const config = {
             spec: 'openapi/student/financialaid.json',
             route: '/openapi/student/financialaid',
           },
-        //   {
-        //     id: 'studentaccounts',
-        //     spec: 'openapi/student/studentaccounts.yaml',
-        //     route: '/openapi/student/studentaccounts',
-        //   },
+          {
+            id: 'studentaccounts',
+            spec: 'openapi/student/studentaccounts.json',
+            route: '/openapi/student/studentaccounts',
+          },
         //   {
         //     id: 'studentservices',
         //     spec: 'openapi/student/studentservices.yaml',
