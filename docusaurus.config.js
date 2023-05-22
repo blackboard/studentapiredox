@@ -104,38 +104,43 @@ const config = {
 
           // {
           //   id:'studentacademics',
-          //   spec: 'openapi/student/academics.json',
+          //   spec: 'openapi/student/academics.yaml',
           //   route: '/openapi/student/academics',
           // },
           {
             id:'studentadmissions',
-            spec: 'openapi/student/admissions.json',
+            spec: 'openapi/student/admissions.yaml',
             route: '/openapi/student/admissions',
           },
           {
             id: 'studentcareerservices',
-            spec: 'openapi/student/careerservices.json',
+            spec: 'openapi/student/careerservices.yaml',
             route: '/openapi/student/careerservices',
           },
           {
             id: 'studentcommon',
-            spec: 'openapi/student/common.json',
+            spec: 'openapi/student/common.yaml',
             route: '/openapi/student/common',
           },
           {
             id: 'studentcrm',
-            spec: 'openapi/student/crm.json',
+            spec: 'openapi/student/crm.yaml',
             route: '/openapi/student/crm',
           },
           {
             id: 'studentfinancialaid',
-            spec: 'openapi/student/financialaid.json',
+            spec: 'openapi/student/financialaid.yaml',
             route: '/openapi/student/financialaid',
           },
           {
             id: 'studentaccounts',
-            spec: 'openapi/student/studentaccounts.json',
+            spec: 'openapi/student/studentaccounts.yaml',
             route: '/openapi/student/studentaccounts',
+          },
+          {
+            id: 'studentservices',
+            spec: 'openapi/student/studentservices.yaml',
+            route: '/openapi/student/studentservices',
           },
         ],
         // Theme Options for modifying how redoc renders them
