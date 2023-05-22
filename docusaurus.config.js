@@ -101,15 +101,16 @@ const config = {
           //   spec: 'openapi/learn/learn-swagger-3900.62.0.json',
           //   route: '/openapi/learn/learn-swagger-3900.62.0',
           // },
+
+          // {
+          //   id:'studentacademics',
+          //   spec: 'openapi/student/academics.yaml',
+          //   route: '/openapi/student/academics',
+          // },
           {
             id:'studentadmissions',
             spec: 'openapi/student/admissions.yaml',
             route: '/openapi/student/admissions',
-          },
-          {
-            id:'studentacademics',
-            spec: 'openapi/student/academics.yaml',
-            route: '/openapi/student/academics',
           },
           {
             id: 'studentcareerservices',
