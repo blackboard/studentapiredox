@@ -76,11 +76,11 @@ const config = {
             route: '/openapi/learn/learn_unreleased',
             url: 'https://devportal-docstore.s3.amazonaws.com/learn-unreleased.json'
           },
-          // {
-          //   id:'studentacademics',
-          //   spec: 'openapi/student/academics.json',
-          //   route: '/openapi/student/academics',
-          // },
+          {
+            id:'studentacademics',
+            spec: 'openapi/student/academics.json',
+            route: '/openapi/student/academics',
+          },
           {
             id:'studentadmissions',
             spec: 'openapi/student/admissions.json',
