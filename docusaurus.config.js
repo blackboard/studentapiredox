@@ -15,8 +15,8 @@ const config = {
   url: 'https://blackboard.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-  // baseUrl: '/studentapiredox/',
+  // baseUrl: '/',
+  baseUrl: '/studentapiredox/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Anthology', // Usually your GitHub org/user name.
@@ -82,6 +82,11 @@ const config = {
             spec: 'openapi/student/academics/academicsAdditionalGpa.yaml',
             route: '/openapi/student/academics/academicsAdditionalGpa',
           },
+          // {
+          //   id:'studentacademicsareaofstudy',
+          //   spec: 'openapi/student/academics/academicsAreaOfStudy.yaml',
+          //   route: '/openapi/student/academics/academicsAreaOfStudy',
+          // },
           {
             id:'studentacademicsattendance',
             spec: 'openapi/student/academics/academicsAttendance.yaml',
@@ -117,11 +122,11 @@ const config = {
             spec: 'openapi/student/academics/academicsProgram.yaml',
             route: '/openapi/student/academics/academicsProgram',
           },
-          {
-            id:'studentacademicsprogramversion',
-            spec: 'openapi/student/academics/academicsProgramversion.yaml',
-            route: '/openapi/student/academics/academicsProgramVersion',
-          },
+          // {
+          //   id:'studentacademicsprogramversion',
+          //   spec: 'openapi/student/academics/academicsProgramVersion.yaml',
+          //   route: '/openapi/student/academics/academicsProgramVersion',
+          // },
           {
             id:'studentacademicsregistration',
             spec: 'openapi/student/academics/academicsRegistration.yaml',
