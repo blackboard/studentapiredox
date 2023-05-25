@@ -1,0 +1,34 @@
+openapi: 3.0.3
+info:
+  title: Attendance
+  description: All API calls related to Attendance.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/Attendance/create:
+    $ref: ./paths/api_commands_Academics_Attendance_create.yaml
+  /api/commands/Academics/Attendance/delete:
+    $ref: ./paths/api_commands_Academics_Attendance_delete.yaml
+  /api/commands/Academics/Attendance/get:
+    $ref: ./paths/api_commands_Academics_Attendance_get.yaml
+  /api/commands/Academics/Attendance/getAttendance:
+    $ref: ./paths/api_commands_Academics_Attendance_getAttendance.yaml
+  /api/commands/Academics/Attendance/postAttendance:
+    $ref: ./paths/api_commands_Academics_Attendance_postAttendance.yaml
+  /api/commands/Academics/Attendance/postAttendanceDates:
+    $ref: ./paths/api_commands_Academics_Attendance_postAttendanceDates.yaml
+  /api/commands/Academics/Attendance/postAttendanceList:
+    $ref: ./paths/api_commands_Academics_Attendance_postAttendanceList.yaml
+  /api/commands/Academics/Attendance/postExternshipOnlineHours:
+    $ref: ./paths/api_commands_Academics_Attendance_postExternshipOnlineHours.yaml
+  /api/commands/Academics/Attendance/recallAttendance:
+    $ref: ./paths/api_commands_Academics_Attendance_recallAttendance.yaml
+  /api/commands/Academics/Attendance/save:
+    $ref: ./paths/api_commands_Academics_Attendance_save.yaml
+  /api/commands/Academics/Attendance/saveNew:
+    $ref: ./paths/api_commands_Academics_Attendance_saveNew.yaml

@@ -1,0 +1,40 @@
+openapi: 3.0.3
+info:
+  title: Student Enrollment Period
+  description: All API calls related to Student Enrollment Periods.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/StudentEnrollmentPeriod/create:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_create.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/delete:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_delete.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/enrollment:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_enrollStudent.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/enrollmentStatusChange:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_enrollmentStatusChange.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/get:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_get.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/rebuildTermRelationships:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_rebuildTermRelationships.yaml 
+  /api/commands/Academics/StudentEnrollmentPeriod/reverseTransfer:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_reverseTransfer.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/save:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_save.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/saveNew:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_saveNew.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/updateCatalogYearForStudentForBatchCatalogAssignment:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_updateCatalogYearForStudentForBatchCatalogAssignment.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/updateStudentEnrollmentAreaOfStudy:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_updateStudentEnrollmentAreaOfStudy.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/updateStudentEnrollmentBillingMethod:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_updateStudentEnrollmentBillingMethod.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/updateStudentEnrollmentMakeUpHours:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_updateStudentEnrollmentMakeUpHours.yaml
+  /api/commands/Academics/StudentEnrollmentPeriod/updateStudentEnrollmentPeriod:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentPeriod_updateStudentEnrollmentPeriod.yaml

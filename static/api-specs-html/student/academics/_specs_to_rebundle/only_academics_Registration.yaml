@@ -1,0 +1,16 @@
+openapi: 3.0.3
+info:
+  title: Registration
+  description: All API calls related to Registration.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/Registration/evaluatePrereqCoreqStatus:
+    $ref: ./paths/api_commands_Academics_Registration_evaluatePrereqCoreqStatus.yaml
+  /api/commands/Academics/Registration/evaluateRegistrationLocks:
+    $ref: ./paths/api_commands_Academics_Registration_evaluateRegistrationLocks.yaml

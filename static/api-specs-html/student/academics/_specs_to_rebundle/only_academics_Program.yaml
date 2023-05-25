@@ -1,0 +1,30 @@
+openapi: 3.0.3
+info:
+  title: Program
+  description: All API calls related to Programs.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/Program/copyProgram:
+    $ref: ./paths/api_commands_Academics_Program_copyProgram.yaml
+  /api/commands/Academics/Program/create:
+    $ref: ./paths/api_commands_Academics_Program_create.yaml
+  /api/commands/Academics/Program/delete:
+    $ref: ./paths/api_commands_Academics_Program_delete.yaml
+  /api/commands/Academics/Program/get:
+    $ref: ./paths/api_commands_Academics_Program_get.yaml
+  /api/commands/Academics/Program/save:
+    $ref: ./paths/api_commands_Academics_Program_save.yaml
+  /api/commands/Academics/Program/saveCreditBalanceConfiguration:
+    $ref: ./paths/api_commands_Academics_Program_saveCreditBalanceConfiguration.yaml
+  /api/commands/Academics/Program/saveNew:
+    $ref: ./paths/api_commands_Academics_Program_saveNew.yaml
+  /api/commands/Academics/Program/saveProgram:
+    $ref: ./paths/api_commands_Academics_Program_saveProgram.yaml
+  /api/commands/Academics/Program/saveRequirementRule:
+    $ref: ./paths/api_commands_Academics_Program_saveRequirementRule.yaml

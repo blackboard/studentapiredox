@@ -1,0 +1,38 @@
+openapi: 3.0.3
+info:
+  title: Course
+  description: All API calls related to Courses.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/Course/create:
+    $ref: ./paths/api_commands_Academics_Course_create.yaml
+  /api/commands/Academics/Course/delete:
+    $ref: ./paths/api_commands_Academics_Course_delete.yaml
+  /api/commands/Academics/Course/get:
+    $ref: ./paths/api_commands_Academics_Course_get.yaml
+  /api/commands/Academics/Course/getCourseAttributes:
+    $ref: ./paths/api_commands_Academics_Course_getCourseAttributes.yaml
+  /api/commands/Academics/Course/getCoursePrerequisites:
+    $ref: ./paths/api_commands_Academics_Course_getCoursePrerequisites.yaml
+  /api/commands/Academics/Course/getParentAndEquivalentCourse:
+    $ref: ./paths/api_commands_Academics_Course_getParentAndEquivalentCourse.yaml
+  /api/commands/Academics/Course/getStudentTransferCreditCampusCourseList:
+    $ref: ./paths/api_commands_Academics_Course_getStudentTransferCreditCampusCourseList.yaml
+  /api/commands/Academics/Course/save:
+    $ref: ./paths/api_commands_Academics_Course_save.yaml
+  /api/commands/Academics/Course/saveCourseAttributes:
+    $ref: ./paths/api_commands_Academics_Course_saveCourseAttributes.yaml
+  /api/commands/Academics/Course/saveCourseNameChange:
+    $ref: ./paths/api_commands_Academics_Course_saveCourseNameChange.yaml
+  /api/commands/Academics/Course/saveCoursePrerequisiteDetails:
+    $ref: ./paths/api_commands_Academics_Course_saveCoursePrerequisiteDetails.yaml
+  /api/commands/Academics/Course/saveNew:
+    $ref: ./paths/api_commands_Academics_Course_saveNew.yaml
+  /api/commands/Academics/Course/saveParentAndEquivalentCourse:
+    $ref: ./paths/api_commands_Academics_Course_saveParentAndEquivalentCourse.yaml
