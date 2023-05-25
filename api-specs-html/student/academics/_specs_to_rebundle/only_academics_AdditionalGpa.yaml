@@ -1,0 +1,20 @@
+openapi: 3.0.3
+info:
+  title: Additional Gpa
+  description: All API calls related to Additional Gpa.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/AdditionalGpa/getGpaCourse:
+    $ref: ./paths/api_commands_Academics_AdditionalGpa_getGpaCourse.yaml
+  /api/commands/Academics/AdditionalGpa/getStudentGpa:
+    $ref: ./paths/api_commands_Academics_AdditionalGpa_getStudentGpa.yaml
+  /api/commands/Academics/AdditionalGpa/recalculateGpa:
+    $ref: ./paths/api_commands_Academics_AdditionalGpa_recalculateGpa.yaml
+  /api/commands/Academics/AdditionalGpa/saveGpaCourse:
+    $ref: ./paths/api_commands_Academics_AdditionalGpa_saveGpaCourse.yaml

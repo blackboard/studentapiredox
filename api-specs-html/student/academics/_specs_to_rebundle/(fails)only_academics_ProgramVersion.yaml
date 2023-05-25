@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: Program Version
+  description: All API calls related to Program Version.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/ProgramVersion/copyProgramVersion:
+    $ref: ./paths/api_commands_Academics_ProgramVersion_copyProgramVersion.yaml
+  /api/commands/Academics/ProgramVersion/create:
+    $ref: ./paths/api_commands_Academics_ProgramVersion_create.yaml
+  /api/commands/Academics/ProgramVersion/delete:
+    $ref: ./paths/api_commands_Academics_ProgramVersion_delete.yaml
+  /api/commands/Academics/ProgramVersion/get:
+    $ref: ./paths/api_commands_Academics_ProgramVersion_get.yaml
+  /api/commands/Academics/ProgramVersion/getIncrementalBillEarnProgramVersion:
+    $ref: ./paths/api_commands_Academics_ProgramVersion_getIncrementalBillEarnProgramVersion.yaml
+  /api/commands/Academics/ProgramVersion/save:
+    $ref: ./paths/api_commands_Academics_ProgramVersion_save.yaml
+  /api/commands/Academics/ProgramVersion/saveNew:
+    $ref: ./paths/api_commands_Academics_ProgramVersion_saveNew.yaml
+  /api/commands/Academics/ProgramVersion/saveProgramVersion:
+    $ref: ./paths/api_commands_Academics_ProgramVersion_saveProgramVersion.yaml

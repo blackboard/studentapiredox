@@ -1,0 +1,46 @@
+openapi: 3.0.3
+info:
+  title: Common Student
+  description: All Common API calls for Students.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/Term/changeStudentStatusOnCloseTask:
+    $ref: ./paths/api_commands_Common_Student_changeStudentStatusOnCloseTask.yaml
+  /api/commands/Academics/Term/checkDuplicateCampusStudent:
+    $ref: ./paths/api_commands_Common_Student_checkDuplicateCampusStudent.yaml
+  /api/commands/Academics/Term/create:
+    $ref: ./paths/api_commands_Common_Student_create.yaml
+  /api/commands/Academics/Term/delete:
+    $ref: ./paths/api_commands_Common_Student_delete.yaml
+  /api/commands/Academics/Term/deleteAlumni:
+    $ref: ./paths/api_commands_Common_Student_deleteAlumni.yaml
+  /api/commands/Academics/Term/get:
+    $ref: ./paths/api_commands_Common_Student_get.yaml
+  /api/commands/Academics/Term/getActivityStatementStudents:
+    $ref: ./paths/api_commands_Common_Student_getActivityStatementStudents.yaml
+  /api/commands/Academics/Term/getAlumni:
+    $ref: ./paths/api_commands_Common_Student_getAlumni.yaml
+  /api/commands/Academics/Term/getBatchTranscriptStudents:
+    $ref: ./paths/api_commands_Common_Student_getBatchTranscriptStudents.yaml
+  /api/commands/Academics/Term/getQuickLeadTemplateDetail:
+    $ref: ./paths/api_commands_Common_Student_getQuickLeadTemplateDetail.yaml
+  /api/commands/Academics/Term/getRecentStudents:
+    $ref: ./paths/api_commands_Common_Student_getRecentStudents.yaml
+  /api/commands/Academics/Term/processDuplicateStudent:
+    $ref: ./paths/api_commands_Common_Student_processDuplicateStudent.yaml
+  /api/commands/Academics/Term/save:
+    $ref: ./paths/api_commands_Common_Student_save.yaml
+  /api/commands/Academics/Term/saveNew:
+    $ref: ./paths/api_commands_Common_Student_saveNew.yaml
+  /api/commands/Academics/Term/saveNewAlumni:
+    $ref: ./paths/api_commands_Common_Student_saveNewAlumni.yaml
+  /api/commands/Academics/Term/saveQuickLead:
+    $ref: ./paths/api_commands_Common_Student_saveQuickLead.yaml
+  /api/commands/Academics/Term/setDefaultStudentLabelAddress:
+    $ref: ./paths/api_commands_Common_Student_setDefaultStudentLabelAddress.yaml

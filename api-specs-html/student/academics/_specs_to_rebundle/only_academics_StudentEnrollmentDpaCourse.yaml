@@ -1,0 +1,24 @@
+openapi: 3.0.3
+info:
+  title: Student Entollment DPA Course
+  description: All API calls related to Student Entollment DPA Course.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/StudentEnrollmentDpaCourse/create:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentDpaCourse_create.yaml
+  /api/commands/Academics/StudentEnrollmentDpaCourse/delete:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentDpaCourse_delete.yaml
+  /api/commands/Academics/StudentEnrollmentDpaCourse/get:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentDpaCourse_get.yaml
+  /api/commands/Academics/StudentEnrollmentDpaCourse/save:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentDpaCourse_save.yaml
+  /api/commands/Academics/StudentEnrollmentDpaCourse/saveNew:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentDpaCourse_saveNew.yaml 
+  /api/commands/Academics/StudentEnrollmentDpaCourse/waiveCourseRequirement:
+    $ref: ./paths/api_commands_Academics_StudentEnrollmentDpaCourse_waiveCourseRequirement.yaml

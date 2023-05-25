@@ -1,0 +1,69 @@
+openapi: 3.0.3
+info:
+  title: Class Section
+  description: All API calls related to Class Sections.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/ClassSection/acceptWaitListStudents:
+    $ref: ./paths/api_commands_Academics_ClassSection_acceptWaitListStudents.yaml
+  /api/commands/Academics/ClassSection/cancelClassSection:
+    $ref: ./paths/api_commands_Academics_ClassSection_cancelClassSection.yaml
+  /api/commands/Academics/ClassSection/clearMultipleTermWaitList:
+    $ref: ./paths/api_commands_Academics_ClassSection_clearMultipleTermWaitList.yaml
+  /api/commands/Academics/ClassSection/clearWaitList:
+    $ref: ./paths/api_commands_Academics_ClassSection_clearWaitList.yaml
+  /api/commands/Academics/ClassSection/clearWaitListStudents:
+    $ref: ./paths/api_commands_Academics_ClassSection_clearWaitListStudents.yaml
+  /api/commands/Academics/ClassSection/copyClassSchedule:
+    $ref: ./paths/api_commands_Academics_ClassSection_copyClassSchedule.yaml
+  /api/commands/Academics/ClassSection/create:
+    $ref: ./paths/api_commands_Academics_ClassSection_create.yaml
+  /api/commands/Academics/ClassSection/delete:
+    $ref: ./paths/api_commands_Academics_ClassSection_delete.yaml
+  /api/commands/Academics/ClassSection/get:
+    $ref: ./paths/api_commands_Academics_ClassSection_get.yaml
+  /api/commands/Academics/ClassSection/getClassSectionDocuments:
+    $ref: ./paths/api_commands_Academics_ClassSection_getClassSectionDocuments.yaml
+  /api/commands/Academics/ClassSection/getClassSectionHeader:
+    $ref: ./paths/api_commands_Academics_ClassSection_getClassSectionHeader.yaml
+  /api/commands/Academics/ClassSection/getClassSectionLmsOptions:
+    $ref: ./paths/api_commands_Academics_ClassSection_getClassSectionLmsOptions.yaml
+  /api/commands/Academics/ClassSection/getClassSectionPeriods:
+    $ref: ./paths/api_commands_Academics_ClassSection_getClassSectionPeriods.yaml
+  /api/commands/Academics/ClassSection/getClassSectionsWithMaxClassSizeExceed:
+    $ref: ./paths/api_commands_Academics_ClassSection_getClassSectionsWithMaxClassSizeExceed.yaml
+  /api/commands/Academics/ClassSection/getCourseFeeSchedule:
+    $ref: ./paths/api_commands_Academics_ClassSection_getCourseFeeSchedule.yaml
+  /api/commands/Academics/ClassSection/getDependentCoursesClassSections:
+    $ref: ./paths/api_commands_Academics_ClassSection_getDependentCoursesClassSections.yaml
+  /api/commands/Academics/ClassSection/getInstructorsAndPortalOptions:
+    $ref: ./paths/api_commands_Academics_ClassSection_getInstructorsAndPortalOptions.yaml
+  /api/commands/Academics/ClassSection/reinstateClassSection:
+    $ref: ./paths/api_commands_Academics_ClassSection_reinstateClassSection.yaml
+  /api/commands/Academics/ClassSection/save:
+    $ref: ./paths/api_commands_Academics_ClassSection_save.yaml
+  /api/commands/Academics/ClassSection/saveBooks:
+    $ref: ./paths/api_commands_Academics_ClassSection_saveBooks.yaml
+  /api/commands/Academics/ClassSection/saveClassSectionDocuments:
+    $ref: ./paths/api_commands_Academics_ClassSection_saveClassSectionDocuments.yaml
+  /api/commands/Academics/ClassSection/saveClassSectionLmsOptions:
+    $ref: ./paths/api_commands_Academics_ClassSection_saveClassSectionLmsOptions.yaml
+  /api/commands/Academics/ClassSection/saveClassSectionPeriods:
+    $ref: ./paths/api_commands_Academics_ClassSection_saveClassSectionPeriods.yaml
+  /api/commands/Academics/ClassSection/saveCourseFeeSchedule:
+    $ref: ./paths/api_commands_Academics_ClassSection_saveCourseFeeSchedule.yaml
+  /api/commands/Academics/ClassSection/saveInstructorsAndPortalOptions:
+    $ref: ./paths/api_commands_Academics_ClassSection_saveInstructorsAndPortalOptions.yaml
+  /api/commands/Academics/ClassSection/saveNew:
+    $ref: ./paths/api_commands_Academics_ClassSection_saveNew.yaml
+  /api/commands/Academics/ClassSection/saveWaitlistAndAttendanceRules:
+    $ref: ./paths/api_commands_Academics_ClassSection_saveWaitlistAndAttendanceRules.yaml
+  /api/commands/Academics/ClassSection/unscheduleClassSection:
+    $ref: ./paths/api_commands_Academics_ClassSection_unscheduleClassSection.yaml
+

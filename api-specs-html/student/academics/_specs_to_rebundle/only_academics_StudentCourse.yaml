@@ -1,0 +1,66 @@
+openapi: 3.0.3
+info:
+  title: Student Course
+  description: All API calls related to Student Course.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/StudentCourse/associateStudentEnrollment:
+    $ref: ./paths/api_commands_Academics_StudentCourse_associateStudentEnrollment.yaml
+  /api/commands/Academics/StudentCourse/batchPostFinalGrade:
+    $ref: ./paths/api_commands_Academics_StudentCourse_batchPostFinalGrade.yaml
+  /api/commands/Academics/StudentCourse/convertToAuditCourse:
+    $ref: ./paths/api_commands_Academics_StudentCourse_convertToAuditCourse.yaml
+  /api/commands/Academics/StudentCourse/create:
+    $ref: ./paths/api_commands_Academics_StudentCourse_create.yaml
+  /api/commands/Academics/StudentCourse/delete:
+    $ref: ./paths/api_commands_Academics_StudentCourse_delete.yaml 
+  /api/commands/Academics/StudentCourse/deleteStudentCourse:
+    $ref: ./paths/api_commands_Academics_StudentCourse_deleteStudentCourse.yaml
+  /api/commands/Academics/StudentCourse/dropCourse:
+    $ref: ./paths/api_commands_Academics_StudentCourse_dropCourse.yaml
+  /api/commands/Academics/StudentCourse/get:
+    $ref: ./paths/api_commands_Academics_StudentCourse_get.yaml
+  /api/commands/Academics/StudentCourse/getStudentCoursesScheduleDetail:
+    $ref: ./paths/api_commands_Academics_StudentCourse_getStudentCoursesScheduleDetail.yaml
+  /api/commands/Academics/StudentCourse/getStudentForFutureCourseList:
+    $ref: ./paths/api_commands_Academics_StudentCourse_getStudentForFutureCourseList.yaml
+  /api/commands/Academics/StudentCourse/postFinalGrade:
+    $ref: ./paths/api_commands_Academics_StudentCourse_postFinalGrade.yaml
+  /api/commands/Academics/StudentCourse/postMidTermGrade:
+    $ref: ./paths/api_commands_Academics_StudentCourse_postMidTermGrade.yaml
+  /api/commands/Academics/StudentCourse/reassignStudentCourse:
+    $ref: ./paths/api_commands_Academics_StudentCourse_reassignStudentCourse.yaml
+  /api/commands/Academics/StudentCourse/reinstateCourse:
+    $ref: ./paths/api_commands_Academics_StudentCourse_reinstateCourse.yaml
+  /api/commands/Academics/StudentCourse/removeWaitlist:
+    $ref: ./paths/api_commands_Academics_StudentCourse_removeWaitlist.yaml
+  /api/commands/Academics/StudentCourse/save:
+    $ref: ./paths/api_commands_Academics_StudentCourse_save.yaml
+  /api/commands/Academics/StudentCourse/saveNew:
+    $ref: ./paths/api_commands_Academics_StudentCourse_saveNew.yaml
+  /api/commands/Academics/StudentCourse/saveStudentCourse:
+    $ref: ./paths/api_commands_Academics_StudentCourse_saveStudentCourse.yaml
+  /api/commands/Academics/StudentCourse/studentCourseTransferSection:
+    $ref: ./paths/api_commands_Academics_StudentCourse_studentCourseTransferSection.yaml
+  /api/commands/Academics/StudentCourse/unassociateStudentEnrollment:
+    $ref: ./paths/api_commands_Academics_StudentCourse_unassociateStudentEnrollment.yaml
+  /api/commands/Academics/StudentCourse/unregisterClassSectionRoster:
+    $ref: ./paths/api_commands_Academics_StudentCourse_unregisterClassSectionRoster.yaml
+  /api/commands/Academics/StudentCourse/unregisterStudentCourse:
+    $ref: ./paths/api_commands_Academics_StudentCourse_unregisterStudentCourse.yaml
+  /api/commands/Academics/StudentCourse/updateAdviseStatus:
+    $ref: ./paths/api_commands_Academics_StudentCourse_updateAdviseStatus.yaml
+  /api/commands/Academics/StudentCourse/updateStudentCourse:
+    $ref: ./paths/api_commands_Academics_StudentCourse_updateStudentCourse.yaml
+  /api/commands/Academics/StudentCourse/updateStudentCourseProgress:
+    $ref: ./paths/api_commands_Academics_StudentCourse_updateStudentCourseProgress.yaml
+  /api/commands/Academics/StudentCourse/updateStudentFutureCourseList:
+    $ref: ./paths/api_commands_Academics_StudentCourse_updateStudentFutureCourseList.yaml
+  /api/commands/Academics/StudentCourse/validateStudentCourseTerm:
+    $ref: ./paths/api_commands_Academics_StudentCourse_validateStudentCourseTerm.yaml
