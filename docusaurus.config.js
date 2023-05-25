@@ -76,11 +76,93 @@ const config = {
             route: '/openapi/learn/learn_unreleased',
             url: 'https://devportal-docstore.s3.amazonaws.com/learn-unreleased.json'
           },
+          // ACADEMICS
           {
-            id:'studentacademics',
-            spec: 'openapi/student/academics.json',
-            route: '/openapi/student/academics',
+            id:'studentacademicsadditionalgpa',
+            spec: 'openapi/student/academics/academicsAdditionalGpa.yaml',
+            route: '/openapi/student/academics/academicsAdditionalGpa',
           },
+          // {
+          //   id:'studentacademicsareaofstudy',
+          //   spec: 'openapi/student/academics/academicsAreaOfStudy.yaml',
+          //   route: '/openapi/student/academics/academicsAreaOfStudy',
+          // },
+          {
+            id:'studentacademicsattendance',
+            spec: 'openapi/student/academics/academicsAttendance.yaml',
+            route: '/openapi/student/academics/academicsAttendance',
+          },
+          {
+            id:'studentacademicsclasssection',
+            spec: 'openapi/student/academics/academicsClassSection.yaml',
+            route: '/openapi/student/academics/academicsClassSection',
+          },
+          {
+            id:'studentacademicscommon',
+            spec: 'openapi/student/academics/academicsCommon.yaml',
+            route: '/openapi/student/academics/academicsCommon',
+          },
+          {
+            id:'studentacademicscourse',
+            spec: 'openapi/student/academics/academicsCourse.yaml',
+            route: '/openapi/student/academics/academicsCourse',
+          },
+          {
+            id:'studentacademicsdegree',
+            spec: 'openapi/student/academics/academicsDegree.yaml',
+            route: '/openapi/student/academics/academicsDegree',
+          },
+          {
+            id:'studentacademicsenrollmentstatus',
+            spec: 'openapi/student/academics/academicsEnrollmentStatus.yaml',
+            route: '/openapi/student/academics/academicsEnrollmentStatus',
+          },
+          {
+            id:'studentacademicsprogram',
+            spec: 'openapi/student/academics/academicsProgram.yaml',
+            route: '/openapi/student/academics/academicsProgram',
+          },
+          // {
+          //   id:'studentacademicsprogramversion',
+          //   spec: 'openapi/student/academics/academicsProgramVersion.yaml',
+          //   route: '/openapi/student/academics/academicsProgramVersion',
+          // },
+          {
+            id:'studentacademicsregistration',
+            spec: 'openapi/student/academics/academicsRegistration.yaml',
+            route: '/openapi/student/academics/academicsRegistration',
+          },
+          {
+            id:'studentacademicsschoolstartdate',
+            spec: 'openapi/student/academics/academicsSchoolStartDate.yaml',
+            route: '/openapi/student/academics/academicsSchoolStartDate',
+          },
+          {
+            id:'studentacademicsshift',
+            spec: 'openapi/student/academics/academicsShift.yaml',
+            route: '/openapi/student/academics/academicsShift',
+          },
+          {
+            id:'studentacademicsstudentcourse',
+            spec: 'openapi/student/academics/academicsStudentCourse.yaml',
+            route: '/openapi/student/academics/academicsStudentCourse',
+          },
+          {
+            id:'studentacademicsstudentenrollmentdpacourse',
+            spec: 'openapi/student/academics/academicsStudentEnrollmentDpaCourse.yaml',
+            route: '/openapi/student/academics/academicsStudentEnrollmentDpaCourse',
+          },
+          {
+            id:'studentacademicsstudentenrollmentperiod',
+            spec: 'openapi/student/academics/academicsStudentEnrollmentPeriod.yaml',
+            route: '/openapi/student/academics/academicsStudentEnrollmentPeriod',
+          },
+          {
+            id:'studentacademicsterm',
+            spec: 'openapi/student/academics/academicsTerm.yaml',
+            route: '/openapi/student/academics/academicsTerm',
+          },
+          // the rest of them
           {
             id:'studentadmissions',
             spec: 'openapi/student/admissions.json',
@@ -111,11 +193,6 @@ const config = {
             spec: 'openapi/student/studentaccounts.json',
             route: '/openapi/student/studentaccounts',
           },
-        //   {
-        //     id: 'studentservices',
-        //     spec: 'openapi/student/studentservices.yaml',
-        //     route: '/openapi/student/studentservices',
-        //   },
         ],
         // Theme Options for modifying how redoc renders them
         theme: {

@@ -15,9 +15,11 @@ Let's discover Student APIs.
 ### Academics
 What you can do with Academics APIs
 
+NOTE: The Academics APIs are broken into logical groupings to provide a more efficient browsing experience. Use the left navigation panel to browse.
+
 _insert descriptive blurb_
 
-[**Academics API docs**](./apis/student/academics)
+<!-- [**Academics API docs**](./apis/student/academics) -->
 
 ### Admissions
 What you can do with Admissions APIs
