@@ -1,0 +1,1845 @@
+openapi: 3.0.3
+info:
+  title: Term
+  description: All API calls related to Terms.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: '1.0'
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/Term/create:
+    post:
+      tags:
+        - Term
+      summary: Create Term
+      operationId: academics-term-create
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-term-create-response'
+  /api/commands/Academics/Term/delete:
+    post:
+      tags:
+        - Term
+      summary: Delete Term
+      operationId: academics-term-delete
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-term-delete-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-term-delete-response'
+  /api/commands/Academics/Term/get:
+    post:
+      tags:
+        - Term
+      summary: Get Term
+      operationId: academics-term-get
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-term-get-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-term-get-response'
+  /api/commands/Academics/Term/save:
+    post:
+      tags:
+        - Term
+      summary: Save Term
+      operationId: academics-term-save
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-term-save-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-term-save-response'
+  /api/commands/Academics/Term/saveNew:
+    post:
+      tags:
+        - Term
+      summary: Save New Term
+      operationId: academics-term-savenew
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-term-savenew-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-term-savenew-response'
+  /api/commands/Academics/Term/saveTermStatus:
+    post:
+      tags:
+        - Term
+      summary: Save Term Status
+      operationId: academics-term-savetermstatus
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-term-savetermstatus-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-term-savetermstatus-response'
+components:
+  schemas:
+    cmc-nexus-common-entities-campusListEntity:
+      required:
+        - id
+        - campusId
+        - createdDateTime
+        - lastModifiedDateTime
+        - lastModifiedUserId
+      properties:
+        id:
+          format: int32
+          description: Id
+          type: number
+        campusGroupId:
+          format: int32
+          description: Campus Group Id
+          type: number
+        campusId:
+          format: int32
+          description: Campus Id
+          type: number
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        isCampusActive:
+          description: Is Campus Active
+          type: boolean
+        isSystemCode:
+          description: Is System Code
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        rowVersion:
+          type: string
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    cmc-nexus-common-entities-campusGroupEntity:
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isSystemCode
+        - lastModifiedUserId
+        - name
+      properties:
+        id:
+          format: int32
+          description: Id
+          type: number
+        approverStaffId:
+          format: int32
+          description: Approver Staff Id
+          type: number
+        code:
+          description: Code
+          type: string
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        financialCampusGroup:
+          description: Financial Campus Group
+          type: boolean
+        isActive:
+          description: Is Active
+          type: boolean
+        isSystemCode:
+          description: Is System Code
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        rowVersion:
+          type: string
+        saStmtComments:
+          description: Sa Stmt Comments
+          type: string
+        saStmtLastCloseDate:
+          format: date-time
+          description: Sa Stmt Last Close Date
+          type: string
+        type:
+          description: Type
+          type: string
+        campusList:
+          type: array
+          items:
+            $ref: '#/components/schemas/cmc-nexus-common-entities-campusListEntity'
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-term-create-response-payload-data:
+      description: ''
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isActive
+        - lastModifiedDateTime
+        - name
+        - termUsage
+      properties:
+        campusIdList:
+          type: array
+          items:
+            format: int32
+            type: number
+        isExcludedCrmIntegration:
+          type: boolean
+        id:
+          format: int32
+          description: Id
+          type: number
+        addDropDate:
+          format: date-time
+          description: Add Drop Date
+          type: string
+        auditDesignationDeadline:
+          format: date-time
+          description: Audit Designation Deadline
+          type: string
+        campusGroupId:
+          format: int32
+          description: Campus Group Id
+          type: number
+        code:
+          description: Code
+          type: string
+        courseRefundPolicyId:
+          format: int32
+          description: Course Refund Policy Id
+          type: number
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        endDate:
+          format: date-time
+          description: End Date
+          type: string
+        faAcademicCalendar:
+          description: Fa Academic Calendar
+          type: object
+        internalRegistrationBeginDateTime:
+          format: date-time
+          description: Internal Registration Begin Date Time
+          type: string
+        internalRegistrationEndDateTime:
+          format: date-time
+          description: Internal Registration End Date Time
+          type: string
+        isActive:
+          description: Is Active
+          type: boolean
+        isAttendanceRecorded:
+          description: Is Attendance Recorded
+          type: boolean
+        isChildTermDatesRuleEnforced:
+          description: Is Child Term Dates Rule Enforced
+          type: boolean
+        isGlobalExtractTerm:
+          description: Is Global Extract Term
+          type: boolean
+        isLdaRetainedUnregisteredCourses:
+          description: Is Lda Retained Unregistered Courses
+          type: boolean
+        isOnlineUsageAllowed:
+          description: Is Online Usage Allowed
+          type: boolean
+        isPrePullRequiredForGlobal:
+          description: Is Pre Pull Required For Global
+          type: boolean
+        isSapTerm:
+          description: Is Sap Term
+          type: boolean
+        isStandardTerm:
+          description: Is Standard Term
+          type: object
+        isTermOpen:
+          description: Is Term Open
+          type: boolean
+        isTermSuspendLiftedCampusLinkAmbassador:
+          description: Is Term Suspend Lifted Campus Link Ambassador
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        numberOfDaysAfterTermStartDate:
+          format: int32
+          description: Number Of Days After Term Start Date
+          type: number
+        numberOfDaysPriorToTermStartDate:
+          format: int32
+          description: Number Of Days Prior To Term Start Date
+          type: number
+        numberOfDaysToRecalcNotification:
+          format: int32
+          description: Number Of Days To Recalc Notification
+          type: number
+        openRegistrationBeginDateTime:
+          format: date-time
+          description: Open Registration Begin Date Time
+          type: string
+        openRegistrationEndDateTime:
+          format: date-time
+          description: Open Registration End Date Time
+          type: string
+        revenueUnits:
+          format: double
+          description: Revenue Units
+          type: number
+        rowVersion:
+          type: string
+        sapCalcDaysAfterTermEnd:
+          format: int32
+          description: Sap Calc Days After Term End
+          type: number
+        scheduleChangesType:
+          description: Schedule Changes Type
+          type: string
+        sendCourseSectionDataInitialDoneToLms:
+          description: Send Course Section Data Initial Done To Lms
+          type: boolean
+        sendCourseSectionDataToLms:
+          description: Send Course Section Data To Lms
+          type: boolean
+        sendInstructorAssignmentsInitialDoneToLms:
+          description: Send Instructor Assignments Initial Done To Lms
+          type: boolean
+        sendInstructorAssignmentsToLms:
+          description: Send Instructor Assignments To Lms
+          type: boolean
+        sendStudentRegistrationDataInitialDoneToLms:
+          description: Send Student Registration Data Initial Done To Lms
+          type: boolean
+        sendStudentRegistrationDataToLms:
+          description: Send Student Registration Data To Lms
+          type: boolean
+        shiftId:
+          format: int32
+          description: Shift Id
+          type: number
+        standardTermType:
+          description: Standard Term Type
+          type: string
+        startDate:
+          format: date-time
+          description: Start Date
+          type: string
+        studentRegisterEndDate:
+          format: date-time
+          description: Student Register End Date
+          type: string
+        studentRegisterStartDate:
+          format: date-time
+          description: Student Register Start Date
+          type: string
+        summerHeaderOrTrailer:
+          description: Summer Header Or Trailer
+          type: object
+        termGroupId:
+          format: int32
+          description: Term Group Id
+          type: number
+        termUsage:
+          description: Term Usage
+          type: object
+        campusGroup:
+          $ref: '#/components/schemas/cmc-nexus-common-entities-campusGroupEntity'
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-term-create-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-term-create-response-payload-data'
+    academics-term-create-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-create-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-term-delete-request-payload:
+      description: ''
+      properties:
+        campusIdList:
+          type: array
+          items:
+            format: int32
+            type: number
+        isExcludedCrmIntegration:
+          type: boolean
+        id:
+          format: int32
+          description: Id
+          type: number
+        addDropDate:
+          format: date-time
+          description: Add Drop Date
+          type: string
+        auditDesignationDeadline:
+          format: date-time
+          description: Audit Designation Deadline
+          type: string
+        campusGroupId:
+          format: int32
+          description: Campus Group Id
+          type: number
+        code:
+          description: Code
+          type: string
+        courseRefundPolicyId:
+          format: int32
+          description: Course Refund Policy Id
+          type: number
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        endDate:
+          format: date-time
+          description: End Date
+          type: string
+        faAcademicCalendar:
+          description: Fa Academic Calendar
+          type: object
+        internalRegistrationBeginDateTime:
+          format: date-time
+          description: Internal Registration Begin Date Time
+          type: string
+        internalRegistrationEndDateTime:
+          format: date-time
+          description: Internal Registration End Date Time
+          type: string
+        isActive:
+          description: Is Active
+          type: boolean
+        isAttendanceRecorded:
+          description: Is Attendance Recorded
+          type: boolean
+        isChildTermDatesRuleEnforced:
+          description: Is Child Term Dates Rule Enforced
+          type: boolean
+        isGlobalExtractTerm:
+          description: Is Global Extract Term
+          type: boolean
+        isLdaRetainedUnregisteredCourses:
+          description: Is Lda Retained Unregistered Courses
+          type: boolean
+        isOnlineUsageAllowed:
+          description: Is Online Usage Allowed
+          type: boolean
+        isPrePullRequiredForGlobal:
+          description: Is Pre Pull Required For Global
+          type: boolean
+        isSapTerm:
+          description: Is Sap Term
+          type: boolean
+        isStandardTerm:
+          description: Is Standard Term
+          type: object
+        isTermOpen:
+          description: Is Term Open
+          type: boolean
+        isTermSuspendLiftedCampusLinkAmbassador:
+          description: Is Term Suspend Lifted Campus Link Ambassador
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        numberOfDaysAfterTermStartDate:
+          format: int32
+          description: Number Of Days After Term Start Date
+          type: number
+        numberOfDaysPriorToTermStartDate:
+          format: int32
+          description: Number Of Days Prior To Term Start Date
+          type: number
+        numberOfDaysToRecalcNotification:
+          format: int32
+          description: Number Of Days To Recalc Notification
+          type: number
+        openRegistrationBeginDateTime:
+          format: date-time
+          description: Open Registration Begin Date Time
+          type: string
+        openRegistrationEndDateTime:
+          format: date-time
+          description: Open Registration End Date Time
+          type: string
+        revenueUnits:
+          format: double
+          description: Revenue Units
+          type: number
+        rowVersion:
+          type: string
+        sapCalcDaysAfterTermEnd:
+          format: int32
+          description: Sap Calc Days After Term End
+          type: number
+        scheduleChangesType:
+          description: Schedule Changes Type
+          type: string
+        sendCourseSectionDataInitialDoneToLms:
+          description: Send Course Section Data Initial Done To Lms
+          type: boolean
+        sendCourseSectionDataToLms:
+          description: Send Course Section Data To Lms
+          type: boolean
+        sendInstructorAssignmentsInitialDoneToLms:
+          description: Send Instructor Assignments Initial Done To Lms
+          type: boolean
+        sendInstructorAssignmentsToLms:
+          description: Send Instructor Assignments To Lms
+          type: boolean
+        sendStudentRegistrationDataInitialDoneToLms:
+          description: Send Student Registration Data Initial Done To Lms
+          type: boolean
+        sendStudentRegistrationDataToLms:
+          description: Send Student Registration Data To Lms
+          type: boolean
+        shiftId:
+          format: int32
+          description: Shift Id
+          type: number
+        standardTermType:
+          description: Standard Term Type
+          type: string
+        startDate:
+          format: date-time
+          description: Start Date
+          type: string
+        studentRegisterEndDate:
+          format: date-time
+          description: Student Register End Date
+          type: string
+        studentRegisterStartDate:
+          format: date-time
+          description: Student Register Start Date
+          type: string
+        summerHeaderOrTrailer:
+          description: Summer Header Or Trailer
+          type: object
+        termGroupId:
+          format: int32
+          description: Term Group Id
+          type: number
+        termUsage:
+          description: Term Usage
+          type: object
+        campusGroup:
+          $ref: '#/components/schemas/cmc-nexus-common-entities-campusGroupEntity'
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-term-delete-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-delete-request-payload'
+    academics-term-delete-response-payload:
+      properties:
+        deleted:
+          type: boolean
+    academics-term-delete-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-delete-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-term-get-request-payload:
+      description: ''
+      properties:
+        id:
+          format: int32
+          type: number
+    academics-term-get-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-get-request-payload'
+    academics-term-get-response-payload-data:
+      description: ''
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isActive
+        - lastModifiedDateTime
+        - name
+        - termUsage
+      properties:
+        campusIdList:
+          type: array
+          items:
+            format: int32
+            type: number
+        isExcludedCrmIntegration:
+          type: boolean
+        id:
+          format: int32
+          description: Id
+          type: number
+        addDropDate:
+          format: date-time
+          description: Add Drop Date
+          type: string
+        auditDesignationDeadline:
+          format: date-time
+          description: Audit Designation Deadline
+          type: string
+        campusGroupId:
+          format: int32
+          description: Campus Group Id
+          type: number
+        code:
+          description: Code
+          type: string
+        courseRefundPolicyId:
+          format: int32
+          description: Course Refund Policy Id
+          type: number
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        endDate:
+          format: date-time
+          description: End Date
+          type: string
+        faAcademicCalendar:
+          description: Fa Academic Calendar
+          type: object
+        internalRegistrationBeginDateTime:
+          format: date-time
+          description: Internal Registration Begin Date Time
+          type: string
+        internalRegistrationEndDateTime:
+          format: date-time
+          description: Internal Registration End Date Time
+          type: string
+        isActive:
+          description: Is Active
+          type: boolean
+        isAttendanceRecorded:
+          description: Is Attendance Recorded
+          type: boolean
+        isChildTermDatesRuleEnforced:
+          description: Is Child Term Dates Rule Enforced
+          type: boolean
+        isGlobalExtractTerm:
+          description: Is Global Extract Term
+          type: boolean
+        isLdaRetainedUnregisteredCourses:
+          description: Is Lda Retained Unregistered Courses
+          type: boolean
+        isOnlineUsageAllowed:
+          description: Is Online Usage Allowed
+          type: boolean
+        isPrePullRequiredForGlobal:
+          description: Is Pre Pull Required For Global
+          type: boolean
+        isSapTerm:
+          description: Is Sap Term
+          type: boolean
+        isStandardTerm:
+          description: Is Standard Term
+          type: object
+        isTermOpen:
+          description: Is Term Open
+          type: boolean
+        isTermSuspendLiftedCampusLinkAmbassador:
+          description: Is Term Suspend Lifted Campus Link Ambassador
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        numberOfDaysAfterTermStartDate:
+          format: int32
+          description: Number Of Days After Term Start Date
+          type: number
+        numberOfDaysPriorToTermStartDate:
+          format: int32
+          description: Number Of Days Prior To Term Start Date
+          type: number
+        numberOfDaysToRecalcNotification:
+          format: int32
+          description: Number Of Days To Recalc Notification
+          type: number
+        openRegistrationBeginDateTime:
+          format: date-time
+          description: Open Registration Begin Date Time
+          type: string
+        openRegistrationEndDateTime:
+          format: date-time
+          description: Open Registration End Date Time
+          type: string
+        revenueUnits:
+          format: double
+          description: Revenue Units
+          type: number
+        rowVersion:
+          type: string
+        sapCalcDaysAfterTermEnd:
+          format: int32
+          description: Sap Calc Days After Term End
+          type: number
+        scheduleChangesType:
+          description: Schedule Changes Type
+          type: string
+        sendCourseSectionDataInitialDoneToLms:
+          description: Send Course Section Data Initial Done To Lms
+          type: boolean
+        sendCourseSectionDataToLms:
+          description: Send Course Section Data To Lms
+          type: boolean
+        sendInstructorAssignmentsInitialDoneToLms:
+          description: Send Instructor Assignments Initial Done To Lms
+          type: boolean
+        sendInstructorAssignmentsToLms:
+          description: Send Instructor Assignments To Lms
+          type: boolean
+        sendStudentRegistrationDataInitialDoneToLms:
+          description: Send Student Registration Data Initial Done To Lms
+          type: boolean
+        sendStudentRegistrationDataToLms:
+          description: Send Student Registration Data To Lms
+          type: boolean
+        shiftId:
+          format: int32
+          description: Shift Id
+          type: number
+        standardTermType:
+          description: Standard Term Type
+          type: string
+        startDate:
+          format: date-time
+          description: Start Date
+          type: string
+        studentRegisterEndDate:
+          format: date-time
+          description: Student Register End Date
+          type: string
+        studentRegisterStartDate:
+          format: date-time
+          description: Student Register Start Date
+          type: string
+        summerHeaderOrTrailer:
+          description: Summer Header Or Trailer
+          type: object
+        termGroupId:
+          format: int32
+          description: Term Group Id
+          type: number
+        termUsage:
+          description: Term Usage
+          type: object
+        campusGroup:
+          $ref: '#/components/schemas/cmc-nexus-common-entities-campusGroupEntity'
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-term-get-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-term-get-response-payload-data'
+    academics-term-get-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-get-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-term-save-request-payload:
+      description: ''
+      properties:
+        campusIdList:
+          type: array
+          items:
+            format: int32
+            type: number
+        isExcludedCrmIntegration:
+          type: boolean
+        id:
+          format: int32
+          description: Id
+          type: number
+        addDropDate:
+          format: date-time
+          description: Add Drop Date
+          type: string
+        auditDesignationDeadline:
+          format: date-time
+          description: Audit Designation Deadline
+          type: string
+        campusGroupId:
+          format: int32
+          description: Campus Group Id
+          type: number
+        code:
+          description: Code
+          type: string
+        courseRefundPolicyId:
+          format: int32
+          description: Course Refund Policy Id
+          type: number
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        endDate:
+          format: date-time
+          description: End Date
+          type: string
+        faAcademicCalendar:
+          description: Fa Academic Calendar
+          type: object
+        internalRegistrationBeginDateTime:
+          format: date-time
+          description: Internal Registration Begin Date Time
+          type: string
+        internalRegistrationEndDateTime:
+          format: date-time
+          description: Internal Registration End Date Time
+          type: string
+        isActive:
+          description: Is Active
+          type: boolean
+        isAttendanceRecorded:
+          description: Is Attendance Recorded
+          type: boolean
+        isChildTermDatesRuleEnforced:
+          description: Is Child Term Dates Rule Enforced
+          type: boolean
+        isGlobalExtractTerm:
+          description: Is Global Extract Term
+          type: boolean
+        isLdaRetainedUnregisteredCourses:
+          description: Is Lda Retained Unregistered Courses
+          type: boolean
+        isOnlineUsageAllowed:
+          description: Is Online Usage Allowed
+          type: boolean
+        isPrePullRequiredForGlobal:
+          description: Is Pre Pull Required For Global
+          type: boolean
+        isSapTerm:
+          description: Is Sap Term
+          type: boolean
+        isStandardTerm:
+          description: Is Standard Term
+          type: object
+        isTermOpen:
+          description: Is Term Open
+          type: boolean
+        isTermSuspendLiftedCampusLinkAmbassador:
+          description: Is Term Suspend Lifted Campus Link Ambassador
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        numberOfDaysAfterTermStartDate:
+          format: int32
+          description: Number Of Days After Term Start Date
+          type: number
+        numberOfDaysPriorToTermStartDate:
+          format: int32
+          description: Number Of Days Prior To Term Start Date
+          type: number
+        numberOfDaysToRecalcNotification:
+          format: int32
+          description: Number Of Days To Recalc Notification
+          type: number
+        openRegistrationBeginDateTime:
+          format: date-time
+          description: Open Registration Begin Date Time
+          type: string
+        openRegistrationEndDateTime:
+          format: date-time
+          description: Open Registration End Date Time
+          type: string
+        revenueUnits:
+          format: double
+          description: Revenue Units
+          type: number
+        rowVersion:
+          type: string
+        sapCalcDaysAfterTermEnd:
+          format: int32
+          description: Sap Calc Days After Term End
+          type: number
+        scheduleChangesType:
+          description: Schedule Changes Type
+          type: string
+        sendCourseSectionDataInitialDoneToLms:
+          description: Send Course Section Data Initial Done To Lms
+          type: boolean
+        sendCourseSectionDataToLms:
+          description: Send Course Section Data To Lms
+          type: boolean
+        sendInstructorAssignmentsInitialDoneToLms:
+          description: Send Instructor Assignments Initial Done To Lms
+          type: boolean
+        sendInstructorAssignmentsToLms:
+          description: Send Instructor Assignments To Lms
+          type: boolean
+        sendStudentRegistrationDataInitialDoneToLms:
+          description: Send Student Registration Data Initial Done To Lms
+          type: boolean
+        sendStudentRegistrationDataToLms:
+          description: Send Student Registration Data To Lms
+          type: boolean
+        shiftId:
+          format: int32
+          description: Shift Id
+          type: number
+        standardTermType:
+          description: Standard Term Type
+          type: string
+        startDate:
+          format: date-time
+          description: Start Date
+          type: string
+        studentRegisterEndDate:
+          format: date-time
+          description: Student Register End Date
+          type: string
+        studentRegisterStartDate:
+          format: date-time
+          description: Student Register Start Date
+          type: string
+        summerHeaderOrTrailer:
+          description: Summer Header Or Trailer
+          type: object
+        termGroupId:
+          format: int32
+          description: Term Group Id
+          type: number
+        termUsage:
+          description: Term Usage
+          type: object
+        campusGroup:
+          $ref: '#/components/schemas/cmc-nexus-common-entities-campusGroupEntity'
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-term-save-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-save-request-payload'
+    academics-term-save-response-payload-data:
+      description: ''
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isActive
+        - lastModifiedDateTime
+        - name
+        - termUsage
+      properties:
+        campusIdList:
+          type: array
+          items:
+            format: int32
+            type: number
+        isExcludedCrmIntegration:
+          type: boolean
+        id:
+          format: int32
+          description: Id
+          type: number
+        addDropDate:
+          format: date-time
+          description: Add Drop Date
+          type: string
+        auditDesignationDeadline:
+          format: date-time
+          description: Audit Designation Deadline
+          type: string
+        campusGroupId:
+          format: int32
+          description: Campus Group Id
+          type: number
+        code:
+          description: Code
+          type: string
+        courseRefundPolicyId:
+          format: int32
+          description: Course Refund Policy Id
+          type: number
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        endDate:
+          format: date-time
+          description: End Date
+          type: string
+        faAcademicCalendar:
+          description: Fa Academic Calendar
+          type: object
+        internalRegistrationBeginDateTime:
+          format: date-time
+          description: Internal Registration Begin Date Time
+          type: string
+        internalRegistrationEndDateTime:
+          format: date-time
+          description: Internal Registration End Date Time
+          type: string
+        isActive:
+          description: Is Active
+          type: boolean
+        isAttendanceRecorded:
+          description: Is Attendance Recorded
+          type: boolean
+        isChildTermDatesRuleEnforced:
+          description: Is Child Term Dates Rule Enforced
+          type: boolean
+        isGlobalExtractTerm:
+          description: Is Global Extract Term
+          type: boolean
+        isLdaRetainedUnregisteredCourses:
+          description: Is Lda Retained Unregistered Courses
+          type: boolean
+        isOnlineUsageAllowed:
+          description: Is Online Usage Allowed
+          type: boolean
+        isPrePullRequiredForGlobal:
+          description: Is Pre Pull Required For Global
+          type: boolean
+        isSapTerm:
+          description: Is Sap Term
+          type: boolean
+        isStandardTerm:
+          description: Is Standard Term
+          type: object
+        isTermOpen:
+          description: Is Term Open
+          type: boolean
+        isTermSuspendLiftedCampusLinkAmbassador:
+          description: Is Term Suspend Lifted Campus Link Ambassador
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        numberOfDaysAfterTermStartDate:
+          format: int32
+          description: Number Of Days After Term Start Date
+          type: number
+        numberOfDaysPriorToTermStartDate:
+          format: int32
+          description: Number Of Days Prior To Term Start Date
+          type: number
+        numberOfDaysToRecalcNotification:
+          format: int32
+          description: Number Of Days To Recalc Notification
+          type: number
+        openRegistrationBeginDateTime:
+          format: date-time
+          description: Open Registration Begin Date Time
+          type: string
+        openRegistrationEndDateTime:
+          format: date-time
+          description: Open Registration End Date Time
+          type: string
+        revenueUnits:
+          format: double
+          description: Revenue Units
+          type: number
+        rowVersion:
+          type: string
+        sapCalcDaysAfterTermEnd:
+          format: int32
+          description: Sap Calc Days After Term End
+          type: number
+        scheduleChangesType:
+          description: Schedule Changes Type
+          type: string
+        sendCourseSectionDataInitialDoneToLms:
+          description: Send Course Section Data Initial Done To Lms
+          type: boolean
+        sendCourseSectionDataToLms:
+          description: Send Course Section Data To Lms
+          type: boolean
+        sendInstructorAssignmentsInitialDoneToLms:
+          description: Send Instructor Assignments Initial Done To Lms
+          type: boolean
+        sendInstructorAssignmentsToLms:
+          description: Send Instructor Assignments To Lms
+          type: boolean
+        sendStudentRegistrationDataInitialDoneToLms:
+          description: Send Student Registration Data Initial Done To Lms
+          type: boolean
+        sendStudentRegistrationDataToLms:
+          description: Send Student Registration Data To Lms
+          type: boolean
+        shiftId:
+          format: int32
+          description: Shift Id
+          type: number
+        standardTermType:
+          description: Standard Term Type
+          type: string
+        startDate:
+          format: date-time
+          description: Start Date
+          type: string
+        studentRegisterEndDate:
+          format: date-time
+          description: Student Register End Date
+          type: string
+        studentRegisterStartDate:
+          format: date-time
+          description: Student Register Start Date
+          type: string
+        summerHeaderOrTrailer:
+          description: Summer Header Or Trailer
+          type: object
+        termGroupId:
+          format: int32
+          description: Term Group Id
+          type: number
+        termUsage:
+          description: Term Usage
+          type: object
+        campusGroup:
+          $ref: '#/components/schemas/cmc-nexus-common-entities-campusGroupEntity'
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-term-save-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-term-save-response-payload-data'
+    academics-term-save-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-save-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-term-savenew-request-payload:
+      description: ''
+      properties:
+        campusIdList:
+          type: array
+          items:
+            format: int32
+            type: number
+        isExcludedCrmIntegration:
+          type: boolean
+        id:
+          format: int32
+          description: Id
+          type: number
+        addDropDate:
+          format: date-time
+          description: Add Drop Date
+          type: string
+        auditDesignationDeadline:
+          format: date-time
+          description: Audit Designation Deadline
+          type: string
+        campusGroupId:
+          format: int32
+          description: Campus Group Id
+          type: number
+        code:
+          description: Code
+          type: string
+        courseRefundPolicyId:
+          format: int32
+          description: Course Refund Policy Id
+          type: number
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        endDate:
+          format: date-time
+          description: End Date
+          type: string
+        faAcademicCalendar:
+          description: Fa Academic Calendar
+          type: object
+        internalRegistrationBeginDateTime:
+          format: date-time
+          description: Internal Registration Begin Date Time
+          type: string
+        internalRegistrationEndDateTime:
+          format: date-time
+          description: Internal Registration End Date Time
+          type: string
+        isActive:
+          description: Is Active
+          type: boolean
+        isAttendanceRecorded:
+          description: Is Attendance Recorded
+          type: boolean
+        isChildTermDatesRuleEnforced:
+          description: Is Child Term Dates Rule Enforced
+          type: boolean
+        isGlobalExtractTerm:
+          description: Is Global Extract Term
+          type: boolean
+        isLdaRetainedUnregisteredCourses:
+          description: Is Lda Retained Unregistered Courses
+          type: boolean
+        isOnlineUsageAllowed:
+          description: Is Online Usage Allowed
+          type: boolean
+        isPrePullRequiredForGlobal:
+          description: Is Pre Pull Required For Global
+          type: boolean
+        isSapTerm:
+          description: Is Sap Term
+          type: boolean
+        isStandardTerm:
+          description: Is Standard Term
+          type: object
+        isTermOpen:
+          description: Is Term Open
+          type: boolean
+        isTermSuspendLiftedCampusLinkAmbassador:
+          description: Is Term Suspend Lifted Campus Link Ambassador
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        numberOfDaysAfterTermStartDate:
+          format: int32
+          description: Number Of Days After Term Start Date
+          type: number
+        numberOfDaysPriorToTermStartDate:
+          format: int32
+          description: Number Of Days Prior To Term Start Date
+          type: number
+        numberOfDaysToRecalcNotification:
+          format: int32
+          description: Number Of Days To Recalc Notification
+          type: number
+        openRegistrationBeginDateTime:
+          format: date-time
+          description: Open Registration Begin Date Time
+          type: string
+        openRegistrationEndDateTime:
+          format: date-time
+          description: Open Registration End Date Time
+          type: string
+        revenueUnits:
+          format: double
+          description: Revenue Units
+          type: number
+        rowVersion:
+          type: string
+        sapCalcDaysAfterTermEnd:
+          format: int32
+          description: Sap Calc Days After Term End
+          type: number
+        scheduleChangesType:
+          description: Schedule Changes Type
+          type: string
+        sendCourseSectionDataInitialDoneToLms:
+          description: Send Course Section Data Initial Done To Lms
+          type: boolean
+        sendCourseSectionDataToLms:
+          description: Send Course Section Data To Lms
+          type: boolean
+        sendInstructorAssignmentsInitialDoneToLms:
+          description: Send Instructor Assignments Initial Done To Lms
+          type: boolean
+        sendInstructorAssignmentsToLms:
+          description: Send Instructor Assignments To Lms
+          type: boolean
+        sendStudentRegistrationDataInitialDoneToLms:
+          description: Send Student Registration Data Initial Done To Lms
+          type: boolean
+        sendStudentRegistrationDataToLms:
+          description: Send Student Registration Data To Lms
+          type: boolean
+        shiftId:
+          format: int32
+          description: Shift Id
+          type: number
+        standardTermType:
+          description: Standard Term Type
+          type: string
+        startDate:
+          format: date-time
+          description: Start Date
+          type: string
+        studentRegisterEndDate:
+          format: date-time
+          description: Student Register End Date
+          type: string
+        studentRegisterStartDate:
+          format: date-time
+          description: Student Register Start Date
+          type: string
+        summerHeaderOrTrailer:
+          description: Summer Header Or Trailer
+          type: object
+        termGroupId:
+          format: int32
+          description: Term Group Id
+          type: number
+        termUsage:
+          description: Term Usage
+          type: object
+        campusGroup:
+          $ref: '#/components/schemas/cmc-nexus-common-entities-campusGroupEntity'
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-term-savenew-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-savenew-request-payload'
+    academics-term-savenew-response-payload-data:
+      description: ''
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isActive
+        - lastModifiedDateTime
+        - name
+        - termUsage
+      properties:
+        campusIdList:
+          type: array
+          items:
+            format: int32
+            type: number
+        isExcludedCrmIntegration:
+          type: boolean
+        id:
+          format: int32
+          description: Id
+          type: number
+        addDropDate:
+          format: date-time
+          description: Add Drop Date
+          type: string
+        auditDesignationDeadline:
+          format: date-time
+          description: Audit Designation Deadline
+          type: string
+        campusGroupId:
+          format: int32
+          description: Campus Group Id
+          type: number
+        code:
+          description: Code
+          type: string
+        courseRefundPolicyId:
+          format: int32
+          description: Course Refund Policy Id
+          type: number
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        endDate:
+          format: date-time
+          description: End Date
+          type: string
+        faAcademicCalendar:
+          description: Fa Academic Calendar
+          type: object
+        internalRegistrationBeginDateTime:
+          format: date-time
+          description: Internal Registration Begin Date Time
+          type: string
+        internalRegistrationEndDateTime:
+          format: date-time
+          description: Internal Registration End Date Time
+          type: string
+        isActive:
+          description: Is Active
+          type: boolean
+        isAttendanceRecorded:
+          description: Is Attendance Recorded
+          type: boolean
+        isChildTermDatesRuleEnforced:
+          description: Is Child Term Dates Rule Enforced
+          type: boolean
+        isGlobalExtractTerm:
+          description: Is Global Extract Term
+          type: boolean
+        isLdaRetainedUnregisteredCourses:
+          description: Is Lda Retained Unregistered Courses
+          type: boolean
+        isOnlineUsageAllowed:
+          description: Is Online Usage Allowed
+          type: boolean
+        isPrePullRequiredForGlobal:
+          description: Is Pre Pull Required For Global
+          type: boolean
+        isSapTerm:
+          description: Is Sap Term
+          type: boolean
+        isStandardTerm:
+          description: Is Standard Term
+          type: object
+        isTermOpen:
+          description: Is Term Open
+          type: boolean
+        isTermSuspendLiftedCampusLinkAmbassador:
+          description: Is Term Suspend Lifted Campus Link Ambassador
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        numberOfDaysAfterTermStartDate:
+          format: int32
+          description: Number Of Days After Term Start Date
+          type: number
+        numberOfDaysPriorToTermStartDate:
+          format: int32
+          description: Number Of Days Prior To Term Start Date
+          type: number
+        numberOfDaysToRecalcNotification:
+          format: int32
+          description: Number Of Days To Recalc Notification
+          type: number
+        openRegistrationBeginDateTime:
+          format: date-time
+          description: Open Registration Begin Date Time
+          type: string
+        openRegistrationEndDateTime:
+          format: date-time
+          description: Open Registration End Date Time
+          type: string
+        revenueUnits:
+          format: double
+          description: Revenue Units
+          type: number
+        rowVersion:
+          type: string
+        sapCalcDaysAfterTermEnd:
+          format: int32
+          description: Sap Calc Days After Term End
+          type: number
+        scheduleChangesType:
+          description: Schedule Changes Type
+          type: string
+        sendCourseSectionDataInitialDoneToLms:
+          description: Send Course Section Data Initial Done To Lms
+          type: boolean
+        sendCourseSectionDataToLms:
+          description: Send Course Section Data To Lms
+          type: boolean
+        sendInstructorAssignmentsInitialDoneToLms:
+          description: Send Instructor Assignments Initial Done To Lms
+          type: boolean
+        sendInstructorAssignmentsToLms:
+          description: Send Instructor Assignments To Lms
+          type: boolean
+        sendStudentRegistrationDataInitialDoneToLms:
+          description: Send Student Registration Data Initial Done To Lms
+          type: boolean
+        sendStudentRegistrationDataToLms:
+          description: Send Student Registration Data To Lms
+          type: boolean
+        shiftId:
+          format: int32
+          description: Shift Id
+          type: number
+        standardTermType:
+          description: Standard Term Type
+          type: string
+        startDate:
+          format: date-time
+          description: Start Date
+          type: string
+        studentRegisterEndDate:
+          format: date-time
+          description: Student Register End Date
+          type: string
+        studentRegisterStartDate:
+          format: date-time
+          description: Student Register Start Date
+          type: string
+        summerHeaderOrTrailer:
+          description: Summer Header Or Trailer
+          type: object
+        termGroupId:
+          format: int32
+          description: Term Group Id
+          type: number
+        termUsage:
+          description: Term Usage
+          type: object
+        campusGroup:
+          $ref: '#/components/schemas/cmc-nexus-common-entities-campusGroupEntity'
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-term-savenew-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-term-savenew-response-payload-data'
+    academics-term-savenew-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-savenew-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-term-savetermstatus-request-payload:
+      description: ''
+      properties:
+        termIdList:
+          type: array
+          items:
+            format: int32
+            type: number
+        isTermOpen:
+          type: boolean
+    academics-term-savetermstatus-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-savetermstatus-request-payload'
+    cmc-core-eventing-validationMessage:
+      properties:
+        message:
+          type: string
+        messageType:
+          format: int32
+          type: number
+    cmc-core-eventing-validationMessageCollection:
+      properties:
+        hasErrors:
+          type: boolean
+        count:
+          format: int32
+          type: number
+        item:
+          $ref: '#/components/schemas/cmc-core-eventing-validationMessage'
+    academics-term-savetermstatus-response-payload-data:
+      description: ''
+      properties:
+        validationMessages:
+          $ref: '#/components/schemas/cmc-core-eventing-validationMessageCollection'
+    academics-term-savetermstatus-response-payload:
+      properties:
+        data:
+          $ref: >-
+            #/components/schemas/academics-term-savetermstatus-response-payload-data
+    academics-term-savetermstatus-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-term-savetermstatus-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
