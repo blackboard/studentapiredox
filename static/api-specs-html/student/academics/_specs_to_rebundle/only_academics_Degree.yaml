@@ -1,0 +1,22 @@
+openapi: 3.0.3
+info:
+  title: Degree
+  description: All API calls related to Degrees.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: "1.0"
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/Degree/create:
+    $ref: ./paths/api_commands_Academics_Degree_create.yaml
+  /api/commands/Academics/Degree/delete:
+    $ref: ./paths/api_commands_Academics_Degree_delete.yaml
+  /api/commands/Academics/Degree/get:
+    $ref: ./paths/api_commands_Academics_Degree_get.yaml
+  /api/commands/Academics/Degree/getCourseAttributes:
+    $ref: ./paths/api_commands_Academics_Degree_save.yaml
+  /api/commands/Academics/Degree/getCoursePrerequisites:
+    $ref: ./paths/api_commands_Academics_Degree_saveNew.yaml

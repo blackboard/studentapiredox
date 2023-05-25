@@ -1,0 +1,1380 @@
+openapi: 3.0.3
+info:
+  title: Program
+  description: All API calls related to Programs.
+  contact:
+    name: Anthology, Inc.
+    url: https://www.anthology.com
+    email: support@anthology.com
+  version: '1.0'
+servers:
+  - url: https://localhost/Cmc.Nexus.Web
+paths:
+  /api/commands/Academics/Program/copyProgram:
+    post:
+      tags:
+        - Program
+      summary: Copy Program
+      operationId: academics-program-copyprogram
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-program-copyprogram-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-program-copyprogram-response'
+  /api/commands/Academics/Program/create:
+    post:
+      tags:
+        - Program
+      summary: Create Program
+      operationId: academics-program-create
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-program-create-response'
+  /api/commands/Academics/Program/delete:
+    post:
+      tags:
+        - Program
+      summary: Delete Program
+      operationId: academics-program-delete
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-program-delete-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-program-delete-response'
+  /api/commands/Academics/Program/get:
+    post:
+      tags:
+        - Program
+      summary: Get Program
+      operationId: academics-program-get
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-program-get-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-program-get-response'
+  /api/commands/Academics/Program/save:
+    post:
+      tags:
+        - Program
+      summary: Save Program
+      operationId: academics-program-save
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-program-save-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-program-save-response'
+  /api/commands/Academics/Program/saveCreditBalanceConfiguration:
+    post:
+      tags:
+        - Program
+      summary: Save Credit Balance Configuration
+      operationId: academics-program-savecreditbalanceconfiguration
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-program-savecreditbalanceconfiguration-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-program-savecreditbalanceconfiguration-response'
+  /api/commands/Academics/Program/saveNew:
+    post:
+      tags:
+        - Program
+      summary: Save New Program
+      operationId: academics-program-savenew
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-program-savenew-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-program-savenew-response'
+  /api/commands/Academics/Program/saveProgram:
+    post:
+      tags:
+        - Program
+      summary: Save Program
+      operationId: academics-program-saveprogram
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-program-saveprogram-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-program-saveprogram-response'
+  /api/commands/Academics/Program/saveRequirementRule:
+    post:
+      tags:
+        - Program
+      summary: Save Requirement Rule
+      operationId: academics-program-saverequirementrule
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/academics-program-saverequirementrule-request'
+        description: Payload for the command
+        required: true
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/academics-program-saverequirementrule-response'
+components:
+  schemas:
+    academics-program-copyprogram-request-payload:
+      description: ''
+      properties:
+        selectedProgramId:
+          format: int32
+          type: number
+        programName:
+          type: string
+        programCode:
+          type: string
+        isCopyToExistingProgram:
+          type: boolean
+        copyToProgramIdList:
+          type: array
+          items:
+            format: int32
+            type: number
+        isName:
+          type: boolean
+        isCode:
+          type: boolean
+        isCIPCode:
+          type: boolean
+        isActive:
+          type: boolean
+        isAllowOnlineApplication:
+          type: boolean
+        isProgramGroup:
+          type: boolean
+        isDocument:
+          type: boolean
+        isRequirementRule:
+          type: boolean
+        isTest:
+          type: boolean
+    academics-program-copyprogram-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-copyprogram-request-payload'
+    cmc-core-eventing-validationMessage:
+      properties:
+        message:
+          type: string
+        messageType:
+          format: int32
+          type: number
+    cmc-core-eventing-validationMessageCollection:
+      properties:
+        hasErrors:
+          type: boolean
+        count:
+          format: int32
+          type: number
+        item:
+          $ref: '#/components/schemas/cmc-core-eventing-validationMessage'
+    academics-program-copyprogram-response-payload-data:
+      description: ''
+      properties:
+        success:
+          type: string
+        validationMessages:
+          $ref: '#/components/schemas/cmc-core-eventing-validationMessageCollection'
+    academics-program-copyprogram-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-program-copyprogram-response-payload-data'
+    academics-program-copyprogram-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-copyprogram-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-program-create-response-payload-data:
+      description: ''
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isActive
+        - lastModifiedDateTime
+        - lastModifiedUserId
+        - name
+      properties:
+        isExcludedCrmIntegration:
+          type: boolean
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        documentTypeIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        id:
+          format: int32
+          description: Id
+          type: number
+        allowOnlineApplications:
+          description: Allow Online Applications
+          type: boolean
+        approverStaffId:
+          format: int32
+          description: Approver Staff Id
+          type: number
+        cipCode:
+          description: Cip Code
+          type: string
+        code:
+          description: Code
+          type: string
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          description: Current Year Cip Code Id
+          type: number
+        isActive:
+          description: Is Active
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        rowVersion:
+          type: string
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-program-create-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-program-create-response-payload-data'
+    academics-program-create-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-create-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-program-delete-request-payload:
+      description: ''
+      properties:
+        isExcludedCrmIntegration:
+          type: boolean
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        documentTypeIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        id:
+          format: int32
+          description: Id
+          type: number
+        allowOnlineApplications:
+          description: Allow Online Applications
+          type: boolean
+        approverStaffId:
+          format: int32
+          description: Approver Staff Id
+          type: number
+        cipCode:
+          description: Cip Code
+          type: string
+        code:
+          description: Code
+          type: string
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          description: Current Year Cip Code Id
+          type: number
+        isActive:
+          description: Is Active
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        rowVersion:
+          type: string
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-program-delete-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-delete-request-payload'
+    academics-program-delete-response-payload:
+      properties:
+        deleted:
+          type: boolean
+    academics-program-delete-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-delete-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-program-get-request-payload:
+      description: ''
+      properties:
+        id:
+          format: int32
+          type: number
+    academics-program-get-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-get-request-payload'
+    academics-program-get-response-payload-data:
+      description: ''
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isActive
+        - lastModifiedDateTime
+        - lastModifiedUserId
+        - name
+      properties:
+        isExcludedCrmIntegration:
+          type: boolean
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        documentTypeIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        id:
+          format: int32
+          description: Id
+          type: number
+        allowOnlineApplications:
+          description: Allow Online Applications
+          type: boolean
+        approverStaffId:
+          format: int32
+          description: Approver Staff Id
+          type: number
+        cipCode:
+          description: Cip Code
+          type: string
+        code:
+          description: Code
+          type: string
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          description: Current Year Cip Code Id
+          type: number
+        isActive:
+          description: Is Active
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        rowVersion:
+          type: string
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-program-get-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-program-get-response-payload-data'
+    academics-program-get-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-get-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-program-save-request-payload:
+      description: ''
+      properties:
+        isExcludedCrmIntegration:
+          type: boolean
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        documentTypeIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        id:
+          format: int32
+          description: Id
+          type: number
+        allowOnlineApplications:
+          description: Allow Online Applications
+          type: boolean
+        approverStaffId:
+          format: int32
+          description: Approver Staff Id
+          type: number
+        cipCode:
+          description: Cip Code
+          type: string
+        code:
+          description: Code
+          type: string
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          description: Current Year Cip Code Id
+          type: number
+        isActive:
+          description: Is Active
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        rowVersion:
+          type: string
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-program-save-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-save-request-payload'
+    academics-program-save-response-payload-data:
+      description: ''
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isActive
+        - lastModifiedDateTime
+        - lastModifiedUserId
+        - name
+      properties:
+        isExcludedCrmIntegration:
+          type: boolean
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        documentTypeIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        id:
+          format: int32
+          description: Id
+          type: number
+        allowOnlineApplications:
+          description: Allow Online Applications
+          type: boolean
+        approverStaffId:
+          format: int32
+          description: Approver Staff Id
+          type: number
+        cipCode:
+          description: Cip Code
+          type: string
+        code:
+          description: Code
+          type: string
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          description: Current Year Cip Code Id
+          type: number
+        isActive:
+          description: Is Active
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        rowVersion:
+          type: string
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-program-save-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-program-save-response-payload-data'
+    academics-program-save-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-save-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    cmc-nexus-academics-services-creditBalanceConfigurationRecord:
+      properties:
+        programVersionId:
+          format: int32
+          type: number
+        creditBalanceScheduleDateType:
+          type: string
+        creditBalanceScheduleDateTypeOffsetDays:
+          format: int32
+          type: number
+    academics-program-savecreditbalanceconfiguration-request-payload:
+      description: ''
+      properties:
+        creditBalanceConfigurationList:
+          type: array
+          items:
+            $ref: '#/components/schemas/cmc-nexus-academics-services-creditBalanceConfigurationRecord'
+    academics-program-savecreditbalanceconfiguration-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-savecreditbalanceconfiguration-request-payload'
+    academics-program-savecreditbalanceconfiguration-response-payload-data:
+      description: ''
+      properties:
+        responseCode:
+          type: string
+        message:
+          type: string
+        validationMessages:
+          $ref: '#/components/schemas/cmc-core-eventing-validationMessageCollection'
+    academics-program-savecreditbalanceconfiguration-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-program-savecreditbalanceconfiguration-response-payload-data'
+    academics-program-savecreditbalanceconfiguration-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-savecreditbalanceconfiguration-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    academics-program-savenew-request-payload:
+      description: ''
+      properties:
+        isExcludedCrmIntegration:
+          type: boolean
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        documentTypeIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        id:
+          format: int32
+          description: Id
+          type: number
+        allowOnlineApplications:
+          description: Allow Online Applications
+          type: boolean
+        approverStaffId:
+          format: int32
+          description: Approver Staff Id
+          type: number
+        cipCode:
+          description: Cip Code
+          type: string
+        code:
+          description: Code
+          type: string
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          description: Current Year Cip Code Id
+          type: number
+        isActive:
+          description: Is Active
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        rowVersion:
+          type: string
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-program-savenew-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-savenew-request-payload'
+    academics-program-savenew-response-payload-data:
+      description: ''
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isActive
+        - lastModifiedDateTime
+        - lastModifiedUserId
+        - name
+      properties:
+        isExcludedCrmIntegration:
+          type: boolean
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        documentTypeIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        id:
+          format: int32
+          description: Id
+          type: number
+        allowOnlineApplications:
+          description: Allow Online Applications
+          type: boolean
+        approverStaffId:
+          format: int32
+          description: Approver Staff Id
+          type: number
+        cipCode:
+          description: Cip Code
+          type: string
+        code:
+          description: Code
+          type: string
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          description: Current Year Cip Code Id
+          type: number
+        isActive:
+          description: Is Active
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        rowVersion:
+          type: string
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-program-savenew-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-program-savenew-response-payload-data'
+    academics-program-savenew-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-savenew-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    cmc-nexus-academics-entities-programEntity:
+      required:
+        - id
+        - code
+        - createdDateTime
+        - isActive
+        - lastModifiedDateTime
+        - lastModifiedUserId
+        - name
+      properties:
+        isExcludedCrmIntegration:
+          type: boolean
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        documentTypeIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        id:
+          format: int32
+          description: Id
+          type: number
+        allowOnlineApplications:
+          description: Allow Online Applications
+          type: boolean
+        approverStaffId:
+          format: int32
+          description: Approver Staff Id
+          type: number
+        cipCode:
+          description: Cip Code
+          type: string
+        code:
+          description: Code
+          type: string
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          description: Current Year Cip Code Id
+          type: number
+        isActive:
+          description: Is Active
+          type: boolean
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        name:
+          description: Name
+          type: string
+        rowVersion:
+          type: string
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-program-saveprogram-request-payload:
+      description: ''
+      properties:
+        programs:
+          type: array
+          items:
+            $ref: '#/components/schemas/cmc-nexus-academics-entities-programEntity'
+        programId:
+          format: int32
+          type: number
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        cipCode:
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          type: number
+        name:
+          type: string
+        code:
+          type: string
+        isActive:
+          type: boolean
+        allowOnlineApplication:
+          type: boolean
+        entityState:
+          format: int32
+          type: number
+        isProgramGroupChanges:
+          type: boolean
+        isCIPCodeUpdateToProgramVersion:
+          type: boolean
+        isOverrideProgramGroupChanges:
+          type: boolean
+        isProgramVersionRecordFound:
+          type: boolean
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        documentTypeIds:
+          type: array
+          items:
+            format: int32
+            type: number
+    academics-program-saveprogram-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-saveprogram-request-payload'
+    academics-program-saveprogram-response-payload-data:
+      description: ''
+      properties:
+        program:
+          $ref: '#/components/schemas/cmc-nexus-academics-entities-programEntity'
+        programs:
+          type: array
+          items:
+            $ref: '#/components/schemas/cmc-nexus-academics-entities-programEntity'
+        programId:
+          format: int32
+          type: number
+        programGroupIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        cipCode:
+          type: string
+        currentYearCipCodeId:
+          format: int32
+          type: number
+        name:
+          type: string
+        code:
+          type: string
+        isActive:
+          type: boolean
+        allowOnlineApplication:
+          type: boolean
+        entityState:
+          format: int32
+          type: number
+        isProgramGroupChanges:
+          type: boolean
+        isCIPCodeUpdateToProgramVersion:
+          type: boolean
+        isCIPCodeOFProgramVersionDiffrentFromProgram:
+          type: boolean
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        validationMessages:
+          $ref: '#/components/schemas/cmc-core-eventing-validationMessageCollection'
+    academics-program-saveprogram-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-program-saveprogram-response-payload-data'
+    academics-program-saveprogram-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-saveprogram-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
+    cmc-nexus-academics-services-requirementRule:
+      properties:
+        requirementRuleId:
+          format: int32
+          type: number
+        programVersionId:
+          format: int32
+          type: number
+        isRequirementRuleForProgram:
+          type: boolean
+        requirementRuleOrder:
+          format: int32
+          type: number
+    academics-program-saverequirementrule-request-payload:
+      description: ''
+      properties:
+        programId:
+          format: int32
+          type: number
+        requirementRuleIds:
+          type: array
+          items:
+            format: int32
+            type: number
+        requirementRuleList:
+          type: array
+          items:
+            $ref: '#/components/schemas/cmc-nexus-academics-services-requirementRule'
+        isCopyRequirementRule:
+          type: boolean
+    academics-program-saverequirementrule-request:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-saverequirementrule-request-payload'
+    cmc-nexus-academics-entities-programRequirementRuleEntity:
+      required:
+        - programId
+        - requirementRuleId
+      properties:
+        programId:
+          format: int32
+          description: Program Id
+          type: number
+        requirementRuleId:
+          format: int32
+          description: Requirement Rule Id
+          type: number
+        createdDateTime:
+          format: date-time
+          description: Created Date Time
+          type: string
+        lastModifiedDateTime:
+          format: date-time
+          description: Last Modified Date Time
+          type: string
+        lastModifiedUserId:
+          format: int32
+          description: Last Modified User Id
+          type: number
+        rowVersion:
+          type: string
+        ruleIdentifier:
+          description: Rule Identifier
+          type: object
+        ruleOrder:
+          format: int32
+          description: Rule Order
+          type: number
+        originalState:
+          type: string
+        secureState:
+          type: string
+        extendedProperties:
+          type: array
+          items: {}
+        entityState:
+          format: int32
+          type: number
+    academics-program-saverequirementrule-response-payload-data:
+      description: ''
+      properties:
+        programRequirementRule:
+          $ref: '#/components/schemas/cmc-nexus-academics-entities-programRequirementRuleEntity'
+        validationMessages:
+          $ref: '#/components/schemas/cmc-core-eventing-validationMessageCollection'
+    academics-program-saverequirementrule-response-payload:
+      properties:
+        data:
+          $ref: '#/components/schemas/academics-program-saverequirementrule-response-payload-data'
+    academics-program-saverequirementrule-response:
+      properties:
+        payload:
+          $ref: '#/components/schemas/academics-program-saverequirementrule-response-payload'
+        notifications:
+          type: array
+          items: {}
+        hasError:
+          default: false
+          type: boolean
+        hasFault:
+          default: false
+          type: boolean
+        hasWarning:
+          default: false
+          type: boolean
+        hasValidationError:
+          default: false
+          type: boolean
+        hasValidationWarning:
+          default: false
+          type: boolean
+        hasValidationInformation:
+          default: false
+          type: boolean
+        hasSecurityError:
+          default: false
+          type: boolean
