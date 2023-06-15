@@ -15,7 +15,9 @@ const config = {
   url: 'https://blackboard.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
+  // Use this for local previewing
   // baseUrl: '/',
+  // Use this for blackboard.github.io/
   baseUrl: '/studentapiredox/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -65,6 +67,12 @@ const config = {
         // Plugin Options for loading OpenAPI files
         specs: [
           {
+            id: 'ally_released',
+            spec: 'openapi/ally/ally-swagger.json',
+            route: '/openapi/ally/ally-swagger',
+            url: 'https://devportal-docstore.s3.amazonaws.com/ally-swagger.json'
+          },
+          {
             id: 'learn_released',
             spec: 'openapi/learn/learn-swagger.json',
             route: '/openapi/learn/learn-swagger',
@@ -77,91 +85,98 @@ const config = {
             url: 'https://devportal-docstore.s3.amazonaws.com/learn-unreleased.json'
           },
           // ACADEMICS
+          // OMG: these take forevs to render if loaded as a single .yaml
+          // Unbundle and deliver 
           {
-            id:'studentacademicsadditionalgpa',
-            spec: 'openapi/student/academics/academicsAdditionalGpa.yaml',
-            route: '/openapi/student/academics/academicsAdditionalGpa',
+            id: 'academics_no_areaofstudy_or_programversion',
+            spec: 'openapi/student/academics_no_areaofstudy_or_programversion.yaml',
+            route: '/openapi/student/academics'
           },
+          // {
+          //   id:'studentacademicsadditionalgpa',
+          //   spec: 'openapi/student/academics/academicsAdditionalGpa.yaml',
+          //   route: '/openapi/student/academics/academicsAdditionalGpa',
+          // },
           // {
           //   id:'studentacademicsareaofstudy',
           //   spec: 'openapi/student/academics/academicsAreaOfStudy.yaml',
           //   route: '/openapi/student/academics/academicsAreaOfStudy',
           // },
-          {
-            id:'studentacademicsattendance',
-            spec: 'openapi/student/academics/academicsAttendance.yaml',
-            route: '/openapi/student/academics/academicsAttendance',
-          },
-          {
-            id:'studentacademicsclasssection',
-            spec: 'openapi/student/academics/academicsClassSection.yaml',
-            route: '/openapi/student/academics/academicsClassSection',
-          },
-          {
-            id:'studentacademicscommon',
-            spec: 'openapi/student/academics/academicsCommon.yaml',
-            route: '/openapi/student/academics/academicsCommon',
-          },
-          {
-            id:'studentacademicscourse',
-            spec: 'openapi/student/academics/academicsCourse.yaml',
-            route: '/openapi/student/academics/academicsCourse',
-          },
-          {
-            id:'studentacademicsdegree',
-            spec: 'openapi/student/academics/academicsDegree.yaml',
-            route: '/openapi/student/academics/academicsDegree',
-          },
-          {
-            id:'studentacademicsenrollmentstatus',
-            spec: 'openapi/student/academics/academicsEnrollmentStatus.yaml',
-            route: '/openapi/student/academics/academicsEnrollmentStatus',
-          },
-          {
-            id:'studentacademicsprogram',
-            spec: 'openapi/student/academics/academicsProgram.yaml',
-            route: '/openapi/student/academics/academicsProgram',
-          },
+          // {
+          //   id:'studentacademicsattendance',
+          //   spec: 'openapi/student/academics/academicsAttendance.yaml',
+          //   route: '/openapi/student/academics/academicsAttendance',
+          // },
+          // {
+          //   id:'studentacademicsclasssection',
+          //   spec: 'openapi/student/academics/academicsClassSection.yaml',
+          //   route: '/openapi/student/academics/academicsClassSection',
+          // },
+          // {
+          //   id:'studentacademicscommon',
+          //   spec: 'openapi/student/academics/academicsCommon.yaml',
+          //   route: '/openapi/student/academics/academicsCommon',
+          // },
+          // {
+          //   id:'studentacademicscourse',
+          //   spec: 'openapi/student/academics/academicsCourse.yaml',
+          //   route: '/openapi/student/academics/academicsCourse',
+          // },
+          // {
+          //   id:'studentacademicsdegree',
+          //   spec: 'openapi/student/academics/academicsDegree.yaml',
+          //   route: '/openapi/student/academics/academicsDegree',
+          // },
+          // {
+          //   id:'studentacademicsenrollmentstatus',
+          //   spec: 'openapi/student/academics/academicsEnrollmentStatus.yaml',
+          //   route: '/openapi/student/academics/academicsEnrollmentStatus',
+          // },
+          // {
+          //   id:'studentacademicsprogram',
+          //   spec: 'openapi/student/academics/academicsProgram.yaml',
+          //   route: '/openapi/student/academics/academicsProgram',
+          // },
           // {
           //   id:'studentacademicsprogramversion',
           //   spec: 'openapi/student/academics/academicsProgramVersion.yaml',
           //   route: '/openapi/student/academics/academicsProgramVersion',
           // },
-          {
-            id:'studentacademicsregistration',
-            spec: 'openapi/student/academics/academicsRegistration.yaml',
-            route: '/openapi/student/academics/academicsRegistration',
-          },
-          {
-            id:'studentacademicsschoolstartdate',
-            spec: 'openapi/student/academics/academicsSchoolStartDate.yaml',
-            route: '/openapi/student/academics/academicsSchoolStartDate',
-          },
-          {
-            id:'studentacademicsshift',
-            spec: 'openapi/student/academics/academicsShift.yaml',
-            route: '/openapi/student/academics/academicsShift',
-          },
-          {
-            id:'studentacademicsstudentcourse',
-            spec: 'openapi/student/academics/academicsStudentCourse.yaml',
-            route: '/openapi/student/academics/academicsStudentCourse',
-          },
-          {
-            id:'studentacademicsstudentenrollmentdpacourse',
-            spec: 'openapi/student/academics/academicsStudentEnrollmentDpaCourse.yaml',
-            route: '/openapi/student/academics/academicsStudentEnrollmentDpaCourse',
-          },
-          {
-            id:'studentacademicsstudentenrollmentperiod',
-            spec: 'openapi/student/academics/academicsStudentEnrollmentPeriod.yaml',
-            route: '/openapi/student/academics/academicsStudentEnrollmentPeriod',
-          },
-          {
-            id:'studentacademicsterm',
-            spec: 'openapi/student/academics/academicsTerm.yaml',
-            route: '/openapi/student/academics/academicsTerm',
-          },
+          // {
+          //   id:'studentacademicsregistration',
+          //   spec: 'openapi/student/academics/academicsRegistration.yaml',
+          //   route: '/openapi/student/academics/academicsRegistration',
+          // },
+          // {
+          //   id:'studentacademicsschoolstartdate',
+          //   spec: 'openapi/student/academics/academicsSchoolStartDate.yaml',
+          //   route: '/openapi/student/academics/academicsSchoolStartDate',
+          // },
+          // {
+          //   id:'studentacademicsshift',
+          //   spec: 'openapi/student/academics/academicsShift.yaml',
+          //   route: '/openapi/student/academics/academicsShift',
+          // },
+          // {
+          //   id:'studentacademicsstudentcourse',
+          //   spec: 'openapi/student/academics/academicsStudentCourse.yaml',
+          //   route: '/openapi/student/academics/academicsStudentCourse',
+          // },
+          // {
+          //   id:'studentacademicsstudentenrollmentdpacourse',
+          //   spec: 'openapi/student/academics/academicsStudentEnrollmentDpaCourse.yaml',
+          //   route: '/openapi/student/academics/academicsStudentEnrollmentDpaCourse',
+          // },
+          // {
+          //   id:'studentacademicsstudentenrollmentperiod',
+          //   spec: 'openapi/student/academics/academicsStudentEnrollmentPeriod.yaml',
+          //   route: '/openapi/student/academics/academicsStudentEnrollmentPeriod',
+          // },
+          // {
+          //   id:'studentacademicsterm',
+          //   spec: 'openapi/student/academics/academicsTerm.yaml',
+          //   route: '/openapi/student/academics/academicsTerm',
+          // },
           // the rest of them
           {
             id:'studentadmissions',
