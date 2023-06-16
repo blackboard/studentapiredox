@@ -10,11 +10,11 @@ To the left is a full API sidebar for convenience - I expect we would deliver as
 
 ## Redocly Examples
 
-[Ally](allyapisintro) sidebar only
+[Ally](allyapisintro.ms) sidebar only
 
-[Learn](learnapisintro) sidebar only
+[Learn](learnapisintro.md) sidebar only
 
-[Student](studentapisintro) sidebar only
+[Student](studentapisintro.md) sidebar only
 
 ## Rapidocs Example
-[rapidocs](rapidocs/rapidoxapis)
+[rapidocs](/docs/rapidocs/rapidoxapis)
