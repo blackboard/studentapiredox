@@ -70,37 +70,37 @@ const sidebars = {
         {
           type: 'link',
           label: 'Academics',
-          href: 'https://blackboard.github.io/studentapiredox/api-specs/student/academics'
+          href: 'http://localhost:3000/studentapiredox/api-specs/student/academics'
         },
         {
           type: 'link',
           label: 'Admissions',
-          href: 'https://blackboard.github.io/studentapiredox/api-specs/student/admissions'
+          href: 'http://localhost:3000/studentapiredox/api-specs/student/admissions'
         },
         {
           type: 'link',
           label: 'Career Services',
-          href: 'https://blackboard.github.io/studentapiredox/api-specs/student/careerservices'
+          href: 'http://localhost:3000/studentapiredox/api-specs/student/careerservices'
         },
         {
           type: 'link',
           label: 'Common',
-          href: 'https://blackboard.github.io/studentapiredox/api-specs/student/common'
+          href: 'http://localhost:3000/studentapiredox/api-specs/student/common'
         },
         {
           type: 'link',
           label: 'CRM',
-          href: 'https://blackboard.github.io/studentapiredox/api-specs/student/crm'
+          href: 'http://localhost:3000/studentapiredox/api-specs/student/crm/'
         },
         {
           type: 'link',
           label: 'Financial Aid',
-          href: 'https://blackboard.github.io/studentapiredox/api-specs/student/financialaid'
+          href: 'http://localhost:3000/studentapiredox/api-specs/student/financialaid'
         },
         {
           type: 'link',
           label: 'Student Accounts',
-          href: 'https://blackboard.github.io/studentapiredox/api-specs/student/studentaccounts'
+          href: 'http://localhost:3000/studentapiredox/api-specs/student/studentaccounts'
         },
       ]
     }
@@ -115,12 +115,12 @@ const sidebars = {
     {
           type: 'link',
           label: 'Learn Released',
-          href: 'https://blackboard.github.io/studentapiredox/api-specs/learn/released',
+          href: 'http://localhost:3000/studentapiredox/api-specs/learn/released',
     },
     {
           type: 'link',
           label: 'Learn Unreleased',
-          href: 'https://blackboard.github.io/studentapiredox/api-specs/learn/unreleased',
+          href: 'http://localhost:3000/studentapiredox/api-specs/learn/unreleased',
 
     },
   ],
@@ -133,7 +133,7 @@ const sidebars = {
     {
       type: 'link',
       label: 'Ally APIs',
-      href: 'https://blackboard.github.io/studentapiredox/api-specs/ally',
+      href: 'http://localhost:3000/studentapiredox/api-specs/ally',
     },
   ],
 
@@ -151,7 +151,7 @@ const sidebars = {
             {
               type: 'link',
               label: 'Ally APIs',
-              href: 'https://blackboard.github.io/studentapiredox/api-specs/ally',
+              href: 'http://localhost:3000/studentapiredox/api-specs/ally',
             },
           ]
 
@@ -164,13 +164,13 @@ const sidebars = {
             {
               type: 'link',
               label: 'Learn Released',
-              href: 'https://blackboard.github.io/studentapiredox/api-specs/learn/released',
+              href: 'http://localhost:3000/studentapiredox/api-specs/learn/released',
             
             },
             {
               type: 'link',
               label: 'Learn Uneleased',
-              href: 'https://blackboard.github.io/studentapiredox/api-specs/learn/unreleased',
+              href: 'http://localhost:3000/studentapiredox/api-specs/learn/unreleased',
             },
           ]
         },
@@ -186,37 +186,37 @@ const sidebars = {
                 {
                   type: 'link',
                   label: 'Academics',
-                  href: 'https://blackboard.github.io/studentapiredox/api-specs/student/academics'
+                  href: 'http://localhost:3000/studentapiredox/api-specs/student/academics'
                 },
                 {
                   type: 'link',
                   label: 'Admissions',
-                  href: 'https://blackboard.github.io/studentapiredox/api-specs/student/admissions'
+                  href: 'http://localhost:3000/studentapiredox/api-specs/student/admissions'
                 },
                 {
                   type: 'link',
                   label: 'Career Services',
-                  href: 'https://blackboard.github.io/studentapiredox/api-specs/student/careerservices'
+                  href: 'http://localhost:3000/studentapiredox/api-specs/student/careerservices'
                 },
                 {
                   type: 'link',
                   label: 'Common',
-                  href: 'https://blackboard.github.io/studentapiredox/api-specs/student/common'
+                  href: 'http://localhost:3000/studentapiredox/api-specs/student/common'
                 },
                 {
                   type: 'link',
                   label: 'CRM',
-                  href: 'https://blackboard.github.io/studentapiredox/api-specs/student/crm'
+                  href: 'http://localhost:3000/studentapiredox/api-specs/student/crm'
                 },
                 {
                   type: 'link',
                   label: 'Financial Aid',
-                  href: 'https://blackboard.github.io/studentapiredox/api-specs/student/financialaid'
+                  href: 'http://localhost:3000/studentapiredox/api-specs/student/financialaid'
                 },
                 {
                   type: 'link',
                   label: 'Student Accounts',
-                  href: 'https://blackboard.github.io/studentapiredox/api-specs/student/studentaccounts'
+                  href: 'http://localhost:3000/studentapiredox/api-specs/student/studentaccounts'
                 },
               ]
             }
