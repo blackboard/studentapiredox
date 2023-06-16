@@ -2,12 +2,28 @@
 
 While testing delivery of the Anthology Developer OpenAPI Documentation via this GitHub repo, we will using [Docusaurus 2](https://docusaurus.io/), and [redocly](https://redocly.com)] for generating the static files delivered through GitHub Pages. 
 
-## Viewing on Github Pages
-### Student
-https://docs.anthology.com/studentapiredox/docs/studentapisintro
+An alternative to prerendering static pages is using [Rapidoc Web](https://rapidocweb.com) [npm...rapidoc package](https://www.npmjs.com/package/rapidoc)to dynamically render pages. Rapidoc 
 
-### Learn
-https://docs.anthology.com/studentapiredox/docs/learnapisintro
+:warning: Dynamic rendering of Student Academics *will* fail - we need to sort this out. See below comments. 
+
+# Viewing on Github Pages
+
+### Redocusaurus examples (static)
+#### Student
+https://blackboard.github.io/studentapiredox/docs/studentapisintro
+
+#### Learn
+https://blackboard.github.io/studentapiredox/docs/learnapisintro
+
+#### Ally
+https://blackboard.github.io/studentapiredox/docs/studentapisintro
+
+### Rapidoc examples (dynamic)
+https://blackboard.github.io/studentapiredox/rapidocs/rapidoxapis
+
+:warning: Student Academics (even with the failing endpoints removed) *still* takes too long to render if it ever completes. Need resolution here. 
+
+I propose we break Academics into individual tags or deliver as a static html.
 
 ## Getting Started
 
@@ -103,8 +119,7 @@ APISidebar: [
  ```
  Inside project directory `docs/apis/` are the mdx files used to render the api doc. e.g.
 
-
-
-
 ### Academics.json
-This file must be dereferenced (or the recursion bug in redocly fixed) for redocly to render it. Notably the AreaOfStudy and ProgramVersion endpoints have too many/recursive $refs to render.
+This file must be dereferenced (or the recursion bug in redocly fixed) for redocly to render it. 
+
+Notably the AreaOfStudy and ProgramVersion endpoints have too many/recursive $refs to render.

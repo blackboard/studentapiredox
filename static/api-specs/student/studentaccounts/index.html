@@ -1,0 +1,39 @@
+<!doctype html> <!-- Important: must specify -->
+<html>
+<head>
+  <title>Student Student Accounts APIs</title>
+  <meta charset="utf-8"> <!-- Important: rapi-doc uses utf8 characters -->
+  <script type="module" src="https://unpkg.com/rapidoc/dist/rapidoc-min.js"></script>
+  <script>
+    var rapidocSpecUrlRoot = 'http://localhost:3000';
+    var myUrlPattern = '.local';
+    if (window.location.hostname !== "localhost" || 
+      location.hostname !== "127.0.0.1" || 
+      window.location.hostname.indexOf(myUrlPattern) <= 0) {
+        rapidocSpecUrlRoot = "https://blackboard.github.io";
+    } 
+    console.log(rapidocSpecUrlRoot);
+  </script>
+</head>
+<body>
+  <rapi-doc
+    spec-url="http://localhost:3000/studentapiredox/api-specs/student/studentaccounts/studentaccounts.json"
+    theme = "light", 
+    allow-try = "false", 
+    allow-authentication = "false",
+    allow-spec-file-download = "true",
+    allow-server-selection = "false",
+    schema-style = "table", 
+    show-header = "false",
+    render-style = "focused",
+    show-header = "false",
+    show-method-in-nav-bar = "as-colored-text",
+    nav-accent-color = "#2F4F4F",
+    primary-color = "#2F4F4F",
+    nav-active-item-marker = "colored-block",
+    nav-bg-color = "#FFFFFF",
+    on-nav-tag-click = "expand-collapse",
+  > 
+</rapi-doc>
+</body>
+</html>
