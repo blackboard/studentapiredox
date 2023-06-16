@@ -17,4 +17,4 @@ To the left is a full API sidebar for convenience - I expect we would deliver as
 [Student](studentapisintro.md) sidebar only
 
 ## Rapidocs Example
-[rapidocs](/docs/rapidocs/rapidoxapis)
+[rapidocs](/docs/rapidocs/rapidoxapis.md)
