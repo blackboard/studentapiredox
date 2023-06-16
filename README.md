@@ -10,16 +10,16 @@ An alternative to prerendering static pages is using [Rapidoc Web](https://rapid
 
 ### Redocusaurus examples (static)
 #### Student
-https://blackboard.github.io/studentapiredox/docs/studentapisintro
+http://localhost:3000/studentapiredox/docs/studentapisintro
 
 #### Learn
-https://blackboard.github.io/studentapiredox/docs/learnapisintro
+http://localhost:3000/studentapiredox/docs/learnapisintro
 
 #### Ally
-https://blackboard.github.io/studentapiredox/docs/studentapisintro
+http://localhost:3000/studentapiredox/docs/studentapisintro
 
 ### Rapidoc examples (dynamic)
-https://blackboard.github.io/studentapiredox/rapidocs/rapidoxapis
+http://localhost:3000/studentapiredox/rapidocs/rapidoxapis
 
 :warning: Student Academics (even with the failing endpoints removed) *still* takes too long to render if it ever completes. Need resolution here. 
 
