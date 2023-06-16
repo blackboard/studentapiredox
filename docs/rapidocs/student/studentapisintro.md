@@ -1,0 +1,65 @@
+---
+sidebar_position: 1
+id: studentredocsapisintro
+displayed_sidebar: StudentRapidocsAPIsSidebar
+---
+
+# Student APIs Intro
+
+Student has APIs which enable integration of your campus workflows and services with Student to use and manage Student data ... 
+
+_insert descriptive blurb_
+
+Let's discover Student APIs.
+
+## Student APIs
+### Academics
+What you can do with Academics APIs
+
+NOTE: The Academics APIs are broken into logical groupings to provide a more efficient browsing experience. Use the left navigation panel to browse.
+
+_insert descriptive blurb_
+
+[**Academics API docs**](pathname:///api-specs/student/academics)
+
+### Admissions
+What you can do with Admissions APIs
+
+_insert descriptive blurb_
+
+[**Admissions API docs**](pathname:///api-specs/student/admissions)
+
+### Career Services
+What you can do with Career Services APIs
+
+_insert descriptive blurb_
+
+[**Career Services API docs**](pathname:///api-specs/student/careerservices)
+
+### Common
+What you can do with Common APIs
+
+_insert descriptive blurb_
+
+[**Common API docs**](pathname:///api-specs/student/common)
+
+### CRM
+What you can do with CRM APIs
+
+_insert descriptive blurb_
+
+[**CRM API docs**](pathname:///api-specs/student/crm)
+
+### Financial Aid
+What you can do with Financial Aid APIs
+
+_insert descriptive blurb_
+
+[**Financial Aid API docs**](pathname:///api-specs/student/financialaid)
+
+### Student Accounts
+What you can do with Student Accounts APIs
+
+_insert descriptive blurb_
+
+[**Student Accounts API docs**](pathname:///api-specs/student/studentaccounts)
