@@ -10,7 +10,7 @@ To the left is a full API sidebar for convenience - I expect we would deliver as
 
 ## Redocly Examples
 
-[Ally](allyapisintro.ms) sidebar only
+[Ally](allyapisintro.md) sidebar only
 
 [Learn](learnapisintro.md) sidebar only
 
