@@ -12,7 +12,7 @@ const config = {
 
   // Set the production url of your site here
   // url: 'https://probable-broccoli-vr1gken.pages.github.io',
-  url: 'http://localhost:3000',
+  url: 'https://blackboard.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   // Use this for local previewing
