@@ -24,3 +24,23 @@ Rapidocs is a dynamic OpenAPI renderer much like the current Swagger docs.
 [rapidocs](/docs/rapidocs/rapidoxapis.md)
 
 The Student Academic APIs are not renderable as is by Rapidocx due to the long rendering time (which often times out).
+
+## Comments...
+### Pre-rendering:
+#### Pros: 
+* Pre-rendering dramatically improves user experience in nearly all cases.
+
+#### Cons: 
+* Pre-rendered files do not necessarially work well with React.
+
+### Dynamic Rendering
+#### Pros:
+* Works well with React.
+* Minimal change to existing portal code.
+* Rapidocs is highly and easily configurable.
+
+#### Cons
+* Client side rendering results in percieved performance degradation, especially with large specifications.
+* Spliting the student docs improves dynamic rendering.
+
+
