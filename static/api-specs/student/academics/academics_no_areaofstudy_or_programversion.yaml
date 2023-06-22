@@ -22,8 +22,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-additionalgpa-getgpacourse-request
+              $ref: #/components/schemas/academics-additionalgpa-getgpacourse-request
         description: Payload for the command
         required: true
       responses:
@@ -32,8 +31,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-additionalgpa-getgpacourse-response
+                $ref:   #/components/schemas/academics-additionalgpa-getgpacourse-response
   /api/commands/Academics/AdditionalGpa/getStudentGpa:
     post:
       tags:
@@ -44,8 +42,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-additionalgpa-getstudentgpa-request
+              $ref: #/components/schemas/academics-additionalgpa-getstudentgpa-request
         description: Payload for the command
         required: true
       responses:
@@ -54,8 +51,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-additionalgpa-getstudentgpa-response
+                $ref:   #/components/schemas/academics-additionalgpa-getstudentgpa-response
   /api/commands/Academics/AdditionalGpa/recalculateGpa:
     post:
       tags:
@@ -66,8 +62,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-additionalgpa-recalculategpa-request
+              $ref: #/components/schemas/academics-additionalgpa-recalculategpa-request
         description: Payload for the command
         required: true
       responses:
@@ -76,8 +71,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-additionalgpa-recalculategpa-response
+                $ref:   #/components/schemas/academics-additionalgpa-recalculategpa-response
   /api/commands/Academics/AdditionalGpa/saveGpaCourse:
     post:
       tags:
@@ -88,8 +82,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-additionalgpa-savegpacourse-request
+              $ref: #/components/schemas/academics-additionalgpa-savegpacourse-request
         description: Payload for the command
         required: true
       responses:
@@ -98,8 +91,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-additionalgpa-savegpacourse-response
+                $ref:   #/components/schemas/academics-additionalgpa-savegpacourse-response
   /api/commands/Academics/Attendance/create:
     post:
       tags:
@@ -172,8 +164,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-attendance-getattendance-response
+                $ref:   #/components/schemas/academics-attendance-getattendance-response
   /api/commands/Academics/Attendance/postAttendance:
     post:
       tags:
@@ -193,8 +184,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-attendance-postattendance-response
+                $ref:   #/components/schemas/academics-attendance-postattendance-response
   /api/commands/Academics/Attendance/postAttendanceDates:
     post:
       tags:
@@ -205,8 +195,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-attendance-postattendancedates-request
+              $ref: #/components/schemas/academics-attendance-postattendancedates-request
         description: Payload for the command
         required: true
       responses:
@@ -215,8 +204,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-attendance-postattendancedates-response
+                $ref:   #/components/schemas/academics-attendance-postattendancedates-response
   /api/commands/Academics/Attendance/postAttendanceList:
     post:
       tags:
@@ -227,8 +215,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-attendance-postattendancelist-request
+              $ref: #/components/schemas/academics-attendance-postattendancelist-request
         description: Payload for the command
         required: true
       responses:
@@ -237,8 +224,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-attendance-postattendancelist-response
+                $ref:   #/components/schemas/academics-attendance-postattendancelist-response
   /api/commands/Academics/Attendance/postExternshipOnlineHours:
     post:
       tags:
@@ -249,8 +235,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-attendance-postexternshiponlinehours-request
+              $ref: #/components/schemas/academics-attendance-postexternshiponlinehours-request
         description: Payload for the command
         required: true
       responses:
@@ -259,8 +244,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-attendance-postexternshiponlinehours-response
+                $ref:   #/components/schemas/academics-attendance-postexternshiponlinehours-response
   /api/commands/Academics/Attendance/recallAttendance:
     post:
       tags:
@@ -271,8 +255,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-attendance-recallattendance-request
+              $ref: #/components/schemas/academics-attendance-recallattendance-request
         description: Payload for the command
         required: true
       responses:
@@ -281,8 +264,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-attendance-recallattendance-response
+                $ref:   #/components/schemas/academics-attendance-recallattendance-response
   /api/commands/Academics/Attendance/save:
     post:
       tags:
@@ -333,8 +315,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-acceptwaitliststudents-request
+              $ref: #/components/schemas/academics-classsection-acceptwaitliststudents-request
         description: Payload for the command
         required: true
       responses:
@@ -343,8 +324,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-acceptwaitliststudents-response
+                $ref:   #/components/schemas/academics-classsection-acceptwaitliststudents-response
   /api/commands/Academics/ClassSection/cancelClassSection:
     post:
       tags:
@@ -355,8 +335,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-cancelclasssection-request
+              $ref: #/components/schemas/academics-classsection-cancelclasssection-request
         description: Payload for the command
         required: true
       responses:
@@ -365,8 +344,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-cancelclasssection-response
+                $ref:   #/components/schemas/academics-classsection-cancelclasssection-response
   /api/commands/Academics/ClassSection/clearMultipleTermWaitList:
     post:
       tags:
@@ -377,8 +355,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-clearmultipletermwaitlist-request
+              $ref: #/components/schemas/academics-classsection-clearmultipletermwaitlist-request
         description: Payload for the command
         required: true
       responses:
@@ -387,8 +364,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-clearmultipletermwaitlist-response
+                $ref:   #/components/schemas/academics-classsection-clearmultipletermwaitlist-response
   /api/commands/Academics/ClassSection/clearWaitList:
     post:
       tags:
@@ -399,8 +375,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-clearwaitlist-request
+              $ref: #/components/schemas/academics-classsection-clearwaitlist-request
         description: Payload for the command
         required: true
       responses:
@@ -409,8 +384,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-clearwaitlist-response
+                $ref:   #/components/schemas/academics-classsection-clearwaitlist-response
   /api/commands/Academics/ClassSection/clearWaitListStudents:
     post:
       tags:
@@ -421,8 +395,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-clearwaitliststudents-request
+              $ref: #/components/schemas/academics-classsection-clearwaitliststudents-request
         description: Payload for the command
         required: true
       responses:
@@ -431,8 +404,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-clearwaitliststudents-response
+                $ref:   #/components/schemas/academics-classsection-clearwaitliststudents-response
   /api/commands/Academics/ClassSection/copyClassSchedule:
     post:
       tags:
@@ -443,8 +415,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-copyclassschedule-request
+              $ref: #/components/schemas/academics-classsection-copyclassschedule-request
         description: Payload for the command
         required: true
       responses:
@@ -453,8 +424,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-copyclassschedule-response
+                $ref:   #/components/schemas/academics-classsection-copyclassschedule-response
   /api/commands/Academics/ClassSection/create:
     post:
       tags:
@@ -518,8 +488,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-getclasssectiondocuments-request
+              $ref: #/components/schemas/academics-classsection-getclasssectiondocuments-request
         description: Payload for the command
         required: true
       responses:
@@ -528,8 +497,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-getclasssectiondocuments-response
+                $ref:   #/components/schemas/academics-classsection-getclasssectiondocuments-response
   /api/commands/Academics/ClassSection/getClassSectionHeader:
     post:
       tags:
@@ -540,8 +508,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-getclasssectionheader-request
+              $ref: #/components/schemas/academics-classsection-getclasssectionheader-request
         description: Payload for the command
         required: true
       responses:
@@ -550,8 +517,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-getclasssectionheader-response
+                $ref:   #/components/schemas/academics-classsection-getclasssectionheader-response
   /api/commands/Academics/ClassSection/getClassSectionLmsOptions:
     post:
       tags:
@@ -562,8 +528,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-getclasssectionlmsoptions-request
+              $ref: #/components/schemas/academics-classsection-getclasssectionlmsoptions-request
         description: Payload for the command
         required: true
       responses:
@@ -572,8 +537,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-getclasssectionlmsoptions-response
+                $ref:   #/components/schemas/academics-classsection-getclasssectionlmsoptions-response
   /api/commands/Academics/ClassSection/getClassSectionPeriods:
     post:
       tags:
@@ -584,8 +548,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-getclasssectionperiods-request
+              $ref: #/components/schemas/academics-classsection-getclasssectionperiods-request
         description: Payload for the command
         required: true
       responses:
@@ -594,8 +557,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-getclasssectionperiods-response
+                $ref:   #/components/schemas/academics-classsection-getclasssectionperiods-response
   /api/commands/Academics/ClassSection/getClassSectionsWithMaxClassSizeExceed:
     post:
       tags:
@@ -606,8 +568,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-getclasssectionswithmaxclasssizeexceed-request
+              $ref: #/components/schemas/academics-classsection-getclasssectionswithmaxclasssizeexceed-request
         description: Payload for the command
         required: true
       responses:
@@ -616,8 +577,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-getclasssectionswithmaxclasssizeexceed-response
+                $ref:   #/components/schemas/academics-classsection-getclasssectionswithmaxclasssizeexceed-response
   /api/commands/Academics/ClassSection/getCourseFeeSchedule:
     post:
       tags:
@@ -628,8 +588,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-getcoursefeeschedule-request
+              $ref: #/components/schemas/academics-classsection-getcoursefeeschedule-request
         description: Payload for the command
         required: true
       responses:
@@ -638,8 +597,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-getcoursefeeschedule-response
+                $ref:   #/components/schemas/academics-classsection-getcoursefeeschedule-response
   /api/commands/Academics/ClassSection/getDependentCoursesClassSections:
     post:
       tags:
@@ -650,8 +608,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-getdependentcoursesclasssections-request
+              $ref: #/components/schemas/academics-classsection-getdependentcoursesclasssections-request
         description: Payload for the command
         required: true
       responses:
@@ -660,8 +617,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-getdependentcoursesclasssections-response
+                $ref:   #/components/schemas/academics-classsection-getdependentcoursesclasssections-response
   /api/commands/Academics/ClassSection/getInstructorsAndPortalOptions:
     post:
       tags:
@@ -672,8 +628,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-getinstructorsandportaloptions-request
+              $ref: #/components/schemas/academics-classsection-getinstructorsandportaloptions-request
         description: Payload for the command
         required: true
       responses:
@@ -682,8 +637,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-getinstructorsandportaloptions-response
+                $ref:   #/components/schemas/academics-classsection-getinstructorsandportaloptions-response
   /api/commands/Academics/ClassSection/reinstateClassSection:
     post:
       tags:
@@ -694,8 +648,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-reinstateclasssection-request
+              $ref: #/components/schemas/academics-classsection-reinstateclasssection-request
         description: Payload for the command
         required: true
       responses:
@@ -704,8 +657,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-reinstateclasssection-response
+                $ref:   #/components/schemas/academics-classsection-reinstateclasssection-response
   /api/commands/Academics/ClassSection/save:
     post:
       tags:
@@ -756,8 +708,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-saveclasssectiondocuments-request
+              $ref: #/components/schemas/academics-classsection-saveclasssectiondocuments-request
         description: Payload for the command
         required: true
       responses:
@@ -766,8 +717,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-saveclasssectiondocuments-response
+                $ref:   #/components/schemas/academics-classsection-saveclasssectiondocuments-response
   /api/commands/Academics/ClassSection/saveClassSectionLmsOptions:
     post:
       tags:
@@ -778,8 +728,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-saveclasssectionlmsoptions-request
+              $ref: #/components/schemas/academics-classsection-saveclasssectionlmsoptions-request
         description: Payload for the command
         required: true
       responses:
@@ -788,8 +737,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-saveclasssectionlmsoptions-response
+                $ref:   #/components/schemas/academics-classsection-saveclasssectionlmsoptions-response
   /api/commands/Academics/ClassSection/saveClassSectionPeriods:
     post:
       tags:
@@ -800,8 +748,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-saveclasssectionperiods-request
+              $ref: #/components/schemas/academics-classsection-saveclasssectionperiods-request
         description: Payload for the command
         required: true
       responses:
@@ -810,8 +757,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-saveclasssectionperiods-response
+                $ref:   #/components/schemas/academics-classsection-saveclasssectionperiods-response
   /api/commands/Academics/ClassSection/saveCourseFeeSchedule:
     post:
       tags:
@@ -822,8 +768,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-savecoursefeeschedule-request
+              $ref: #/components/schemas/academics-classsection-savecoursefeeschedule-request
         description: Payload for the command
         required: true
       responses:
@@ -832,8 +777,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-savecoursefeeschedule-response
+                $ref:   #/components/schemas/academics-classsection-savecoursefeeschedule-response
   /api/commands/Academics/ClassSection/saveInstructorsAndPortalOptions:
     post:
       tags:
@@ -844,8 +788,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-saveinstructorsandportaloptions-request
+              $ref: #/components/schemas/academics-classsection-saveinstructorsandportaloptions-request
         description: Payload for the command
         required: true
       responses:
@@ -854,8 +797,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-saveinstructorsandportaloptions-response
+                $ref:   #/components/schemas/academics-classsection-saveinstructorsandportaloptions-response
   /api/commands/Academics/ClassSection/saveNew:
     post:
       tags:
@@ -886,8 +828,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-savewaitlistandattendancerules-request
+              $ref: #/components/schemas/academics-classsection-savewaitlistandattendancerules-request
         description: Payload for the command
         required: true
       responses:
@@ -896,8 +837,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-savewaitlistandattendancerules-response
+                $ref:   #/components/schemas/academics-classsection-savewaitlistandattendancerules-response
   /api/commands/Academics/ClassSection/unscheduleClassSection:
     post:
       tags:
@@ -908,8 +848,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-classsection-unscheduleclasssection-request
+              $ref: #/components/schemas/academics-classsection-unscheduleclasssection-request
         description: Payload for the command
         required: true
       responses:
@@ -918,8 +857,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-classsection-unscheduleclasssection-response
+                $ref:   #/components/schemas/academics-classsection-unscheduleclasssection-response
   /api/commands/Academics/Course/create:
     post:
       tags:
@@ -983,8 +921,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-course-getcourseattributes-request
+              $ref: #/components/schemas/academics-course-getcourseattributes-request
         description: Payload for the command
         required: true
       responses:
@@ -993,8 +930,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-course-getcourseattributes-response
+                $ref:   #/components/schemas/academics-course-getcourseattributes-response
   /api/commands/Academics/Course/getCoursePrerequisites:
     post:
       tags:
@@ -1005,8 +941,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-course-getcourseprerequisites-request
+              $ref: #/components/schemas/academics-course-getcourseprerequisites-request
         description: Payload for the command
         required: true
       responses:
@@ -1015,8 +950,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-course-getcourseprerequisites-response
+                $ref:   #/components/schemas/academics-course-getcourseprerequisites-response
   /api/commands/Academics/Course/getParentAndEquivalentCourse:
     post:
       tags:
@@ -1027,8 +961,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-course-getparentandequivalentcourse-request
+              $ref: #/components/schemas/academics-course-getparentandequivalentcourse-request
         description: Payload for the command
         required: true
       responses:
@@ -1037,8 +970,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-course-getparentandequivalentcourse-response
+                $ref:   #/components/schemas/academics-course-getparentandequivalentcourse-response
   /api/commands/Academics/Course/getStudentTransferCreditCampusCourseList:
     post:
       tags:
@@ -1049,8 +981,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-course-getstudenttransfercreditcampuscourselist-request
+              $ref: #/components/schemas/academics-course-getstudenttransfercreditcampuscourselist-request
         description: Payload for the command
         required: true
       responses:
@@ -1059,8 +990,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-course-getstudenttransfercreditcampuscourselist-response
+                $ref:   #/components/schemas/academics-course-getstudenttransfercreditcampuscourselist-response
   /api/commands/Academics/Course/save:
     post:
       tags:
@@ -1091,8 +1021,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-course-savecourseattributes-request
+              $ref: #/components/schemas/academics-course-savecourseattributes-request
         description: Payload for the command
         required: true
       responses:
@@ -1101,8 +1030,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-course-savecourseattributes-response
+                $ref:   #/components/schemas/academics-course-savecourseattributes-response
   /api/commands/Academics/Course/saveCourseNameChange:
     post:
       tags:
@@ -1113,8 +1041,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-course-savecoursenamechange-request
+              $ref: #/components/schemas/academics-course-savecoursenamechange-request
         description: Payload for the command
         required: true
       responses:
@@ -1123,8 +1050,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-course-savecoursenamechange-response
+                $ref:   #/components/schemas/academics-course-savecoursenamechange-response
   /api/commands/Academics/Course/saveCoursePrerequisiteDetails:
     post:
       tags:
@@ -1135,8 +1061,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-course-savecourseprerequisitedetails-request
+              $ref: #/components/schemas/academics-course-savecourseprerequisitedetails-request
         description: Payload for the command
         required: true
       responses:
@@ -1145,8 +1070,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-course-savecourseprerequisitedetails-response
+                $ref:   #/components/schemas/academics-course-savecourseprerequisitedetails-response
   /api/commands/Academics/Course/saveNew:
     post:
       tags:
@@ -1177,8 +1101,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-course-saveparentandequivalentcourse-request
+              $ref: #/components/schemas/academics-course-saveparentandequivalentcourse-request
         description: Payload for the command
         required: true
       responses:
@@ -1187,8 +1110,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-course-saveparentandequivalentcourse-response
+                $ref:   #/components/schemas/academics-course-saveparentandequivalentcourse-response
   /api/commands/Academics/Degree/create:
     post:
       tags:
@@ -1294,8 +1216,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-enrollmentstatus-create-response
+                $ref:   #/components/schemas/academics-enrollmentstatus-create-response
   /api/commands/Academics/EnrollmentStatus/delete:
     post:
       tags:
@@ -1315,8 +1236,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-enrollmentstatus-delete-response
+                $ref:   #/components/schemas/academics-enrollmentstatus-delete-response
   /api/commands/Academics/EnrollmentStatus/get:
     post:
       tags:
@@ -1376,8 +1296,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-enrollmentstatus-savenew-response
+                $ref:   #/components/schemas/academics-enrollmentstatus-savenew-response
   /api/commands/Academics/Program/copyProgram:
     post:
       tags:
@@ -1481,8 +1400,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-program-savecreditbalanceconfiguration-request
+              $ref: #/components/schemas/academics-program-savecreditbalanceconfiguration-request
         description: Payload for the command
         required: true
       responses:
@@ -1491,8 +1409,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-program-savecreditbalanceconfiguration-response
+                $ref:   #/components/schemas/academics-program-savecreditbalanceconfiguration-response
   /api/commands/Academics/Program/saveNew:
     post:
       tags:
@@ -1543,8 +1460,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-program-saverequirementrule-request
+              $ref: #/components/schemas/academics-program-saverequirementrule-request
         description: Payload for the command
         required: true
       responses:
@@ -1553,8 +1469,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-program-saverequirementrule-response
+                $ref:   #/components/schemas/academics-program-saverequirementrule-response
   /api/commands/Academics/Registration/evaluatePrereqCoreqStatus:
     post:
       tags:
@@ -1565,8 +1480,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-registration-evaluateprereqcoreqstatus-request
+              $ref: #/components/schemas/academics-registration-evaluateprereqcoreqstatus-request
         description: Payload for the command
         required: true
       responses:
@@ -1575,8 +1489,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-registration-evaluateprereqcoreqstatus-response
+                $ref:   #/components/schemas/academics-registration-evaluateprereqcoreqstatus-response
   /api/commands/Academics/Registration/evaluateRegistrationLocks:
     post:
       tags:
@@ -1587,8 +1500,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-registration-evaluateregistrationlocks-request
+              $ref: #/components/schemas/academics-registration-evaluateregistrationlocks-request
         description: Payload for the command
         required: true
       responses:
@@ -1597,8 +1509,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-registration-evaluateregistrationlocks-response
+                $ref:   #/components/schemas/academics-registration-evaluateregistrationlocks-response
   /api/commands/Academics/SchoolStartDate/create:
     post:
       tags:
@@ -1682,8 +1593,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-schoolstartdate-savedeactivatestartsdate-request
+              $ref: #/components/schemas/academics-schoolstartdate-savedeactivatestartsdate-request
         description: Payload for the command
         required: true
       responses:
@@ -1692,8 +1602,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-schoolstartdate-savedeactivatestartsdate-response
+                $ref:   #/components/schemas/academics-schoolstartdate-savedeactivatestartsdate-response
   /api/commands/Academics/SchoolStartDate/saveNew:
     post:
       tags:
@@ -1713,8 +1622,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-schoolstartdate-savenew-response
+                $ref:   #/components/schemas/academics-schoolstartdate-savenew-response
   /api/commands/Academics/Shift/create:
     post:
       tags:
@@ -1818,8 +1726,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-associatestudentenrollment-request
+              $ref: #/components/schemas/academics-studentcourse-associatestudentenrollment-request
         description: Payload for the command
         required: true
       responses:
@@ -1828,8 +1735,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-associatestudentenrollment-response
+                $ref:   #/components/schemas/academics-studentcourse-associatestudentenrollment-response
   /api/commands/Academics/StudentCourse/batchPostFinalGrade:
     post:
       tags:
@@ -1840,8 +1746,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-batchpostfinalgrade-request
+              $ref: #/components/schemas/academics-studentcourse-batchpostfinalgrade-request
         description: Payload for the command
         required: true
       responses:
@@ -1850,8 +1755,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-batchpostfinalgrade-response
+                $ref:   #/components/schemas/academics-studentcourse-batchpostfinalgrade-response
   /api/commands/Academics/StudentCourse/convertToAuditCourse:
     post:
       tags:
@@ -1862,8 +1766,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-converttoauditcourse-request
+              $ref: #/components/schemas/academics-studentcourse-converttoauditcourse-request
         description: Payload for the command
         required: true
       responses:
@@ -1872,8 +1775,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-converttoauditcourse-response
+                $ref:   #/components/schemas/academics-studentcourse-converttoauditcourse-response
   /api/commands/Academics/StudentCourse/create:
     post:
       tags:
@@ -1917,8 +1819,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-deletestudentcourse-request
+              $ref: #/components/schemas/academics-studentcourse-deletestudentcourse-request
         description: Payload for the command
         required: true
       responses:
@@ -1927,8 +1828,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-deletestudentcourse-response
+                $ref:   #/components/schemas/academics-studentcourse-deletestudentcourse-response
   /api/commands/Academics/StudentCourse/dropCourse:
     post:
       tags:
@@ -1948,8 +1848,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-dropcourse-response
+                $ref:   #/components/schemas/academics-studentcourse-dropcourse-response
   /api/commands/Academics/StudentCourse/get:
     post:
       tags:
@@ -1980,8 +1879,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-getstudentcoursesscheduledetail-request
+              $ref: #/components/schemas/academics-studentcourse-getstudentcoursesscheduledetail-request
         description: Payload for the command
         required: true
       responses:
@@ -1990,8 +1888,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-getstudentcoursesscheduledetail-response
+                $ref:   #/components/schemas/academics-studentcourse-getstudentcoursesscheduledetail-response
   /api/commands/Academics/StudentCourse/getStudentForFutureCourseList:
     post:
       tags:
@@ -2002,8 +1899,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-getstudentforfuturecourselist-request
+              $ref: #/components/schemas/academics-studentcourse-getstudentforfuturecourselist-request
         description: Payload for the command
         required: true
       responses:
@@ -2012,8 +1908,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-getstudentforfuturecourselist-response
+                $ref:   #/components/schemas/academics-studentcourse-getstudentforfuturecourselist-response
   /api/commands/Academics/StudentCourse/postFinalGrade:
     post:
       tags:
@@ -2024,8 +1919,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-postfinalgrade-request
+              $ref: #/components/schemas/academics-studentcourse-postfinalgrade-request
         description: Payload for the command
         required: true
       responses:
@@ -2034,8 +1928,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-postfinalgrade-response
+                $ref:   #/components/schemas/academics-studentcourse-postfinalgrade-response
   /api/commands/Academics/StudentCourse/postMidTermGrade:
     post:
       tags:
@@ -2046,8 +1939,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-postmidtermgrade-request
+              $ref: #/components/schemas/academics-studentcourse-postmidtermgrade-request
         description: Payload for the command
         required: true
       responses:
@@ -2056,8 +1948,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-postmidtermgrade-response
+                $ref:   #/components/schemas/academics-studentcourse-postmidtermgrade-response
   /api/commands/Academics/StudentCourse/reassignStudentCourse:
     post:
       tags:
@@ -2068,8 +1959,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-reassignstudentcourse-request
+              $ref: #/components/schemas/academics-studentcourse-reassignstudentcourse-request
         description: Payload for the command
         required: true
       responses:
@@ -2078,8 +1968,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-reassignstudentcourse-response
+                $ref:   #/components/schemas/academics-studentcourse-reassignstudentcourse-response
   /api/commands/Academics/StudentCourse/reinstateCourse:
     post:
       tags:
@@ -2090,8 +1979,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-reinstatecourse-request
+              $ref: #/components/schemas/academics-studentcourse-reinstatecourse-request
         description: Payload for the command
         required: true
       responses:
@@ -2100,8 +1988,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-reinstatecourse-response
+                $ref:   #/components/schemas/academics-studentcourse-reinstatecourse-response
   /api/commands/Academics/StudentCourse/removeWaitlist:
     post:
       tags:
@@ -2112,8 +1999,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-removewaitlist-request
+              $ref: #/components/schemas/academics-studentcourse-removewaitlist-request
         description: Payload for the command
         required: true
       responses:
@@ -2122,8 +2008,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-removewaitlist-response
+                $ref:   #/components/schemas/academics-studentcourse-removewaitlist-response
   /api/commands/Academics/StudentCourse/save:
     post:
       tags:
@@ -2174,8 +2059,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-savestudentcourse-request
+              $ref: #/components/schemas/academics-studentcourse-savestudentcourse-request
         description: Payload for the command
         required: true
       responses:
@@ -2184,8 +2068,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-savestudentcourse-response
+                $ref:   #/components/schemas/academics-studentcourse-savestudentcourse-response
   /api/commands/Academics/StudentCourse/studentCourseTransferSection:
     post:
       tags:
@@ -2196,8 +2079,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-studentcoursetransfersection-request
+              $ref: #/components/schemas/academics-studentcourse-studentcoursetransfersection-request
         description: Payload for the command
         required: true
       responses:
@@ -2206,8 +2088,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-studentcoursetransfersection-response
+                $ref:   #/components/schemas/academics-studentcourse-studentcoursetransfersection-response
   /api/commands/Academics/StudentCourse/unassociateStudentEnrollment:
     post:
       tags:
@@ -2218,8 +2099,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-unassociatestudentenrollment-request
+              $ref: #/components/schemas/academics-studentcourse-unassociatestudentenrollment-request
         description: Payload for the command
         required: true
       responses:
@@ -2228,8 +2108,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-unassociatestudentenrollment-response
+                $ref:   #/components/schemas/academics-studentcourse-unassociatestudentenrollment-response
   /api/commands/Academics/StudentCourse/unregisterClassSectionRoster:
     post:
       tags:
@@ -2240,8 +2119,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-unregisterclasssectionroster-request
+              $ref: #/components/schemas/academics-studentcourse-unregisterclasssectionroster-request
         description: Payload for the command
         required: true
       responses:
@@ -2250,8 +2128,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-unregisterclasssectionroster-response
+                $ref:   #/components/schemas/academics-studentcourse-unregisterclasssectionroster-response
   /api/commands/Academics/StudentCourse/unregisterStudentCourse:
     post:
       tags:
@@ -2262,8 +2139,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-unregisterstudentcourse-request
+              $ref: #/components/schemas/academics-studentcourse-unregisterstudentcourse-request
         description: Payload for the command
         required: true
       responses:
@@ -2272,8 +2148,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-unregisterstudentcourse-response
+                $ref:   #/components/schemas/academics-studentcourse-unregisterstudentcourse-response
   /api/commands/Academics/StudentCourse/updateAdviseStatus:
     post:
       tags:
@@ -2284,8 +2159,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-updateadvisestatus-request
+              $ref: #/components/schemas/academics-studentcourse-updateadvisestatus-request
         description: Payload for the command
         required: true
       responses:
@@ -2294,8 +2168,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-updateadvisestatus-response
+                $ref:   #/components/schemas/academics-studentcourse-updateadvisestatus-response
   /api/commands/Academics/StudentCourse/updateStudentCourse:
     post:
       tags:
@@ -2306,8 +2179,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-updatestudentcourse-request
+              $ref: #/components/schemas/academics-studentcourse-updatestudentcourse-request
         description: Payload for the command
         required: true
       responses:
@@ -2316,8 +2188,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-updatestudentcourse-response
+                $ref:   #/components/schemas/academics-studentcourse-updatestudentcourse-response
   /api/commands/Academics/StudentCourse/updateStudentCourseProgress:
     post:
       tags:
@@ -2328,8 +2199,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-updatestudentcourseprogress-request
+              $ref: #/components/schemas/academics-studentcourse-updatestudentcourseprogress-request
         description: Payload for the command
         required: true
       responses:
@@ -2338,8 +2208,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-updatestudentcourseprogress-response
+                $ref:   #/components/schemas/academics-studentcourse-updatestudentcourseprogress-response
   /api/commands/Academics/StudentCourse/updateStudentFutureCourseList:
     post:
       tags:
@@ -2350,8 +2219,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-updatestudentfuturecourselist-request
+              $ref: #/components/schemas/academics-studentcourse-updatestudentfuturecourselist-request
         description: Payload for the command
         required: true
       responses:
@@ -2360,8 +2228,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-updatestudentfuturecourselist-response
+                $ref:   #/components/schemas/academics-studentcourse-updatestudentfuturecourselist-response
   /api/commands/Academics/StudentCourse/validateStudentCourseTerm:
     post:
       tags:
@@ -2372,8 +2239,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentcourse-validatestudentcourseterm-request
+              $ref: #/components/schemas/academics-studentcourse-validatestudentcourseterm-request
         description: Payload for the command
         required: true
       responses:
@@ -2382,8 +2248,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentcourse-validatestudentcourseterm-response
+                $ref:   #/components/schemas/academics-studentcourse-validatestudentcourseterm-response
   /api/commands/Academics/StudentEnrollmentDpaCourse/create:
     post:
       tags:
@@ -2396,8 +2261,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentdpacourse-create-response
+                $ref:   #/components/schemas/academics-studentenrollmentdpacourse-create-response
   /api/commands/Academics/StudentEnrollmentDpaCourse/delete:
     post:
       tags:
@@ -2408,8 +2272,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentdpacourse-delete-request
+              $ref: #/components/schemas/academics-studentenrollmentdpacourse-delete-request
         description: Payload for the command
         required: true
       responses:
@@ -2418,8 +2281,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentdpacourse-delete-response
+                $ref:   #/components/schemas/academics-studentenrollmentdpacourse-delete-response
   /api/commands/Academics/StudentEnrollmentDpaCourse/get:
     post:
       tags:
@@ -2430,8 +2292,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentdpacourse-get-request
+              $ref: #/components/schemas/academics-studentenrollmentdpacourse-get-request
         description: Payload for the command
         required: true
       responses:
@@ -2440,8 +2301,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentdpacourse-get-response
+                $ref:   #/components/schemas/academics-studentenrollmentdpacourse-get-response
   /api/commands/Academics/StudentEnrollmentDpaCourse/save:
     post:
       tags:
@@ -2452,8 +2312,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentdpacourse-save-request
+              $ref: #/components/schemas/academics-studentenrollmentdpacourse-save-request
         description: Payload for the command
         required: true
       responses:
@@ -2462,8 +2321,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentdpacourse-save-response
+                $ref:   #/components/schemas/academics-studentenrollmentdpacourse-save-response
   /api/commands/Academics/StudentEnrollmentDpaCourse/saveNew:
     post:
       tags:
@@ -2474,8 +2332,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentdpacourse-savenew-request
+              $ref: #/components/schemas/academics-studentenrollmentdpacourse-savenew-request
         description: Payload for the command
         required: true
       responses:
@@ -2484,8 +2341,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentdpacourse-savenew-response
+                $ref:   #/components/schemas/academics-studentenrollmentdpacourse-savenew-response
   /api/commands/Academics/StudentEnrollmentDpaCourse/waiveCourseRequirement:
     post:
       tags:
@@ -2496,8 +2352,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentdpacourse-waivecourserequirement-request
+              $ref: #/components/schemas/academics-studentenrollmentdpacourse-waivecourserequirement-request
         description: Payload for the command
         required: true
       responses:
@@ -2506,8 +2361,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentdpacourse-waivecourserequirement-response
+                $ref:   #/components/schemas/academics-studentenrollmentdpacourse-waivecourserequirement-response
   /api/commands/Academics/StudentEnrollmentPeriod/create:
     post:
       tags:
@@ -2520,8 +2374,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-create-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-create-response
   /api/commands/Academics/StudentEnrollmentPeriod/delete:
     post:
       tags:
@@ -2532,8 +2385,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-delete-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-delete-request
         description: Payload for the command
         required: true
       responses:
@@ -2542,8 +2394,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-delete-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-delete-response
   /api/commands/Academics/StudentEnrollmentPeriod/enrollmentStatusChange:
     post:
       tags:
@@ -2554,8 +2405,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-enrollmentstatuschange-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-enrollmentstatuschange-request
         description: Payload for the command
         required: true
       responses:
@@ -2564,8 +2414,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-enrollmentstatuschange-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-enrollmentstatuschange-response
   /api/commands/Academics/StudentEnrollmentPeriod/enrollStudent:
     post:
       tags:
@@ -2576,8 +2425,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-enrollstudent-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-enrollstudent-request
         description: Payload for the command
         required: true
       responses:
@@ -2586,8 +2434,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-enrollstudent-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-enrollstudent-response
   /api/commands/Academics/StudentEnrollmentPeriod/get:
     post:
       tags:
@@ -2598,8 +2445,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-get-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-get-request
         description: Payload for the command
         required: true
       responses:
@@ -2608,8 +2454,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-get-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-get-response
   /api/commands/Academics/StudentEnrollmentPeriod/rebuildTermRelationships:
     post:
       tags:
@@ -2620,8 +2465,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-rebuildtermrelationships-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-rebuildtermrelationships-request
         description: Payload for the command
         required: true
       responses:
@@ -2630,8 +2474,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-rebuildtermrelationships-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-rebuildtermrelationships-response
   /api/commands/Academics/StudentEnrollmentPeriod/reverseTransfer:
     post:
       tags:
@@ -2642,8 +2485,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-reversetransfer-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-reversetransfer-request
         description: Payload for the command
         required: true
       responses:
@@ -2652,8 +2494,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-reversetransfer-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-reversetransfer-response
   /api/commands/Academics/StudentEnrollmentPeriod/save:
     post:
       tags:
@@ -2664,8 +2505,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-save-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-save-request
         description: Payload for the command
         required: true
       responses:
@@ -2674,8 +2514,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-save-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-save-response
   /api/commands/Academics/StudentEnrollmentPeriod/saveNew:
     post:
       tags:
@@ -2686,8 +2525,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-savenew-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-savenew-request
         description: Payload for the command
         required: true
       responses:
@@ -2696,8 +2534,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-savenew-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-savenew-response
   /api/commands/Academics/StudentEnrollmentPeriod/updateCatalogYearForStudentForBatchCatalogAssignment:
     post:
       tags:
@@ -2709,8 +2546,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-updatecatalogyearforstudentforbatchcatalogassignment-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-updatecatalogyearforstudentforbatchcatalogassignment-request
         description: Payload for the command
         required: true
       responses:
@@ -2719,8 +2555,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-updatecatalogyearforstudentforbatchcatalogassignment-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-updatecatalogyearforstudentforbatchcatalogassignment-response
   /api/commands/Academics/StudentEnrollmentPeriod/updateStudentEnrollmentAreaOfStudy:
     post:
       tags:
@@ -2731,8 +2566,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentareaofstudy-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentareaofstudy-request
         description: Payload for the command
         required: true
       responses:
@@ -2741,8 +2575,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentareaofstudy-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentareaofstudy-response
   /api/commands/Academics/StudentEnrollmentPeriod/updateStudentEnrollmentBillingMethod:
     post:
       tags:
@@ -2753,8 +2586,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentbillingmethod-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentbillingmethod-request
         description: Payload for the command
         required: true
       responses:
@@ -2763,8 +2595,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentbillingmethod-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentbillingmethod-response
   /api/commands/Academics/StudentEnrollmentPeriod/updateStudentEnrollmentMakeUpHours:
     post:
       tags:
@@ -2775,8 +2606,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentmakeuphours-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentmakeuphours-request
         description: Payload for the command
         required: true
       responses:
@@ -2785,8 +2615,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentmakeuphours-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentmakeuphours-response
   /api/commands/Academics/StudentEnrollmentPeriod/updateStudentEnrollmentPeriod:
     post:
       tags:
@@ -2797,8 +2626,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentperiod-request
+              $ref: #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentperiod-request
         description: Payload for the command
         required: true
       responses:
@@ -2807,8 +2635,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentperiod-response
+                $ref:   #/components/schemas/academics-studentenrollmentperiod-updatestudentenrollmentperiod-response
   /api/commands/Common/Student/changeStudentStatusOnCloseTask:
     post:
       tags:
@@ -2819,8 +2646,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/common-student-changestudentstatusonclosetask-request
+              $ref: #/components/schemas/common-student-changestudentstatusonclosetask-request
         description: Payload for the command
         required: true
       responses:
@@ -2829,8 +2655,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/common-student-changestudentstatusonclosetask-response
+                $ref:   #/components/schemas/common-student-changestudentstatusonclosetask-response
   /api/commands/Common/Student/checkDuplicateCampusStudent:
     post:
       tags:
@@ -2841,8 +2666,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/common-student-checkduplicatecampusstudent-request
+              $ref: #/components/schemas/common-student-checkduplicatecampusstudent-request
         description: Payload for the command
         required: true
       responses:
@@ -2851,8 +2675,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/common-student-checkduplicatecampusstudent-response
+                $ref:   #/components/schemas/common-student-checkduplicatecampusstudent-response
   /api/commands/Common/Student/create:
     post:
       tags:
@@ -2936,8 +2759,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/common-student-getactivitystatementstudents-request
+              $ref: #/components/schemas/common-student-getactivitystatementstudents-request
         description: Payload for the command
         required: true
       responses:
@@ -2946,8 +2768,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/common-student-getactivitystatementstudents-response
+                $ref:   #/components/schemas/common-student-getactivitystatementstudents-response
   /api/commands/Common/Student/getAlumni:
     post:
       tags:
@@ -2978,8 +2799,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/common-student-getbatchtranscriptstudents-request
+              $ref: #/components/schemas/common-student-getbatchtranscriptstudents-request
         description: Payload for the command
         required: true
       responses:
@@ -2988,8 +2808,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/common-student-getbatchtranscriptstudents-response
+                $ref:   #/components/schemas/common-student-getbatchtranscriptstudents-response
   /api/commands/Common/Student/getQuickLeadTemplateDetail:
     post:
       tags:
@@ -3000,8 +2819,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/common-student-getquickleadtemplatedetail-request
+              $ref: #/components/schemas/common-student-getquickleadtemplatedetail-request
         description: Payload for the command
         required: true
       responses:
@@ -3010,8 +2828,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/common-student-getquickleadtemplatedetail-response
+                $ref:   #/components/schemas/common-student-getquickleadtemplatedetail-response
   /api/commands/Common/Student/getRecentStudents:
     post:
       tags:
@@ -3042,8 +2859,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/common-student-processduplicatestudent-request
+              $ref: #/components/schemas/common-student-processduplicatestudent-request
         description: Payload for the command
         required: true
       responses:
@@ -3052,8 +2868,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/common-student-processduplicatestudent-response
+                $ref:   #/components/schemas/common-student-processduplicatestudent-response
   /api/commands/Common/Student/save:
     post:
       tags:
@@ -3144,8 +2959,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: >-
-                #/components/schemas/common-student-setdefaultstudentlabeladdress-request
+              $ref: #/components/schemas/common-student-setdefaultstudentlabeladdress-request
         description: Payload for the command
         required: true
       responses:
@@ -3154,8 +2968,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: >-
-                  #/components/schemas/common-student-setdefaultstudentlabeladdress-response
+                $ref:   #/components/schemas/common-student-setdefaultstudentlabeladdress-response
   /api/commands/Academics/Term/create:
     post:
       tags:
